@@ -9,11 +9,13 @@ aliases:
 - sudo apt update
 - sudo apt upgrade
 - sudo apt install  gnome-shell-extension-manager gnome-tweaks
+- sudo mkdir c:\VMShare
+- sudo mount -t vboxsf VMShare VMShare
 *aller taper :manager (gestionnaire, la sorte de puzzle)
 *-> Parcourir -> taper:
 - *Hide Activities button de zeten30 ;
 - *ddterm de amezin (voir ici si l’extension ne fonctionne pas) ;
 - *Dash to dock de michele_g ;
-- *Apps menu *d*e fmuellner ;
+- *Apps menu de fmuellner ;
 - *Panel scroll de sun_wang ;
 - *Extension List de grroot…

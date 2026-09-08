@@ -1,5 +1,6 @@
 {
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": false,
-  "autoConvertHtml": false
+  "autoConvertHtml": false,
+  "promptDelete": false
 }

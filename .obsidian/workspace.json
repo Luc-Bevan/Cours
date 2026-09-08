@@ -109,6 +109,234 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Lesson Tree.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Lesson Tree"
+            }
+          },
+          {
+            "id": "cb07bae32c328d41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.05/R1.05.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "R1.05"
+            }
+          },
+          {
+            "id": "14f71145a205824b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lesson Tree.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Lesson Tree"
+            }
+          },
+          {
+            "id": "33156fb2aa2f7649",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compétences/Créer des outils et applications informatiques.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Créer des outils et applications informatiques"
+            }
+          },
+          {
+            "id": "afb91467b1e59340",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.08/R1.08.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "R1.08"
+            }
+          },
+          {
+            "id": "dd744c0ca52a3c30",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2026-2027/R1/R1.08/Docs/TD1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "TD1"
+            }
+          },
+          {
+            "id": "3c6e1639981a79ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.04/Cours/Initiation au risque électrique (Christophe Héraud).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Initiation au risque électrique (Christophe Héraud)"
+            }
+          },
+          {
+            "id": "bbc0a9ada80c2136",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lesson Tree.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Lesson Tree"
+            }
+          },
+          {
+            "id": "d8a2cf0b29e2056a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compétences/Connecter les entreprises et les usagers.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Connecter les entreprises et les usagers"
+            }
+          },
+          {
+            "id": "1f9a8d41edc00fa2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.11/R1.11.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "R1.11"
+            }
+          },
+          {
+            "id": "1f9bc401bb3beaa9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
                 "mode": "source",
                 "source": false,
@@ -128,12 +356,12 @@
             }
           },
           {
-            "id": "cb07bae32c328d41",
+            "id": "83911fb8bb11a669",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.08/Cours/R1.08 TD2 (Martini Pierre).md",
+                "file": "2026-2027/R1/R1.01/R1.01b/Cours/CM 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,35 +376,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "R1.08 TD2 (Martini Pierre)"
-            }
-          },
-          {
-            "id": "bbc0a9ada80c2136",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-2027/R1/R1.08/Cours/R1.08 TD2 (Martini Pierre).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "R1.08 TD2 (Martini Pierre)"
+              "title": "CM 1"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -257,8 +461,19 @@
               "icon": "lucide-git-fork",
               "title": "Vue graphique"
             }
+          },
+          {
+            "id": "2bc74a254e60e9da",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "f84b71a3f552b5ac",
@@ -288,7 +503,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
+                "file": "2026-2027/R1/R1.01/R1.01b/Cours/CM 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -357,35 +572,42 @@
       "command-palette:Ouvrir la palette de commandes": false,
       "bases:Créer une nouvelle base": false,
       "markdown-importer:Ouvrir l'importateur Markdown": false,
-      "obsidian-custom-frames:Open 1.0.0.1": false
+      "obsidian-custom-frames:Open 1.0.0.1": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "b519e5bf6354f570",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
-    "2026-2027/R1/R1.08/Cours/R1.08 TD2 (Martini Pierre).md",
     "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
-    "2026-2027/R1/R1.05/Docs/TD_BUT1_R105_Fibre_Optique_version_2022.pdf",
-    "2026-2027/R1/R1.08/Docs/TD1.pdf",
-    "2026-2027/R1/R1.11/Cours/R1.11 TD1 (Diolez Julie).md",
+    "2026-2027/R1/R1.01/R1.01b/Cours/CM 1.md",
+    "TD1",
+    "2026-2027/R1/R1.01/R1.01a/Docs",
+    "2026-2027/R1/R1.01/R1.01b/Docs",
+    "2026-2027/R1/R1.01/R1.01b/Cours",
+    "2026-2027/R1/R1.01/R1.01a/Cours",
+    "2026-2027/R1/R1.01/R1.01a",
+    "2026-2027/R1/R1.01/R1.01b",
+    "2026-2027/R1/R1.01",
+    "2026-2027/R1/R1.04/Cours/Initiation au risque électrique (Christophe Héraud).md",
+    "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
     "2026-2027/R1/R1.11/R1.11.md",
     "Compétences/Connecter les entreprises et les usagers.md",
     "Lesson Tree.md",
+    "README.md",
     "Reminder.md",
-    "2026-2027/Sans titre.md",
-    "Compétences/Créer des outils et applications informatiques.md",
-    "Compétences/Administrer les réseaux et l'internet.md",
     "2026-2027/R1/R1.08/R1.08.md",
-    "2026-2027/R1/R1.05/R1.05.md",
-    "2026-2027/R1/R1.08/Docs/TD2.pdf",
-    "2026-2027/R1/R1.08/Docs",
-    "2026-2027/R1/R1.08/Cours",
-    "2026-2027/R1/R1.08",
-    "2026-2027",
-    "Compétences",
-    "2026-2027/R1/R1.11/Cours",
-    "2026-2027/R1/R1.05/Cours",
+    "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
+    "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
+    "2026-2027/R1/R1.04/Docs/Pasted image 20260908151417.png",
+    "2026-2027/R1/R1.04/Docs/Pasted image 20260908153126.png",
     "Sans titre 1.md",
+    "2026-2027/R1/R1.08/Docs/TD1.pdf",
+    "2026-2027/R1/R1.04/Docs",
+    "Compétences/Créer des outils et applications informatiques.md",
+    "2026-2027/R1/R1.05/R1.05.md",
+    "test.md",
+    "2026-2027/Sans titre.md",
+    "Compétences/Administrer les réseaux et l'internet.md",
     "2026-2027/R1/R1.11/Docs/Pasted image 20260907104314.png",
     "Existence/The Necessity of Space and Time.md",
     "Theory of concequence.md",
@@ -396,9 +618,6 @@
     "1.0.0.2 Predicate logic — quantifiers, formal proofs.md",
     "1.0.0.1 Propositional logic — truth tables, logical equivalence, implications.md",
     "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/10 Example Data/assignments/assignment_7.md",
-    "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/10 Example Data/assignments/assignment_4.md",
-    "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/10 Example Data/assignments/assignment_3.md",
-    "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/10 Example Data/assignments/assignment_2.md",
     "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/00 Meta/attachments/Pokémon-Icon_003.png",
     "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/00 Meta/attachments/flower_growth/flowergrowth2.png",
     "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/00 Meta/attachments/Bar Chart Category Series.png",
@@ -406,8 +625,6 @@
     "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/00 Meta/attachments/flower_growth/flowergrowth5.png",
     "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/00 Meta/attachments/flower_growth/flowergrowth4.png",
     "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/00 Meta/attachments/flower_growth/flowergrowth3.png",
-    "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/00 Meta/attachments/flower_growth/flowergrowth1.png",
-    "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/00 Meta/attachments/vinh-thang-6kvo87bw88I-unsplash.jpg",
     "Sans titre.canvas"
   ]
 }
