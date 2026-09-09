@@ -23,30 +23,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CM CH1 (Gaultier Béatrice)"
-            }
-          },
-          {
-            "id": "2978568a51db1a43",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
                 "mode": "source",
                 "source": false,
@@ -64,9 +40,33 @@
               "icon": "lucide-file",
               "title": "CM1 (Christophe Heyraud)"
             }
+          },
+          {
+            "id": "2978568a51db1a43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compétences/Créer des outils et applications informatiques.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Créer des outils et applications informatiques"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "tag:#https",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -262,12 +262,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2978568a51db1a43",
+  "active": "b519e5bf6354f570",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.05/R1.05.md",
+    "2026-2027/R1/R1.06/Docs/Pasted image 20260909174110.png",
     "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
-    "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
     "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md",
+    "Compétences/Créer des outils et applications informatiques.md",
+    "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
+    "2026-2027/R1/R1.05/R1.05.md",
     "2026-2027/R1/R1.06/Docs",
     "2026-2027/R1/R1.06/Cours",
     "2026-2027/R1/R1.06",
@@ -283,7 +285,6 @@
     "Lesson Tree.md",
     "2026-2027/R1/R1.08/Docs/TD1.pdf",
     "2026-2027/R1/R1.08/R1.08.md",
-    "Compétences/Créer des outils et applications informatiques.md",
     "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
     "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
     "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
@@ -305,7 +306,6 @@
     "Theory of concequence.md",
     "Existence/Sans titre.canvas",
     "PHASE 1.0.0.0.md",
-    "Daily Tasks.md",
     "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/00 Meta/attachments/Pokémon-Icon_003.png",
     "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/00 Meta/attachments/flower_growth/flowergrowth2.png",
     "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/00 Meta/attachments/Bar Chart Category Series.png",
