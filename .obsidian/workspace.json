@@ -385,7 +385,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.01/R1.01b/Cours/CM 1.md",
+                "file": "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -400,11 +400,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CM 1"
+              "title": "TD1 (Martini Pierre)"
+            }
+          },
+          {
+            "id": "2d63be880804609d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -527,7 +551,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2026-2027/R1/R1.01/R1.01b/Cours/CM 1.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -600,17 +624,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5cfd38f6e79348d3",
+  "active": "2d63be880804609d",
   "lastOpenFiles": [
-    "1788938755927 1.jpg",
+    "README.md",
+    "Reminder.md",
+    "Lesson Tree.md",
+    "Contacts Profs & Admin.md",
+    "2026-2027/R1/R1.01/R1.01b/Cours/CM 1.md",
+    "2026-2027/R1/R1.04/Cours/Initiation au risque électrique (Christophe Héraud).md",
     "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
     "2026-2027/R1/R1.04/Docs/Pasted image 20260908153126.png",
     "2026-2027/R1/R1.04/Docs/Pasted image 20260908151417.png",
-    "2026-2027/R1/R1.04/Cours/Initiation au risque électrique (Christophe Héraud).md",
-    "2026-2027/R1/R1.01/R1.01b/Cours/CM 1.md",
+    "2026-2027/R1/R1.08/R1.08.md",
+    "2026-2027/R1/R1.08/Docs/TD1.pdf",
+    "2026-2027/R1/R1.08/Docs/TD2.pdf",
+    "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
+    "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
+    "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
+    "2026-2027/R1/R1.05/R1.05.md",
+    "2026-2027/R1/R1.05/Docs/TD_BUT1_R105_Fibre_Optique_version_2022.pdf",
+    "Compétences/Créer des outils et applications informatiques.md",
+    "2026-2027/R1/R1.01/R1.01b/Docs/1788938755927 1.jpg",
     "1788938755927.jpg",
-    "Lesson Tree.md",
-    "Contacts Profs & Admin.md",
     "TD1",
     "2026-2027/R1/R1.01/R1.01a/Docs",
     "2026-2027/R1/R1.01/R1.01b/Docs",
@@ -618,20 +653,10 @@
     "2026-2027/R1/R1.01/R1.01a/Cours",
     "2026-2027/R1/R1.01/R1.01a",
     "2026-2027/R1/R1.01/R1.01b",
-    "2026-2027/R1/R1.01",
     "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
     "2026-2027/R1/R1.11/R1.11.md",
     "Compétences/Connecter les entreprises et les usagers.md",
-    "README.md",
-    "Reminder.md",
-    "2026-2027/R1/R1.08/R1.08.md",
-    "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
-    "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
     "Sans titre 1.md",
-    "2026-2027/R1/R1.08/Docs/TD1.pdf",
-    "2026-2027/R1/R1.04/Docs",
-    "Compétences/Créer des outils et applications informatiques.md",
-    "2026-2027/R1/R1.05/R1.05.md",
     "test.md",
     "2026-2027/Sans titre.md",
     "Compétences/Administrer les réseaux et l'internet.md",
@@ -642,13 +667,11 @@
     "PHASE 1.0.0.0.md",
     "Daily Tasks.md",
     "2026-06-18.md",
-    "1.0.0.2 Predicate logic — quantifiers, formal proofs.md",
     "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/00 Meta/attachments/Pokémon-Icon_003.png",
     "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/00 Meta/attachments/flower_growth/flowergrowth2.png",
     "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/00 Meta/attachments/Bar Chart Category Series.png",
     "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/00 Meta/attachments/flower_growth/flowergrowth6.png",
     "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/00 Meta/attachments/flower_growth/flowergrowth5.png",
-    "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/00 Meta/attachments/flower_growth/flowergrowth4.png",
     "Sans titre.canvas"
   ]
 }

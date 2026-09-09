@@ -1,64 +1,97 @@
-*(Mettre le cour précédent ici)
+# Habilitation électrique - Risques et prévention
 
-L'électricité **statique** peux endommager facilement des cartes électronique donc il faut prendre des précautions. (surtout en temps secs)
-Il est donc nécessaire de se décharger en touchant la broche de terre des prises (**!!! La barre métallique**).
+*(Mettre le cours précédent ici)*
 
-![[Pasted image 20260908151417.png|234]]
+## 1. Électricité statique
 
-Entre  nos mains et nos pied on a une résistance entre 1000 et 2000 ohms
+L'électricité statique peut endommager facilement des cartes électroniques, donc il faut prendre des précautions, surtout par temps sec.
 
-*Info flash : PoE :Power over Ethernet: Alimentation par le câble réseau (il est donc nécessaire d'avoir un switch PoE ou Routeur PoE).*
+Il est donc nécessaire de se décharger en touchant la broche de terre des prises (la barre métallique) avant de manipuler du matériel sensible.
 
-Les **risques électriques ont 1 mort pour 86 arrêts de travail**, alors que pour **l'ensemble des arrêts de travail, on a 1 mort pour 1237 arrêts de travail**. donc **Les risques électriques sont beaucoup plus graves.
+![[Pasted image 20260908151417.png|186]]
 
-#### Répartitions des causes d'accidents:
+Entre nos mains et nos pieds, on considère généralement une résistance du corps humain de l'ordre de **1000 à 2000 ohms** (valeur qui varie fortement selon l'humidité de la peau et les conditions de contact — à confirmer avec la valeur exacte donnée en cours, car les sources varient parfois entre 1000 et 5000 ohms selon les conditions).
 
-10% des accidents sont dus à une défaillance matérielle.
-14% sont un Défaut de formation.
-15% sont une Omission d'étape ou Procédure inexacte.
-30% sont dus à l'ignorance des risques.
-31% sont dus à un Mode Opératoire Inapproprié ou dangereux.
+## 2. Info flash : PoE (Power over Ethernet)
 
-*On retrouve le même problème que en cybersécurité où les risques sont principalement dus à l'erreur humaine, ou l'ignorance.
+Alimentation par le câble réseau : il est nécessaire d'avoir un switch PoE ou un routeur/injecteur PoE pour fournir l'alimentation électrique en même temps que les données.
 
-L'analyse du risque électrique doit précéder **toute opération d'ordre électrique** ou **d'ordre non électrique** afin de définir et de mettre en place, lors des **opérations**, le mesures de prévention appropriées pour la protection des personnes et des biens. Cette analyse doit être menée en prenant en copte notamment les risques présentés
-L'évènement déclencheur est caractérisé par sa probabilité d'apparition?
-Le dommage est caractérisé par sa gravité.
+## 3. Gravité des risques électriques
 
-La différence entre ouvrage et installation: ouvrage => ligne EDF, Inédice, RTE ou collectivité locale, installation => tout le reste, le privé.
+Les risques électriques comptent 1 mort pour 86 arrêts de travail, alors que pour l'ensemble des accidents du travail toutes causes confondues, on compte 1 mort pour 1237 arrêts de travail.
 
-Les différents types de résultats d'un danger:
-- Blessure superficielle sans arrêt 
+**Les risques électriques sont donc beaucoup plus graves que la moyenne des accidents du travail.**
+
+## 4. Répartition des causes d'accidents
+
+- 10 % : défaillance matérielle
+- 14 % : défaut de formation
+- 15 % : omission d'étape ou procédure inexacte
+- 30 % : ignorance des risques
+- 31 % : mode opératoire inapproprié ou dangereux
+
+On retrouve le même constat qu'en cybersécurité : les risques sont principalement dus à l'erreur humaine ou à l'ignorance, plus qu'à une défaillance purement matérielle.
+
+## 5. Analyse du risque électrique
+
+L'analyse du risque électrique doit précéder toute opération d'ordre électrique ou non électrique, afin de définir et de mettre en place, lors des opérations, les mesures de prévention appropriées pour la protection des personnes et des biens. Cette analyse doit être menée en prenant en compte notamment les risques présentés *(phrase incomplète dans les notes de départ — probablement suivie de "par l'installation, l'environnement de travail, etc." : à compléter avec le support de cours).*
+
+- L'évènement déclencheur est caractérisé par sa **probabilité d'apparition**.
+- Le dommage est caractérisé par sa **gravité**.
+
+## 6. Ouvrage vs installation
+
+- **Ouvrage** : ligne appartenant à EDF, Enedis, RTE, ou à une collectivité locale (réseau public).
+- **Installation** : tout le reste, c'est-à-dire le domaine privé.
+
+*Correction : "Inédice" dans les notes de départ était une coquille pour Enedis (le gestionnaire du réseau de distribution électrique en France, anciennement ERDF).*
+
+## 7. Types de résultats d'un danger
+
+- Blessure superficielle sans arrêt
 - Blessure grave avec arrêt de travail
 - Blessure avec séquelle
 - Décès
 
+## 8. Processus d'apparition d'un dommage (exemple)
 
-#### Processus d'apparition d'un dommage exemples :
+1. Tirer sur un câble
+2. Travailler à proximité de pièces nues sous tension
+3. Contact avec pièces nues sous tension
+4. Résultant en une électrocution
 
-- tirer sur un câble
-- travailler à proximité de pièces nues sous tension
-- Contact avec pièces nues sous tension
-- Résultant en une 2lectrocution.
-  
-*En basse tension, pour être électrisée il faut nécessairement un contact avec une pièce nue ( pas d'arc électrique).*
+*Correction : "2lectrocution" corrigé en "électrocution" (coquille de saisie).*
 
+## 9. Contacts directs et indirects
 
-Il y a deux types de contactes : les contactes **directs** ou **indirects**.
+En basse tension, pour être électrisé, il faut nécessairement un contact avec une pièce nue (contrairement à la haute tension, où un amorçage/arc électrique peut se produire à distance sans contact direct, voir section 10).
 
-![[Pasted image 20260908153126.png|334]]
+Il existe deux types de contacts :
 
-*Contact indirect peut aussi être dit si c'est relié à la terre mais il n'y a pas de protection différentielle (donc pas au normes).*
+- **Contact direct** : contact avec une pièce normalement sous tension (un conducteur nu, une borne, etc.).
+- **Contact indirect** : contact avec une masse métallique qui n'est pas censée être sous tension, mais qui l'est devenue à cause d'un défaut d'isolement. Ce cas peut survenir même si la masse est reliée à la terre, s'il n'y a pas de protection différentielle pour couper l'alimentation à temps — l'installation n'est alors pas aux normes.
 
-**99% des incidents mortels** sont dus au **contact directs**
-Il est très rare d'avoir des incidents mortels à l'aide de contacts indirects car nous savons très bien nous protéger de ceux-ci, **à condition bien sur que le lieu de l'incident soit au normes.**
-Si toutes les installations étaient aux normes, il ne devraient plus y avoir d'incidents par des contacts indirects.
+![[Pasted image 20260908153126.png|207]]
 
-**Néanmoins le risque 0 n'existe pas.**
+99 % des incidents mortels sont dus à des contacts directs.
 
-Il existe des protections pour les contacts directs, tel que **l'isolation**, soit **des outils**, ou de **notre corps lui-même**.
+Il est très rare d'avoir des incidents mortels par contact indirect, car on sait très bien s'en protéger, à condition que le lieu de l'incident soit aux normes (mise à la terre + protection différentielle fonctionnelle).
 
+Si toutes les installations étaient aux normes, il ne devrait plus y avoir d'incidents par contact indirect. Néanmoins, le risque zéro n'existe pas.
 
-Les **amorçages** arrivent lorsque la distance diminue (l'amorçage est dès que la distance dans l'air n'assure plus l'isolement).
+*Correction grammaticale : "il ne devraient plus y avoir" corrigé en "il ne devrait plus y avoir" (le sujet est le "il" impersonnel, donc le verbe reste au singulier).*
 
-**La tension de pas** c'est la tension **entre nos deux pieds** lorsque un **courant intense passe dans le sol.**
+Il existe des protections contre les contacts directs, telles que l'isolation des outils, ou une protection isolante du corps lui-même (gants isolants, tapis isolants, etc.).
+
+## 10. Amorçage et tension de pas
+
+Les amorçages surviennent lorsque la distance diminue : l'amorçage se produit dès que la distance dans l'air ne suffit plus à assurer l'isolement (le phénomène concerne surtout les situations à distance, typiquement en haute tension).
+
+La **tension de pas** est la tension qui apparaît entre nos deux pieds lorsqu'un courant intense circule dans le sol (par exemple lors d'un défaut électrique important ou de la foudre), créant un gradient de potentiel entre les deux points d'appui au sol.
+
+## Points à vérifier avec le support de cours original
+
+- Valeur exacte de la résistance du corps humain donnée en cours (1000-2000 ohms proposé ici, à confirmer)
+- Suite de la phrase sur l'analyse du risque électrique (section 5), coupée dans les notes de départ
+- Contenu du cours précédent à insérer en haut de la note
+- Source exacte des statistiques (1 mort pour 86 arrêts de travail, 99 % des incidents mortels par contact direct)
