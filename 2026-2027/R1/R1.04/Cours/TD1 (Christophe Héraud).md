@@ -1,3 +1,8 @@
+---
+aliases:
+  - Cours 1.1.1
+---
+
 # Habilitation électrique - Risques et prévention
 
 *(Mettre le cours précédent ici)*

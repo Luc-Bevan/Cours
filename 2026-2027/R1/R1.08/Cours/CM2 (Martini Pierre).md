@@ -1,18 +1,23 @@
+---
+aliases:
+  - Cours 1.1.1
+---
+
 # Linux - Gestion de fichiers, utilisateurs et droits d'accès
 
 ## 1. Commandes de base sur fichiers et répertoires
 
-| Commande | Effet |
-|---|---|
-| `ls -a` | Liste les fichiers d'un répertoire, y compris les fichiers cachés |
-| `cp [ancien] [nouveau]` | Copie un fichier |
-| `cp -r [ancien] [nouveau]` | Copie récursive (pour copier un répertoire entier avec son contenu) |
-| `mv [ancien] [nouveau]` | Déplace ou renomme un fichier/répertoire |
-| `rm [fichier]` | Supprime un fichier |
-| `rm -r [répertoire]` | Supprime un répertoire de façon récursive (même non vide) |
-| `touch [fichier]` | Crée un fichier vide (ou met à jour sa date de modification s'il existe déjà) |
-| `mkdir [répertoire]` | Crée un répertoire |
-| `rmdir [répertoire]` | Supprime un répertoire, mais uniquement s'il est vide |
+| Commande                   | Effet                                                                         |
+| -------------------------- | ----------------------------------------------------------------------------- |
+| `ls -a`                    | Liste les fichiers d'un répertoire, y compris les fichiers cachés             |
+| `cp [ancien] [nouveau]`    | Copie un fichier                                                              |
+| `cp -r [ancien] [nouveau]` | Copie récursive (pour copier un répertoire entier avec son contenu)           |
+| `mv [ancien] [nouveau]`    | Déplace ou renomme un fichier/répertoire                                      |
+| `rm [fichier]`             | Supprime un fichier                                                           |
+| `rm -r [répertoire]`       | Supprime un répertoire de façon récursive (même non vide)                     |
+| `touch [fichier]`          | Crée un fichier vide (ou met à jour sa date de modification s'il existe déjà) |
+| `mkdir [répertoire]`       | Crée un répertoire                                                            |
+| `rmdir [répertoire]`       | Supprime un répertoire, mais uniquement s'il est vide                         |
 
 ## 2. Caractères spéciaux (jokers / wildcards)
 

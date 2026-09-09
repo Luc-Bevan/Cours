@@ -112,4 +112,4 @@ Télécharger le dépôt en ZIP (bouton **Code > Download ZIP** sur la page du d
 
 ### À savoir sur la synchronisation automatique du fork
 
-Si tu modifies aussi des notes de ton côté, la fusion automatique (`git merge upstream/main`) peut échouer en cas de conflit sur un fichier modifié à la fois par toi et par le dépôt d'origine : dans ce cas, le workflow GitHub Actions s'arrêtera en erreur sur cette synchronisation-là, et il faudra résoudre le conflit manuellement (localement, avec les mêmes commandes `git fetch upstream` / `git merge upstream/main`, en choisissant quoi garder) avant que la synchronisation automatique reprenne normalement.
+Si tu modifies aussi des notes de ton côté, la fusion automatique (`git merge upstream/main`) peut échouer en cas de conflit sur un fichier modifié à la fois par toi et par le dépôt d'origine : dans ce cas, le workflow GitHub Actions s'arrêtera en erreur sur cette synchronisation là, et il faudra résoudre le conflit manuellement (localement, avec les mêmes commandes `git fetch upstream` / `git merge upstream/main`, en choisissant quoi garder) avant que la synchronisation automatique reprenne normalement.
