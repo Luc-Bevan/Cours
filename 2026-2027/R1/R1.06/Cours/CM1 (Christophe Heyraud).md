@@ -1,5 +1,12 @@
 ---
+aliases:
+  - Cours 1.1.1
+---
+---
 tags:
+  - architecture
+  - informatique
+  - hardware
 ---
 
 # Architecture des systèmes numériques
@@ -126,12 +133,77 @@ Un processeur peut communiquer de deux manières :
 | **RISC** | Reduced Instruction Set Computing | Une cinquantaine d'instructions, plus petits, moins performants |
 
 - Un microprocesseur intègre plusieurs **millions de transistors** (gravure à 3 nm) et de la **mémoire cache** (mémoire ultra rapide).
-- Fréquence d'horloge de plusieurs **GHz** → calculs très rapides, effectués sur **32 ou 64 bits** selon le modèle.
+- Fréquence d'horloge de plusieurs **GHz** → calculs très rapides, effectués sur **32 ou 64 bits** selon le modèle (désormais aussi 84 bits — *à vérifier auprès du prof/support de cours, ce chiffre est inhabituel pour une architecture CPU grand public*).
 - En raison des pertes Joule, le CPU est refroidi par un **ventilateur** (ou **watercooling**).
 - Les processeurs grand public sont de type **CISC**.
 
 > [!example] RISC et IoT
 > Les microprocesseurs RISC équipent des équipements embarqués ou des objets connectés → c'est l'**Internet des Objets (IoT)**.
+
+---
+
+## 5. Les barrettes mémoires (RAM)
+
+Il existe actuellement **2 types de mémoires dynamiques** : la **DDR4** et la **DDR5**.
+
+La différence provient de la **vitesse** :
+
+| Type | Fréquence max (spécification JEDEC) |
+|---|---|
+| DDR4 | jusqu'à 3200 MHz |
+| DDR5 | jusqu'à 6400 MHz |
+
+> [!note]
+> Les modèles possèdent une vitesse de synchronisation qui diffère suivant les modèles. Le **prix est proportionnel à la vitesse** de la barrette.
+
+---
+
+## 6. Le disque dur (HDD)
+
+Le disque dur est l'organe du PC permettant de conserver les données de manière **permanente**, même lorsque le PC est hors tension.
+
+Contrairement à la **RAM**, qui s'efface à chaque redémarrage de l'ordinateur, on parle donc pour le disque dur de **mémoire de masse**.
+
+> [!important]
+> C'est généralement l'élément **le plus lent** de l'ordinateur, celui qui bride le plus les performances globales d'un PC. C'est pourquoi son choix est crucial si vous ne souhaitez pas vous retrouver avec un PC dernier cri, pourtant pachydermique.
+
+Les têtes de lecture sont des **électroaimants**, situées à une distance de **0,2 micromètre** du disque : elles ne le touchent pas, et sont plus fines qu'un cheveu.
+
+### Composants d'un disque dur
+- Un plateau
+- Un vérin
+- Une interface
+- Un axe
+- Une tête de lecture
+- Un bras, relié à l'axe
+- Un DSP (*Digital Signal Processor* — processeur de signal numérique)
+- Une alimentation
+- Un cavalier
+- Une interface
+
+![[Pasted image 20260910083558.png]]
+
+### Alternative : le SSD
+
+Il existe une autre alternative aux disques durs électromagnétiques : les **SSD** (*Solid State Disk/Drive* — disque à état solide), des dispositifs qui utilisent des mémoires électroniques pour stocker des données.
+
+Les SSD utilisent de la mémoire **flash de type NAND**, principal type de mémoire flash actuel.
+
+> [!question]- Mis au point par qui ?
+> La mémoire flash NAND a été inventée par **Fujio Masuoka**, ingénieur chez **Toshiba**, qui l'a présentée en 1987 (après la NOR flash, présentée en 1984). *(à vérifier / compléter avec la réponse donnée en cours)*
+
+---
+
+## 7. Types de connecteurs vidéo
+
+| Connecteur | Type | Signal |
+|---|---|---|
+| **VGA** (*Video Graphics Array*) | Port analogique | Vidéo uniquement |
+| **HDMI** (*High-Definition Multimedia Interface*) | Port numérique | Vidéo **et** audio |
+| **DVI-I** (*Digital Visual Interface – Integrated*) | Port numérique **et** analogique | Vidéo |
+| **DVI-D** (*Digital Visual Interface – Digital*) | Port numérique | Vidéo |
+| **DVI-A** (*Digital Visual Interface – Analog*) | Port analogique | Vidéo |
+| **DP** (*DisplayPort*) | Port numérique | Vidéo **et** audio |
 
 ---
 
@@ -141,5 +213,18 @@ Un processeur peut communiquer de deux manières :
 - [ ] Formats de boîtier ATX / micro-ATX
 - [ ] Différence CISC vs RISC
 - [ ] Rôle de la pâte thermique
+- [ ] Différence DDR4 / DDR5
+- [ ] Fonctionnement et composants d'un disque dur
+- [ ] SSD vs disque dur électromagnétique
+- [ ] Connecteurs vidéo : VGA, HDMI, DVI (I/D/A), DisplayPort
 
 #architecture #hardware #processeur #carte-mère
+
+---
+
+## Notes complémentaires
+
+Il existe néanmoins une limite physique pour la gravure des microprocesseurs, ils ont donc cherché une solution : la **multiplication des cœurs** au sein d'un même processeur (processeurs multi-cœurs), plutôt que de continuer à réduire la finesse de gravure ou d'augmenter la fréquence.
+
+> [!danger] Important !!!!
+> Ne pas oublier de se "décharger" pour le montage des éléments.
