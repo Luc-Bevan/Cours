@@ -49,5 +49,3 @@ Note pour ddterm (amezin) : si l'extension ne fonctionne pas directement après 
 ## Points à vérifier avec le support de cours original
 
 - Confirmer le chemin exact utilisé pour le point de montage (`/mnt/VMShare` proposé ici à titre d'exemple standard)
-- Vérifier l'auteur exact de l'extension "Extension List" (le nom "grroot" semble partiel ou approximatif dans les notes de départ)
-- Vérifier si d'autres extensions ont été mentionnées en cours au-delà de cette liste
