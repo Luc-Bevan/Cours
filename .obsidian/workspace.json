@@ -71,7 +71,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
+                "file": "Compétences/Connecter les entreprises et les usagers.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -86,7 +86,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CM2 (Christophe Heyraud)"
+              "title": "Connecter les entreprises et les usagers"
+            }
+          },
+          {
+            "id": "7006a61aff181805",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.05/R1.05.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "R1.05"
+            }
+          },
+          {
+            "id": "e9955a9ad5303b25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "R1.05 TD1 (Heyraud Christophe)"
             }
           },
           {
@@ -114,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -237,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
+                "file": "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -310,24 +358,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "791ee87ee22bb8ac",
+  "active": "e9955a9ad5303b25",
   "lastOpenFiles": [
+    "2026-2027/R1/R1.05/R1.05.md",
+    "Compétences/Connecter les entreprises et les usagers.md",
+    "Lesson Tree.md",
+    "2026-2027/R1/R1.06/Docs/Pasted image 20260910085317.png",
+    "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
+    "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
     "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
+    "2026-2027/R1/R1.06/Docs/Pasted image 20260909174110.png",
     "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
-    "Pasted image 20260910085317.png",
-    "2026-2027/R1/R1.06/Cours/CM1.b (Christophe Heyraud).md",
     "2026-2027/R1/R1.06/Docs/Pasted image 20260910083558.png",
+    "2026-2027/R1/R1.06/Cours/CM1.b (Christophe Heyraud).md",
     "Reminder.md",
     "README.md",
     "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
-    "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
-    "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
-    "Lesson Tree.md",
-    "2026-2027/R1/R1.06/Docs/Pasted image 20260909174110.png",
     "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
     "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md",
     "Compétences/Créer des outils et applications informatiques.md",
-    "2026-2027/R1/R1.05/R1.05.md",
     "2026-2027/R1/R1.06/Docs",
     "2026-2027/R1/R1.06/Cours",
     "2026-2027/R1/R1.06",
@@ -338,7 +387,6 @@
     "2026-2027/R1/R1.14",
     "2026-2027/R1/R1.01/R1.01b/Cours/CM 1.md",
     "2026-2027/R1/R1.11/R1.11.md",
-    "Compétences/Connecter les entreprises et les usagers.md",
     "2026-2027/R1/R1.08/Docs/TD1.pdf",
     "2026-2027/R1/R1.08/R1.08.md",
     "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
