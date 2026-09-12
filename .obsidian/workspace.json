@@ -119,7 +119,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
+                "file": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -134,7 +134,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "R1.05 TD1 (Heyraud Christophe)"
+              "title": "TD1 (Christophe Héraud)"
+            }
+          },
+          {
+            "id": "890f7cff24d6d7ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CM 1 (azzouni soumaya)"
+            }
+          },
+          {
+            "id": "1ff13048546e625f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TP1 (azzouni soumaya)"
             }
           },
           {
@@ -162,7 +210,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -285,7 +333,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
+                "file": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -355,16 +403,31 @@
       "bases:Créer une nouvelle base": false,
       "markdown-importer:Ouvrir l'importateur Markdown": false,
       "obsidian-custom-frames:Open 1.0.0.1": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e9955a9ad5303b25",
+  "active": "1ff13048546e625f",
   "lastOpenFiles": [
+    "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
+    "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+    "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+    "Compétences/Créer des outils et applications informatiques.md",
+    "TD1 exercices conversion, classes et adresses valides.docx",
+    "2026-2027/R1/R1.07/Cours/TD1 (Laurent Nils).md",
+    "2026-2027/R1/R1.07/Docs/R107.pdf",
+    "()xxq.md",
+    "2026-2027/R1/R1.05/R1.05.md",
+    "Contacts Profs & Admin.md",
+    "2026-2027/R1/R1.07/Docs",
+    "2026-2027/R1/R1.07/Cours",
+    "2026-2027/R1/R1.07",
+    "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
     "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
     "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
     "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md",
-    "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
-    "2026-2027/R1/R1.01/R1.01b/Cours/CM 1.md",
     "Lesson Tree.md",
     "Sans titre.canvas",
     "Reminder.md",
@@ -373,8 +436,6 @@
     "2026-2027/R1/R1.08/R1.08.md",
     "2026-2027/R1/R1.06/Docs/Pasted image 20260910083558.png",
     "2026-2027/R1/R1.06/Docs/Pasted image 20260909174110.png",
-    "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
-    "2026-2027/R1/R1.05/R1.05.md",
     "Compétences/Connecter les entreprises et les usagers.md",
     "2026-2027/R1/R1.06/Docs/Pasted image 20260910085317.png",
     "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
@@ -382,28 +443,18 @@
     "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
     "2026-2027/R1/R1.06/Cours/CM1.b (Christophe Heyraud).md",
     "README.md",
-    "Compétences/Créer des outils et applications informatiques.md",
     "2026-2027/R1/R1.06/Docs",
     "2026-2027/R1/R1.06/Cours",
     "2026-2027/R1/R1.06",
     "2026-2027/R1/R1.11/Docs/Pasted image 20260907104314.png",
     "Compétences/Administrer les réseaux et l'internet.md",
     "2026-2027/R1/R1.14/Docs",
-    "2026-2027/R1/R1.14/Cours",
-    "2026-2027/R1/R1.14",
     "2026-2027/R1/R1.11/R1.11.md",
     "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
-    "2026-2027/R1/R1.05/Docs/TD_BUT1_R105_Fibre_Optique_version_2022.pdf",
     "2026-2027/R1/R1.04/Docs/Pasted image 20260908153126.png",
-    "Contacts Profs & Admin.md",
     "2026-2027/R1/R1.04/Docs/Pasted image 20260908151417.png",
-    "2026-2027/R1/R1.08/Docs/TD2.pdf",
     "2026-2027/R1/R1.01/R1.01b/Docs/1788938755927 1.jpg",
     "1788938755927.jpg",
-    "TD1",
-    "Sans titre 1.md",
-    "test.md",
-    "2026-2027/Sans titre.md",
     "Existence/Sans titre.canvas",
     "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/00 Meta/attachments/Pokémon-Icon_003.png",
     "Sans titre/obsidian_dataview_example_vault-main/obsidian_dataview_example_vault-main/00 Meta/attachments/flower_growth/flowergrowth2.png"
