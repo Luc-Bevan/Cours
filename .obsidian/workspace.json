@@ -167,7 +167,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
+                "file": "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -182,7 +182,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TD2 (Martini Pierre)"
+              "title": "CM1 (Christophe Heyraud)"
             }
           },
           {
@@ -333,7 +333,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
+                "file": "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -411,12 +411,14 @@
   },
   "active": "1ff13048546e625f",
   "lastOpenFiles": [
+    "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
+    "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+    "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
+    "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
     "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
     "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
     "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md",
-    "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
     "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
-    "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
     "Compétences/Créer des outils et applications informatiques.md",
     "TD1 exercices conversion, classes et adresses valides.docx",
     "2026-2027/R1/R1.07/Cours/TD1 (Laurent Nils).md",
@@ -427,8 +429,6 @@
     "2026-2027/R1/R1.07/Docs",
     "2026-2027/R1/R1.07/Cours",
     "2026-2027/R1/R1.07",
-    "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
-    "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
     "Lesson Tree.md",
     "Sans titre.canvas",
     "Reminder.md",

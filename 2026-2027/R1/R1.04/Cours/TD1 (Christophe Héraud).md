@@ -84,13 +84,11 @@ Il est très rare d'avoir des incidents mortels par contact indirect, car on sai
 
 Si toutes les installations étaient aux normes, il ne devrait plus y avoir d'incidents par contact indirect. Néanmoins, le risque zéro n'existe pas.
 
-*Correction grammaticale : "il ne devraient plus y avoir" corrigé en "il ne devrait plus y avoir" (le sujet est le "il" impersonnel, donc le verbe reste au singulier).*
-
 Il existe des protections contre les contacts directs, telles que l'isolation des outils, ou une protection isolante du corps lui-même (gants isolants, tapis isolants, etc.).
 
 ## 10. Amorçage et tension de pas
 
-Les amorçages surviennent lorsque la distance diminue : l'amorçage se produit dès que la distance dans l'air ne suffit plus à assurer l'isolement (le phénomène concerne surtout les situations à distance, typiquement en haute tension).
+Les **amorçages** surviennent lorsque la distance diminue : l'amorçage se produit dès que la distance dans l'air ne suffit plus à assurer l'isolement (le phénomène concerne surtout les situations à distance, typiquement en haute tension).
 
 La **tension de pas** est la tension qui apparaît entre nos deux pieds lorsqu'un courant intense circule dans le sol (par exemple lors d'un défaut électrique important ou de la foudre), créant un gradient de potentiel entre les deux points d'appui au sol.
 
