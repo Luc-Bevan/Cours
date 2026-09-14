@@ -130,8 +130,8 @@ Pour chaque classe (A, B et C), donner le nombre de réseaux possibles puis util
 | 12.0.0.0        | A      | Non              | 3 derniers octets à 0 = adresse réseau                 |
 | 12.255.255.255  | A      | Non              | 3 derniers octets à 255 = broadcast                    |
 | 12.0.0.255      | A      | Oui              | champ hôte ni tout à 0 ni tout à 255                   |
-| 127.0.0.1       | —      | Non              | loopback (127.x.x.x)                                   |
-| 127.23.109.122  | —      | Non              | loopback (127.x.x.x)                                   |
-| 0.23.12.122     | —      | Non              | 1er octet 0 = réservé                                  |
+| 127.0.0.1       | X      | Non              | loopback (127.x.x.x)                                   |
+| 127.23.109.122  | X      | Non              | loopback (127.x.x.x)                                   |
+| 0.23.12.122     | X      | Non              | 1er octet 0 = réservé                                  |
 | 192.12.255.102  | C      | Oui              | rien de spécial                                        |
 | 191.105.0.0     | B      | Non              | 2 derniers octets à 0 = adresse réseau                 |
