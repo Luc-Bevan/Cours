@@ -311,7 +311,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
+                "file": "Contacts Profs & Admin.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -326,11 +326,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CM 1 (azzouni soumaya)"
+              "title": "Contacts Profs & Admin"
+            }
+          },
+          {
+            "id": "7167341b8747a040",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TP1 (azzouni soumaya)"
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -421,9 +445,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "e4bfbf4f1d19051b",
+            "type": "leaf",
+            "state": {
+              "type": "spaceforge-review-schedule",
+              "state": {},
+              "icon": "calendar-clock",
+              "title": "Spaceforge review"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "f84b71a3f552b5ac",
@@ -453,7 +487,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
+                "file": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -496,7 +530,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026-2027/R1/R1.05/Cours/R1.05 TD (Heyraud Christophe).md",
+                "file": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -506,11 +540,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 304.1666259765625
+    "width": 200.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -526,17 +561,22 @@
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "spaceforge:Spaceforge review": false
     }
   },
-  "active": "2978568a51db1a43",
+  "active": "7167341b8747a040",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.01/R1.01b/Docs/Initiation aux réseaux dentreprise Partie 1 (1).pdf",
     "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
-    "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
-    "2026-2027/R1/R1.01/R1.01b/Docs/Initiation aux réseaux dentreprise Partie 2 (1).pdf",
-    "Tableau Ressources.md",
+    "Sans titre.md",
+    "Calendrier.md",
     "Contacts Profs & Admin.md",
+    "Tableau Ressources.md",
+    "2026-09-14.md",
+    "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+    "2026-2027/R1/R1.01/R1.01b/Docs/Initiation aux réseaux dentreprise Partie 1 (1).pdf",
+    "2026-2027/R1/R1.01/R1.01b/Docs/Initiation aux réseaux dentreprise Partie 2 (1).pdf",
     "2026-2027/R1/R1.01/R1.01.md",
     "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
     "2026-2027/R1/R1.04/R1.04.md",
@@ -555,9 +595,6 @@
     "2026-2027/R1/R1.11/R1.11.md",
     "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md",
     "2026-2027/R1/R1.14/R1.14.md",
-    "README.md",
-    "Reminder.md",
-    "SAE1.05.md",
     "TD1 exercices conversion, classes et adresses valides.docx",
     "2026-2027/R1/R1.07/Docs/R107.pdf",
     "2026-2027/R1/R1.07/Docs",
