@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Cours 1.1.1
+  - TD 1.1.1
 ---
 **(Partie 1 à rattraper)**
 

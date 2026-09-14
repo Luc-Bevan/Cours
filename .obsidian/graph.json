@@ -1,51 +1,65 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "Compétences 1.1.1",
+      "query": "CM 1.1.1",
+      "color": {
+        "a": 1,
+        "rgb": 617943
+      }
+    },
+    {
+      "query": "TD 1.1.1",
+      "color": {
+        "a": 1,
+        "rgb": 15662848
+      }
+    },
+    {
+      "query": "TP 1.1.1",
+      "color": {
+        "a": 1,
+        "rgb": 15114767
+      }
+    },
+    {
+      "query": "SAE 1.1.1",
+      "color": {
+        "a": 1,
+        "rgb": 13195277
+      }
+    },
+    {
+      "query": "autres 1.1.1",
       "color": {
         "a": 1,
         "rgb": 0
       }
     },
     {
-      "query": "Cours 1.1.1",
+      "query": "ER 1.1.1",
       "color": {
         "a": 1,
-        "rgb": 15590924
-      }
-    },
-    {
-      "query": "Entrée Rapide 1.1.1",
-      "color": {
-        "a": 1,
-        "rgb": 11392604
-      }
-    },
-    {
-      "query": "Devoirs",
-      "color": {
-        "a": 1,
-        "rgb": 15597823
+        "rgb": 11412449
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 1,
-  "repelStrength": 0,
-  "linkStrength": 0,
-  "linkDistance": 30,
-  "scale": 1.1263345731559926,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.7514342322277577,
   "close": false
 }

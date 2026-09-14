@@ -186,6 +186,112 @@
             }
           },
           {
+            "id": "de005aab600ce082",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.01/R1.01.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "R1.01"
+            }
+          },
+          {
+            "id": "bf7d12a6ae7f01cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "R1.05 TD1 (Heyraud Christophe)"
+            }
+          },
+          {
+            "id": "513a7af60f8fbd2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.06/R1.06.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "R1.06"
+            }
+          },
+          {
+            "id": "d450d1769f309423",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.11/R1.11.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "R1.11"
+            }
+          },
+          {
+            "id": "b38f25db4be9915f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vue graphique"
+            }
+          },
+          {
             "id": "2978568a51db1a43",
             "type": "leaf",
             "state": {
@@ -210,7 +316,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -333,7 +439,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -409,48 +514,49 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "1ff13048546e625f",
+  "active": "b38f25db4be9915f",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
+    "README.md",
+    "SAE1.05.md",
+    "Tableau Ressources.md",
+    "Reminder.md",
+    "Contacts Profs & Admin.md",
+    "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
+    "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md",
+    "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
+    "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
+    "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
+    "2026-2027/R1/R1.07/Cours/TD1 (Laurent Nils).md",
+    "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
     "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
     "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
     "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
-    "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
-    "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
-    "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
-    "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md",
     "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
-    "Compétences/Créer des outils et applications informatiques.md",
-    "TD1 exercices conversion, classes et adresses valides.docx",
-    "2026-2027/R1/R1.07/Cours/TD1 (Laurent Nils).md",
-    "2026-2027/R1/R1.07/Docs/R107.pdf",
-    "()xxq.md",
+    "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
+    "2026-2027/R1/R1.01/R1.01.md",
+    "Lesson Tree.md",
+    "2026-2027/R1/R1.04/R1.04.md",
     "2026-2027/R1/R1.05/R1.05.md",
-    "Contacts Profs & Admin.md",
+    "2026-2027/R1/R1.06/R1.06.md",
+    "2026-2027/R1/R1.14/R1.14.md",
+    "2026-2027/R1/R1.11/R1.11.md",
+    "2026-2027/R1/R1.08/R1.08.md",
+    "2026-2027/R1/R1.07/R1.07.md",
+    "TD1 exercices conversion, classes et adresses valides.docx",
+    "2026-2027/R1/R1.07/Docs/R107.pdf",
     "2026-2027/R1/R1.07/Docs",
     "2026-2027/R1/R1.07/Cours",
     "2026-2027/R1/R1.07",
-    "Lesson Tree.md",
     "Sans titre.canvas",
-    "Reminder.md",
-    "2026-09-10.md",
     "2026-2027/R1/R1.08/Docs/TD1.pdf",
-    "2026-2027/R1/R1.08/R1.08.md",
     "2026-2027/R1/R1.06/Docs/Pasted image 20260910083558.png",
     "2026-2027/R1/R1.06/Docs/Pasted image 20260909174110.png",
-    "Compétences/Connecter les entreprises et les usagers.md",
     "2026-2027/R1/R1.06/Docs/Pasted image 20260910085317.png",
-    "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
-    "2026-2027/R1/R1.06/Cours/CM1.b (Christophe Heyraud).md",
-    "README.md",
     "2026-2027/R1/R1.06/Docs",
     "2026-2027/R1/R1.06/Cours",
     "2026-2027/R1/R1.06",
     "2026-2027/R1/R1.11/Docs/Pasted image 20260907104314.png",
-    "Compétences/Administrer les réseaux et l'internet.md",
     "2026-2027/R1/R1.14/Docs",
-    "2026-2027/R1/R1.11/R1.11.md",
-    "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
     "2026-2027/R1/R1.04/Docs/Pasted image 20260908153126.png",
     "2026-2027/R1/R1.04/Docs/Pasted image 20260908151417.png",
     "2026-2027/R1/R1.01/R1.01b/Docs/1788938755927 1.jpg",

@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Cours 1.1.1
+  - CM 1.1.1
 ---
 
 # R1.06 - Notions de base sur les microcontrôleurs

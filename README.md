@@ -1,3 +1,7 @@
+---
+aliases:
+  - autres 1.1.1
+---
 # README
 
 Ce vault contient mes notes de cours, réorganisées et corrigées à partir de mes prises de notes manuscrites. Il est partagé pour que tu puisses t'en servir comme base ou comme complément à tes propres notes.

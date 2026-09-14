@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Cours 1.1.1
+  - CM 1.1.1
 ---
 ---
 tags:

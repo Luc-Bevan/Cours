@@ -1,3 +1,7 @@
+---
+aliases:
+  - TP 1.1.1
+---
 # TD1 : Exercices sur la conversion, les classes et la reconnaissance des adresses valides
 
 ## 1. Convertir les valeurs binaires suivantes en notation décimale (détailler le calcul)
@@ -77,11 +81,20 @@ L'adressage IP se fait grâce à un mot de 32 bits, séparé en 4 octets, codés
 
 Pour chaque classe (A, B et C), donner le nombre de réseaux possibles puis utilisables et le nombre de machines sur ces réseaux, et justifier vos réponses :
 
-**Classe A :** 255^3 = 16 581 375 machines, car il y a 3 octets laissés disponibles par le masque. et 255 réseaux.
 
-**Classe B :** 255^2 = 65 025 machines, car il y a 3 octets laissés disponibles par le masque. et 65 025 réseaux.
+> [!bug] Erreur
+> 255^n → faux. Il faut **2^n** (bits, pas octets en décimal)
 
-**Classe C :** 255^1 = 255 machines, car il y a 3 octets laissés disponibles par le masque. et 255 réseaux et 16 581 375 réseaux.
+| Classe | Bits fixes | Bits réseau | Réseaux utilisables | Bits machine | Machines utilisables |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| A | `0` | 7 | 2⁷−2 = **126** | 24 | 2²⁴−2 = **16 777 214** |
+| B | `10` | 14 | 2¹⁴ = **16 384** | 16 | 2¹⁶−2 = **65 534** |
+| C | `110` | 21 | 2²¹ = **2 097 152** | 8 | 2⁸−2 = **254** |
+
+> [!important] Règles
+> - **−2 sur les machines** : adresse réseau (bits hôte à 0) + broadcast (bits hôte à 1)
+> - **Classe A** : −2 en plus sur les réseaux car `0.x.x.x` et `127.x.x.x` (loopback) sont réservés
+> - **B et C** : tous les réseaux possibles sont utilisables (pas d'exception réseau)
 
 ---
 
