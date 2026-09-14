@@ -4,7 +4,7 @@ aliases:
 ---
 **(Partie 1 à rattraper)**
 
-### ==Outils et intention de l'imagerie.==
+## ==2. Outils et intention de l'imagerie.==
 
 - **Informer** *(But : transmettre une information claire et compréhensible en un coup d'œil)
 	- Simplicité
@@ -70,3 +70,86 @@ aliases:
 
 - Connaitre son objectif et sa cible
 *cette étape conditionne le ton, le niveau de détail et le style visuel.*
+
+# ==3. Expression, communication, culture==
+
+## La note interne (note de service)
+
+- **Objectif:** informer les collaborateurs d'une décision , d'u changement, d'une procédure ou d'un événement (communication descendante).
+
+- **Spécificités :** interne uniquement, format court et synthétique (1/2 page),pas de formules de politesses, ton personnel.
+
+- **Indispensables:** date , expéditeur, destinataire , objet clair, contenu informatif, mention de mise en application si besoin.
+
+## Le compte-rendu
+
+- **Objectif:** retranscrire le contenu d'une réunion, d'un entretiens ou d'une intervention (traçabilité de décision et échanges).
+
+- **Spécificités:** style objectif et neutre, style direct ou indirect, ordre chronologique ou thématique.
+
+- **Indispensables:** titre, date/lieu/heure, participants, ordre du jour, déroulement, décision/actions, nom du rédacteur.
+
+## Le rapport
+
+- **Objectif:** analyser une situation (audit, mission, problème technique, projet…) et formuler constats et recommandations pour la hiérarchie.
+ 
+- **-Spécificités:** document structurés et longs (2 à 20 pages, ton formel , analyse arguments et données factuelles: très utilisé dans les réseaux, la sécurité informatique , les télécoms.
+
+- **Indispensables:** pages de garde, sommaire ( si > 3 pages ), introduction, développements structurés, recommandations, conclusion , annexes éventuelles.
+
+## Le courrier professionnel
+
+- **Objectif:** échanger avec un interlocuteur externe (client, fournisseur, administration...) dans un cadre formel: informer, réclamer, négocier, justifier, relancer.
+
+- **Spécificités:** support papier ou PDF signé, ton formel et courtois, codes de la correspondance respectés.
+
+- **Indispensables:** en-tête, date et coordonnées du destinataire, objet clair, formule d'appel, corps structuré, formule de politesse, signature.
+
+## Le mail professionnel
+
+- **Objectif:** communiquer rapidement et efficacement, en interne ou en externe (informer, demander, répondre, organiser).
+
+- **Spécificités:** support souple mais professionnel, structure claire malgré la brièveté, ton adapté au contexte.
+
+- **Indispensables:** objet explicite, formule d'appel personnalisée, corp structuré (introduction-message-demande-conclusion), signature professionnelle.
+
+# ==4. Typologie des articles de presse==
+
+**La Presse généraliste**
+*Médias: Les monde, libération, le figaro, 20 minute, Ouest-France, etc...*
+
+- **Public visé :** Grand publique
+- **Tonalité:** Accessible souvent pédagogique
+- **Thèmes :** Politique, société, faits divers, culture, économe , International
+
+**Presse spécialisée ( économique, technologique, sectorielle)**
+
+- **Médias :** Les échos, 01net, le Monde informatique, ZDNet, Silicon , la Tribune, etc...
+- **Publique visé:** Professionnels, cadres, décideurs
+- **Tonalité:** Technique, analytique, orientée marché
+- **Thèmes:** conjoncture économique, innovations réseau/télécommunication, cybersécurité, tendances sectorielles, stratégie d'entreprise.
+
+**Objectifs:**
+
+- fournir une analyse approfondie
+- Aider  la prise de décision 
+- Apporter des données chiffrées, des cas d'entreprises, des témoignages d'experts
+
+**Exemple:** Dossier sur le déploiement de la fibre optique et de la 5G en France.
+
+## Critères d'analyse d'un article
+
+**Analyse du fond**
+
+- Quel est le thème central?
+- Quelle est l'intention de l'auteur ? (informer, dénoncer, alerter, promouvoir…)
+- Quels faits ou arguments sont mis en avant?
+- Y a t-il des sources citées? Sont elles fiables?
+- Quels sont les enjeux économiques, technologiques ou sociaux liés au sujet?
+
+**Analyse de la forme**
+
+- Type d'article: brève, reportage, enquête, tribune, interview?
+- le style est il objectif
+- etc...
+

@@ -282,6 +282,30 @@
             }
           },
           {
+            "id": "7a488f8459f5040f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TD1 (Diolez Julie)"
+            }
+          },
+          {
             "id": "b38f25db4be9915f",
             "type": "leaf",
             "state": {
@@ -333,28 +357,14 @@
             "id": "7167341b8747a040",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "TP1 (azzouni soumaya)"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vue graphique"
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -457,7 +467,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "f84b71a3f552b5ac",
@@ -469,6 +479,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -487,7 +498,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+                "file": "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -530,7 +541,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+                "file": "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -539,13 +550,11 @@
               "title": "Plan"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200.5,
-    "collapsed": true
+    "width": 572.1666259765625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -562,22 +571,25 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
       "spaceforge:Spaceforge review": false
     }
   },
-  "active": "7167341b8747a040",
+  "active": "2bc74a254e60e9da",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
-    "Sans titre.md",
-    "Calendrier.md",
+    "2026-2027/R1/R1.11/R1.11.md",
+    "2026-2027/R1/R1.01/R1.01.md",
     "Contacts Profs & Admin.md",
+    "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
+    "R1.10.md",
     "Tableau Ressources.md",
-    "2026-09-14.md",
+    "Sans titre.md",
+    "README.md",
     "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+    "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
+    "Calendrier.md",
+    "2026-09-14.md",
     "2026-2027/R1/R1.01/R1.01b/Docs/Initiation aux réseaux dentreprise Partie 1 (1).pdf",
     "2026-2027/R1/R1.01/R1.01b/Docs/Initiation aux réseaux dentreprise Partie 2 (1).pdf",
-    "2026-2027/R1/R1.01/R1.01.md",
     "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
     "2026-2027/R1/R1.04/R1.04.md",
     "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
@@ -591,10 +603,7 @@
     "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
     "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
     "2026-2027/R1/R1.08/R1.08.md",
-    "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
-    "2026-2027/R1/R1.11/R1.11.md",
     "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md",
-    "2026-2027/R1/R1.14/R1.14.md",
     "TD1 exercices conversion, classes et adresses valides.docx",
     "2026-2027/R1/R1.07/Docs/R107.pdf",
     "2026-2027/R1/R1.07/Docs",
