@@ -3,7 +3,9 @@ aliases:
   - CM1.1.1
 ---
 # R1.01b - Initiation au réseau d'entreprise
+![[Initiation aux réseaux dentreprise Partie 1 (1).pdf]]
 
+![[Initiation aux réseaux dentreprise Partie 2 (1).pdf]]
 ## 1. Modèle en couches (contexte général)
 
 Avant de rentrer dans le détail, ce cours se situe surtout au niveau des couches suivantes du modèle TCP/IP (ou OSI) :
