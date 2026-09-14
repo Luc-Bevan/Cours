@@ -153,3 +153,7 @@ aliases:
 - le style est il objectif
 - etc...
 
+## Diversité des écrites professionnels et médiatiques
+
+- savoir lire rapidement synthétiser, produire et réagir à de l'information est une exigence quotidienne
+- etc.
