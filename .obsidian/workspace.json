@@ -285,6 +285,30 @@
             "id": "b38f25db4be9915f",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.01/R1.01.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "R1.01"
+            }
+          },
+          {
+            "id": "d3b052c1d94135b8",
+            "type": "leaf",
+            "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
@@ -316,7 +340,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -514,10 +538,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b38f25db4be9915f",
+  "active": "d3b052c1d94135b8",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
     "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+    "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
     "2026-2027/R1/R1.01/R1.01.md",
     "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
     "2026-2027/R1/R1.04/R1.04.md",
