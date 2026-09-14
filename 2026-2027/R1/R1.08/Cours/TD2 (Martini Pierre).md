@@ -1,6 +1,6 @@
 ---
 aliases:
-  - TD 1.1.1
+  - TD1.1.1
 ---
 *TD1 à rattraper
 ![[TD2.pdf]]

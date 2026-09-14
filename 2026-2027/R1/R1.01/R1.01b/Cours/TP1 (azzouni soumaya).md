@@ -1,6 +1,6 @@
 ---
 aliases:
-  - TP 1.1.1
+  - TP1.1.1
 ---
 # TD1 : Exercices sur la conversion, les classes et la reconnaissance des adresses valides
 

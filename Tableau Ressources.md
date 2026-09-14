@@ -1,6 +1,6 @@
 ---
 aliases:
-  - ER 1.1.1
+  - ER1.1.1
 ---
 # DEPT. RT — Semestre 1 : du 01/09/2026 au 27/01/2027
 

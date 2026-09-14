@@ -1,6 +1,6 @@
 ---
 aliases:
-  - CM 1.1.1
+  - CM1.1.1
 ---
 # R1.01b - Initiation au réseau d'entreprise
 

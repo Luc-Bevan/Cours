@@ -8,42 +8,42 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "CM 1.1.1",
+      "query": "CM1.1.1",
       "color": {
         "a": 1,
         "rgb": 617943
       }
     },
     {
-      "query": "TD 1.1.1",
+      "query": "TD1.1.1",
       "color": {
         "a": 1,
         "rgb": 15662848
       }
     },
     {
-      "query": "TP 1.1.1",
+      "query": "TP1.1.1",
       "color": {
         "a": 1,
         "rgb": 15114767
       }
     },
     {
-      "query": "SAE 1.1.1",
+      "query": "SAE1.1.1",
       "color": {
         "a": 1,
         "rgb": 13195277
       }
     },
     {
-      "query": "autres 1.1.1",
+      "query": "autres1.1.1",
       "color": {
         "a": 1,
         "rgb": 0
       }
     },
     {
-      "query": "ER 1.1.1",
+      "query": "ER1.1.1",
       "color": {
         "a": 1,
         "rgb": 11412449

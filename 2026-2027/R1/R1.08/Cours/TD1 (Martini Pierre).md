@@ -1,6 +1,6 @@
 ---
 aliases:
-  - TD 1.1.1
+  - TD1.1.1
 ---
 ![[TD1.pdf]]**Commandes utilisées:**
 # Configuration d'une VM Linux (GNOME) et extensions Shell

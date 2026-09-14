@@ -1,6 +1,6 @@
 ---
 aliases:
-  - autres 1.1.1
+  - autres1.1.1
 ---
 # README
 

@@ -1,6 +1,6 @@
 ---
 aliases:
-  - CM 1.1.1
+  - CM1.1.1
 ---
 # WIMS - Inscription et exercices de trigonométrie
 

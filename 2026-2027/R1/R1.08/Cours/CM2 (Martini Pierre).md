@@ -1,6 +1,6 @@
 ---
 aliases:
-  - CM 1.1.1
+  - CM1.1.1
 ---
 
 # Linux - Gestion de fichiers, utilisateurs et droits d'accès
