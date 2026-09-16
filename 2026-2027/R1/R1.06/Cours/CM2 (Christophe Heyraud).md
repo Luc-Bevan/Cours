@@ -52,11 +52,17 @@ Chacune de ces pattes peut avoir **une ou plusieurs fonctions** :
 > [!info]
 > On parle de périphérique d'**entrée** ou de **sortie** lorsqu'il y a une majorité d'informations circulant dans un sens, même s'il y en a quelques-unes dans l'autre.
 
+
 ---
 
 ## 3. Structure d'un microcontrôleur
 
-*(à compléter)*
+![[Pasted image 20260916161350.png|700]]
+
+Flash Program Memory = Mémoire FLASH Programme: 32kBytes.
+Program Counter = Compteur de programme.
+==**ATTENTION :** un Byte = un octet = 8 bit.==
+
 
 ---
 
