@@ -9,10 +9,10 @@ aliases:
 
 ## 1. Enregistrer une session de terminal avec script
 
-| Commande | Effet |
-|---|---|
+| Commande      | Effet                                                                                           |
+| ------------- | ----------------------------------------------------------------------------------------------- |
 | `script test` | Démarre l'enregistrement de tout ce qui se passe dans le terminal, dans un fichier nommé `test` |
-| `exit` | Arrête l'enregistrement démarré par `script` et sauvegarde le contenu dans le fichier |
+| `exit`        | Arrête l'enregistrement démarré par `script` et sauvegarde le contenu dans le fichier           |
 
 Important : tout ce qui est tapé (et affiché) entre le `script test` et le `exit` correspondant est enregistré dans le fichier `test`. C'est ce mécanisme qui doit être utilisé pour garder une trace de la suite du TD2.
 
@@ -84,3 +84,4 @@ Sans l'option `-p`, `mkdir` renverrait une erreur si le répertoire parent (`~/r
 - Contexte exact de l'instruction sur le collage avec le clic du milieu (section 6)
 - Paquets supplémentaires éventuellement nécessaires pour les VirtualBox Guest Additions selon la distribution utilisée
 - Contenu précis du "reste du TD2" à compléter
+  

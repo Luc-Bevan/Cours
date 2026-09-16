@@ -311,7 +311,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.07/Cours/TD1 (Laurent Nils).md",
+                "file": "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -326,7 +326,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TD1 (Laurent Nils)"
+              "title": "TD2 (Martini Pierre)"
             }
           },
           {
@@ -503,7 +503,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.07/Cours/TD1 (Laurent Nils).md",
+                "file": "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -600,8 +600,9 @@
   },
   "active": "1043f376b7791d13",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.07/Docs/TD1 (1).pdf",
+    "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
     "2026-2027/R1/R1.07/Cours/TD1 (Laurent Nils).md",
+    "2026-2027/R1/R1.07/Docs/TD1 (1).pdf",
     "Tableau Ressources.md",
     "Sans titre.md",
     "Reminder.md",
@@ -628,7 +629,6 @@
     "2026-2027/R1/R1.06/R1.06.md",
     "2026-2027/R1/R1.07/R1.07.md",
     "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
-    "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
     "TD1 exercices conversion, classes et adresses valides.docx",
     "2026-2027/R1/R1.07/Docs",
     "2026-2027/R1/R1.07/Cours",
