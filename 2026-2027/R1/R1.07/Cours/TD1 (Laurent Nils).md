@@ -128,3 +128,4 @@ def valeur_absolue(x: float) -> tuple[float, int]:
 	return(x,a)
 ```
 
+![[TD1 (1).pdf]]

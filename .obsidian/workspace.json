@@ -311,7 +311,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
+                "file": "2026-2027/R1/R1.07/Cours/TD1 (Laurent Nils).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -326,7 +326,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "R1.05 TD1 (Heyraud Christophe)"
+              "title": "TD1 (Laurent Nils)"
             }
           },
           {
@@ -503,7 +503,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
+                "file": "2026-2027/R1/R1.07/Cours/TD1 (Laurent Nils).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -600,19 +600,20 @@
   },
   "active": "1043f376b7791d13",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.07/Cours/TD1 bis (Laurent Nils).md",
+    "2026-2027/R1/R1.07/Docs/TD1 (1).pdf",
     "2026-2027/R1/R1.07/Cours/TD1 (Laurent Nils).md",
+    "Tableau Ressources.md",
+    "Sans titre.md",
     "Reminder.md",
-    "TD1 (1).pdf",
+    "README.md",
+    "Contacts Profs & Admin.md",
+    "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
+    "2026-2027/R1/R1.07/Cours/TD1 bis (Laurent Nils).md",
     "2026-2027/R1/R1.07/Docs/R107.pdf",
     "2026-2027/R1/R1.01/R1.01.md",
-    "Tableau Ressources.md",
     "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
     "2026-2027/R1/R1.11/R1.11.md",
-    "Contacts Profs & Admin.md",
     "R1.10.md",
-    "Sans titre.md",
-    "README.md",
     "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
     "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
     "Calendrier.md",
@@ -621,7 +622,6 @@
     "2026-2027/R1/R1.01/R1.01b/Docs/Initiation aux réseaux dentreprise Partie 2 (1).pdf",
     "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
     "2026-2027/R1/R1.04/R1.04.md",
-    "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
     "2026-2027/R1/R1.05/R1.05.md",
     "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
     "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
@@ -629,7 +629,6 @@
     "2026-2027/R1/R1.07/R1.07.md",
     "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
     "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
-    "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
     "TD1 exercices conversion, classes et adresses valides.docx",
     "2026-2027/R1/R1.07/Docs",
     "2026-2027/R1/R1.07/Cours",
