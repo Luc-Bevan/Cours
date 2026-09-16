@@ -61,7 +61,14 @@ Chacune de ces pattes peut avoir **une ou plusieurs fonctions** :
 
 Flash Program Memory = Mémoire FLASH Programme: 32kBytes.
 Program Counter = Compteur de programme.
+
 ==**ATTENTION :** un Byte = un octet = 8 bit.==
+
+Le cross sais décoder (RISK) 35 instructions simples. Certaines ne font rien
+(exemple 00 0001 0xxx xxxx)
+x signifie que cela peut être 0 ou 1 cela n'aura pas d'importance.
+NOP = une instruction qui ne fais rien (no opération) et pourtant elle perd un cycle d'horloge, elle sert à différer quelque chose.
+
 
 
 ---

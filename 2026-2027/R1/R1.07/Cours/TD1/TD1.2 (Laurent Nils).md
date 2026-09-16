@@ -1,3 +1,8 @@
+---
+aliases:
+  - TD1.1.1
+---
+
 ![[TD1 (1).pdf]]
 
 ## Echange des variables
