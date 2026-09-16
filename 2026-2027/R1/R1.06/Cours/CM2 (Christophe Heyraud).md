@@ -61,6 +61,7 @@ Chacune de ces pattes peut avoir **une ou plusieurs fonctions** :
 
 Flash Program Memory = Mémoire FLASH Programme: 32kBytes.
 Program Counter = Compteur de programme.
+Data SRAM = Mémoire RAM : 2kBytes
 
 ==**ATTENTION :** un Byte = un octet = 8 bit.==
 
@@ -72,6 +73,9 @@ NOP = une instruction qui ne fais rien (no opération) et pourtant elle perd un 
 ![[PIC16F84A.pdf]]
 
 ---
+1
+Il ne sais pas calculer plusieurs chiffres en même temps, mais il les fait très rapidement, ex:
+il ne fais pas 1+ 2 + 3, il fais 1 + 2 = 3 ; 3 + 3 = 6.
 
 ## 4. Langage de programmation
 
