@@ -287,7 +287,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
+                "file": "2026-2027/R1/R1.07/Cours/TD1 (Laurent Nils).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -302,7 +302,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TD1 (Diolez Julie)"
+              "title": "TD1 (Laurent Nils)"
+            }
+          },
+          {
+            "id": "1043f376b7791d13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.07/Cours/TD1 bis (Laurent Nils).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TD1 bis (Laurent Nils)"
             }
           },
           {
@@ -364,7 +388,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -479,7 +503,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
+                "file": "2026-2027/R1/R1.07/Cours/TD1 bis (Laurent Nils).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -574,14 +598,19 @@
       "spaceforge:Spaceforge review": false
     }
   },
-  "active": "2bc74a254e60e9da",
+  "active": "1043f376b7791d13",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.11/R1.11.md",
+    "2026-2027/R1/R1.07/Cours/TD1 (Laurent Nils).md",
+    "Reminder.md",
+    "2026-2027/R1/R1.07/Cours/TD1 bis (Laurent Nils).md",
+    "TD1 (1).pdf",
+    "2026-2027/R1/R1.07/Docs/R107.pdf",
     "2026-2027/R1/R1.01/R1.01.md",
-    "Contacts Profs & Admin.md",
-    "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
-    "R1.10.md",
     "Tableau Ressources.md",
+    "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
+    "2026-2027/R1/R1.11/R1.11.md",
+    "Contacts Profs & Admin.md",
+    "R1.10.md",
     "Sans titre.md",
     "README.md",
     "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
@@ -597,15 +626,11 @@
     "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
     "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
     "2026-2027/R1/R1.06/R1.06.md",
-    "2026-2027/R1/R1.07/Cours/TD1 (Laurent Nils).md",
     "2026-2027/R1/R1.07/R1.07.md",
     "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
     "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
     "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
-    "2026-2027/R1/R1.08/R1.08.md",
-    "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md",
     "TD1 exercices conversion, classes et adresses valides.docx",
-    "2026-2027/R1/R1.07/Docs/R107.pdf",
     "2026-2027/R1/R1.07/Docs",
     "2026-2027/R1/R1.07/Cours",
     "2026-2027/R1/R1.07",
@@ -615,7 +640,6 @@
     "2026-2027/R1/R1.06/Docs/Pasted image 20260909174110.png",
     "2026-2027/R1/R1.06/Docs/Pasted image 20260910085317.png",
     "2026-2027/R1/R1.06/Docs",
-    "2026-2027/R1/R1.06/Cours",
     "2026-2027/R1/R1.11/Docs/Pasted image 20260907104314.png",
     "2026-2027/R1/R1.04/Docs/Pasted image 20260908153126.png",
     "2026-2027/R1/R1.04/Docs/Pasted image 20260908151417.png",
