@@ -69,7 +69,7 @@ Le cross sais décoder (RISK) 35 instructions simples. Certaines ne font rien
 x signifie que cela peut être 0 ou 1 cela n'aura pas d'importance.
 NOP = une instruction qui ne fais rien (no opération) et pourtant elle perd un cycle d'horloge, elle sert à différer quelque chose.
 
-
+![[PIC16F84A.pdf]]
 
 ---
 
