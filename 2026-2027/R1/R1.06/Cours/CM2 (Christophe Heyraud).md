@@ -62,8 +62,17 @@ Chacune de ces pattes peut avoir **une ou plusieurs fonctions** :
 Flash Program Memory = Mémoire FLASH Programme: 32kBytes.
 Program Counter = Compteur de programme.
 Data SRAM = Mémoire RAM : 2kBytes
-
+Mémoire EEPROM 64 octets: Erasable programmable read only memory =
+memoire morte( lecture seule).
+Status and Control = Registre d'etat: certains bits changent d'état dans certaines conditions.
+Watchdog TIMER : En cas de crash, il possède un timer, qui quand arrive  0, relance la carte.
+pour eviter qu'il arrive à 0 il est nécessairre d'en mettre les instructions dans ton code.
+attention 225+1 = 0 dans un processeur, il est donc nécessaire d'avoir une retenues, et c'est las que viens le registre d'etat, qui sert au calcul quand il y a une retenue. un bit carry.
+car 255 = 11111111 et 1 = 00000001.
+il y a un truc qui fais positif négatif, je sais plus trop 127 pour aller en négatif par e.
+ALU = Unité Arithmétique et Logique.
 ==**ATTENTION :** un Byte = un octet = 8 bit.==
+
 
 Le cross sais décoder (RISK) 35 instructions simples. Certaines ne font rien
 (exemple 00 0001 0xxx xxxx)
@@ -77,6 +86,12 @@ NOP = une instruction qui ne fais rien (no opération) et pourtant elle perd un 
 Il ne sais pas calculer plusieurs chiffres en même temps, mais il les fait très rapidement, ex:
 il ne fais pas 1+ 2 + 3, il fais 1 + 2 = 3 ; 3 + 3 = 6.
 
+![[Pasted image 20260916175126.png]]
+PSI = Port SPI.
+USART 0 = Port Série.
+Convertisseur analogique numérique A/D
+TImer tempo 8 bit TX2  16bit TX
+Chien de garde (watchdog)
 ## 4. Langage de programmation
 
 *(à compléter)*
