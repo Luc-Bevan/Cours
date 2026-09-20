@@ -357,24 +357,12 @@
             "id": "2978568a51db1a43",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "2026-2027/R1/R1.06/Docs/Pasted image 20260909174110.png"
               },
-              "icon": "lucide-file",
-              "title": "CM2 (Martini Pierre)"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260909174110"
             }
           },
           {
@@ -503,7 +491,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
+                "file": "2026-2027/R1/R1.06/Docs/Pasted image 20260909174110.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -598,14 +586,14 @@
       "spaceforge:Spaceforge review": false
     }
   },
-  "active": "2978568a51db1a43",
+  "active": "b519e5bf6354f570",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
     "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
+    "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
     "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
     "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
     "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
-    "Pasted image 20260916175126.png",
+    "2026-2027/R1/R1.06/Docs/Pasted image 20260916175126.png",
     "2026-2027/R1/R1.06/Docs/PIC16F84A.pdf",
     "2026-2027/R1/R1.06/Docs/Pasted image 20260916161350.png",
     "2026-2027/R1/R1.06/Docs/Pasted image 20260910085317.png",
