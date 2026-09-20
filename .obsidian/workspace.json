@@ -359,7 +359,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
+                "file": "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -374,7 +374,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "R1.05 TD1 (Heyraud Christophe)"
+              "title": "CM2 (Martini Pierre)"
             }
           },
           {
@@ -503,7 +503,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
+                "file": "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -600,6 +600,10 @@
   },
   "active": "2978568a51db1a43",
   "lastOpenFiles": [
+    "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
+    "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
+    "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
+    "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
     "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
     "Pasted image 20260916175126.png",
     "2026-2027/R1/R1.06/Docs/PIC16F84A.pdf",
@@ -621,10 +625,7 @@
     "2026-2027/R1/R1.05/R1.05.md",
     "2026-2027/R1/R1.01/R1.01.md",
     "2026-2027/R1/R1.04/R1.04.md",
-    "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
     "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
-    "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
-    "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
     "2026-2027/R1/R1.07/Docs/TD1 (1).pdf",
     "Sans titre.md",
     "Reminder.md",
