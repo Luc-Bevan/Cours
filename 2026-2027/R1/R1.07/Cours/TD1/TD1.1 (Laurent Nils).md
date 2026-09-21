@@ -128,4 +128,13 @@ def valeur_absolue(x: float) -> tuple[float, int]:
 	return(x,a)
 ```
 
+
+
 ![[TD1 (1).pdf]]
+
+```python
+def somme_carres(n: int) -> int:
+	for i in n:
+		s+=i**
+	print(s)
+```
