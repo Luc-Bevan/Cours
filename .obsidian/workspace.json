@@ -364,6 +364,30 @@
             }
           },
           {
+            "id": "4c8ad07ab4279217",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.08/Cours/TP2 (Martini Pierre).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TP2 (Martini Pierre)"
+            }
+          },
+          {
             "id": "7167341b8747a040",
             "type": "leaf",
             "state": {
@@ -374,7 +398,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -489,6 +513,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2026-2027/R1/R1.08/Cours/TP2 (Martini Pierre).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -583,8 +608,10 @@
       "spaceforge:Spaceforge review": false
     }
   },
-  "active": "2978568a51db1a43",
+  "active": "4c8ad07ab4279217",
   "lastOpenFiles": [
+    "2026-2027/R1/R1.08/Docs/TP2.pdf",
+    "2026-2027/R1/R1.08/Cours/TP2 (Martini Pierre).md",
     "2026-2027/R1/R1.06/Docs/Pasted image 20260909174110.png",
     "2026-2027/R1/R1.07/Cours/TD1/TD1.2 (Laurent Nils).md",
     "2026-2027/R1/R1.07/Cours/TD1/TD1.1 (Laurent Nils).md",
@@ -612,7 +639,6 @@
     "2026-2027/R1/R1.04/R1.04.md",
     "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
     "2026-2027/R1/R1.07/Docs/TD1 (1).pdf",
-    "Sans titre.md",
     "Reminder.md",
     "README.md",
     "2026-2027/R1/R1.07/Docs/R107.pdf",
@@ -624,7 +650,6 @@
     "TD1 exercices conversion, classes et adresses valides.docx",
     "2026-2027/R1/R1.07/Docs",
     "2026-2027/R1/R1.07/Cours",
-    "2026-2027/R1/R1.07",
     "Sans titre.canvas",
     "2026-2027/R1/R1.11/Docs/Pasted image 20260907104314.png",
     "2026-2027/R1/R1.04/Docs/Pasted image 20260908153126.png",
