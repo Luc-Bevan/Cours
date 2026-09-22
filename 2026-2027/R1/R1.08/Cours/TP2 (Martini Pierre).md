@@ -14,5 +14,25 @@
 12) commande: ```rm -r ~/r1.06/TP/*```
 13) commande: ```rmdir ~/r1.06/TP/```
 14) La commande ```touch ∼/a{1..3}{d..g}.txt``` sert à créer les fichier dans le répertoire personnels qui commencent par a, suivit de soit 1,2 ou 3, puis un des charactère entre d et g suivit de .txt , tout en testant les combinaisons dans l'ordre.
-15) commande: ```find /usr/include/std*.h -exec ls -l {} \;```
-16) 
+15) commande: ```find /usr/include/std*.h ```
+16) commande:  ```find /usr/include/std*.h -exec ls -l {} \;```
+17) commande:  ```find /usr/include/std*.h -exec cp {} ~r1.06/TD/ \;```
+18) commande:  ```find ~/ -type d -exec ls -l {} \;```
+19) commande: ```find / -type f -size 0c -daystart -mtime 0```
+20) commande: ```find ~ -type f -not -newer ~/test```
+21)  commande: ```find ~ -type f -daystart -mtime 1 -size +1k```
+22) y'en a un qui vérifie prend que les extensions .txt et pas l'autre.
+
+| Commande           | Utilité                                                                           |
+| :----------------- | :-------------------------------------------------------------------------------- |
+| `apt update`       | Met à jour la liste des paquets disponibles depuis les dépôts.                    |
+| `apt upgrade`      | Met à jour les paquets installés vers leurs dernières versions disponibles.       |
+| `apt-cache search` | Recherche un paquet à partir d’un mot-clé.                                        |
+| `apt-cache show`   | Affiche les informations détaillées d’un paquet.                                  |
+| `apt install`      | Installe un paquet et ses dépendances.                                            |
+| `apt autoremove`   | Supprime les paquets devenus inutiles.                                            |
+| `apt remove`       | Désinstalle un paquet, sans supprimer généralement ses fichiers de configuration. |
+| `apt autoclean`    | Supprime du cache les anciens paquets `.deb` qui ne sont plus nécessaires.        |
+| `apt clean`        | Supprime tous les paquets `.deb` présents dans le cache local.                    |
+
+23-26) déjà fais.
