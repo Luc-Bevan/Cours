@@ -357,24 +357,10 @@
             "id": "2978568a51db1a43",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-2027/R1/R1.07/Cours/TD1/TD1.1 (Laurent Nils).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "TD1.1 (Laurent Nils)"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vue graphique"
             }
           },
           {
@@ -503,7 +489,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.07/Cours/TD1/TD1.1 (Laurent Nils).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -600,8 +585,9 @@
   },
   "active": "2978568a51db1a43",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.07/Cours/TD1/TD1.2 (Laurent Nils).md",
     "2026-2027/R1/R1.06/Docs/Pasted image 20260909174110.png",
+    "2026-2027/R1/R1.07/Cours/TD1/TD1.2 (Laurent Nils).md",
+    "2026-2027/R1/R1.07/Cours/TD1/TD1.1 (Laurent Nils).md",
     "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
     "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
     "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
@@ -615,7 +601,6 @@
     "Contacts Profs & Admin.md",
     "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
     "Tableau Ressources.md",
-    "2026-2027/R1/R1.07/Cours/TD1/TD1.1 (Laurent Nils).md",
     "2026-2027/R1/R1.07/Cours/TD1",
     "2026-2027/R1/R1.14/R1.14.md",
     "2026-2027/R1/R1.11/R1.11.md",
