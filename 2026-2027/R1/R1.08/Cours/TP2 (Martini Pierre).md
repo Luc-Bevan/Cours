@@ -15,8 +15,8 @@
 13) commande: ```rmdir ~/r1.06/TP/```
 14) La commande ```touch ∼/a{1..3}{d..g}.txt``` sert à créer les fichier dans le répertoire personnels qui commencent par a, suivit de soit 1,2 ou 3, puis un des charactère entre d et g suivit de .txt , tout en testant les combinaisons dans l'ordre.
 15) commande: ```find /usr/include/std*.h ```
-16) commande:  ```find /usr/include/std*.h -exec ls -l {} \;```
-17) commande:  ```find /usr/include/std*.h -exec cp {} ~r1.06/TD/ \;```
+16) commande:  ```find /usr/include/ -name "std*.h" -exec ls -l {} \;```
+17) commande:  ```find /usr/include/ -name "std*.h" -exec cp {} ~r1.06/TD/ \;```
 18) commande:  ```find ~/ -type d -exec ls -l {} \;```
 19) commande: ```find / -type f -size 0c -daystart -mtime 0```
 20) commande: ```find ~ -type f -not -newer ~/test```
