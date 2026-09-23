@@ -89,11 +89,38 @@ il ne fais pas 1+ 2 + 3, il fais 1 + 2 = 3 ; 3 + 3 = 6.
 ![[Pasted image 20260916175126.png]]
 PSI = Port SPI.
 USART 0 = Port Série.
-Convertisseur analogique numérique A/D
+Convertisseur analogique numérique A/D, numérique analogique
 TImer tempo 8 bit TX2  16bit TX
 Chien de garde (watchdog)
+
 ## 4. Langage de programmation
 
+Langage machine, code en binaire utilisé directement par la machine.
+§ Attention les codes des machines ne sont pas fixes.
+quand un code est rentré dans une puce, il n'est pas envoyé en binaire mais en hexadécimal ( c'est pour ça que les codes en bits sont séparés par 4)car2^4 = 16.
+LSb et MSb à définir.
+C -> langage binaire -> langage machine
+
+UAL et ALU connaitre les deux termes et définitions unité arithmétique et logique, calculatrice basique en gros.
+Calcul de deux nombres par 2.
+
+port : i2c 2pin pour pour l'alim, un pin pour l'horloge et un pin pour le data
+ = def d'un bus.
+ Le timer définie le nombre de "places", il se décrémente (pas compris)
+ !attention gigaoctet(1000 octets) differrent de gibyoctet (1024 octets)
+ 
+ La mémoire programme est stockée dans une mémoire Flash. Celle -ci peut êre Reprogrammée 10000 fois, La mémoire est de 32kBytes instructions.
+ Le compteur de programme est un registre contenant l'addresse de l'instruction suivante à executer.
+ La mémoire RAMest constituée de 2k octest. Cette mémoire contient des registres permettant de configurer les ports d'entrées/sorties. Le registre d'état, etc...
+ Cettte mémoire s'efface lors d'un coupure de l'alimentation.
+ La mémoire EEPROM est constituée de 64 octet. C'est une mémoire ROM Effaçablle électrquemet. Celle -ci permet de stocker des données.
+ Le registre d'état est un registre contenant l'état d'une opération ( résultat nul, avec retenue,...)
+ Le timer est un élément permettant de générer un signal ou une interruption lorsqu'une réselection est atteinte. on s'en sert pour du comptage ou des temporisations.
+ L'ALU: unité arithmétique et logique est l'élément qui comme son nom l'indique Permet d'effectuer les calculs arithmétiques (addition, soustraction) et logique ( ou, et, ...)
+ Le chien de garde(watchdog) est un dispositif servant à contrôler le bon fonctionnement d'un programme. S'il est activé, il permet, en cas de plantage du prgramme de réinitialiser automatiquement le miicrocontroler
+ L'entrée Quartz permet d''accueillir le signal d'horloge nécessaire au fonctionnement du microcontrôleur.
+ On connecte sur ce pattes, un quartz, composant permettant de générer un signal d'horloge de très grande précision +/-20 ppm (ppm = part per million) cela signifie que l'erreur est de 1.7s par jour ou 10 minutes par an.
+ Il existe différents langages de programmation. Par défaut, le seul langage compréhensible par le comoposant est le langage machine: il est constitué d'une suite de 0 et de 1
 
 
 ---
