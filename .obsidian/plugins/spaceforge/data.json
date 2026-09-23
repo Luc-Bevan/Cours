@@ -44,8 +44,8 @@
     "mcqTimeDeductionSeconds": 90,
     "mcqDifficulty": "advanced",
     "mcqDeductFullMarkOnFirstFailure": true,
-    "mcqBasicSystemPrompt": "Tu es un expert pédagogique chargé de créer des questions à choix multiples (QCM) rigoureuses pour évaluer une compréhension approfondie du contenu fourni.\n\nOBJECTIF PRINCIPAL : L'exactitude prime sur tout le reste. Une question mal formulée, une mauvaise réponse marquée comme correcte, ou plusieurs réponses vraies dans les choix, est pire que pas de question du tout.\n\nSTRUCTURE OBLIGATOIRE :\n- Chaque question doit avoir exactement 5 propositions (A, B, C, D, E).\n- UNE SEULE proposition doit être correcte. Les 4 autres doivent être indiscutablement fausses.\n- Ne jamais présenter plusieurs affirmations vraies comme des choix séparés : si deux propositions sont toutes les deux vraies, la question est invalide et doit être reformulée.\n- Chaque proposition doit être une phrase complète et autonome, sans troncature, sans symbole de formatage non fermé (pas de **, _, ou balises Markdown incomplètes). Vérifie que chaque option a un contenu textuel réel avant de la finaliser.\n\nMÉTHODE DE TRAVAIL :\n1. Identifie dans le contenu source le passage exact qui justifie la réponse correcte.\n2. Rédige la question et les 5 choix de réponse.\n3. Vérifie chaque distracteur (les 4 mauvaises réponses) : il doit être plausible (erreur fréquente, confusion classique, nuance proche) mais objectivement et indiscutablement faux.\n4. Relis l'ensemble des 5 propositions et demande-toi : \"Est-ce qu'une seule est vraie, sans ambiguïté ?\" Si deux propositions pourraient être considérées vraies, ou si une proposition est incomplète/vide, corrige avant de continuer.\n5. Ne génère jamais de question dont tu n'es pas certain à 100% de la réponse à partir du contenu fourni. En cas de doute, privilégie une question plus simple mais fiable plutôt qu'une question ambiguë.\n\nCONSIGNES DE CONTENU :\n- Teste la compréhension, l'application et l'analyse — pas seulement la mémorisation brute.\n- N'invente aucune information absente du contenu source ; base-toi uniquement sur ce qui est fourni.\n- Si le contenu source est insuffisant pour créer une question fiable et complète à 5 propositions sur un point donné, ignore ce point plutôt que de forcer une question incomplète.\n\nFORMAT DE SORTIE :\n- Marque la réponse correcte avec [CORRECT] à la fin de la ligne correspondante.\n- Chaque proposition tient sur son format final, sans troncature ni caractères de mise en forme cassés.\n- Ajoute une brève justification (1 phrase) citant ou référençant le passage du contenu qui confirme la réponse correcte.\n- Avant de produire la sortie finale, relis-la une dernière fois pour vérifier : 5 propositions présentes et complètes, une seule marquée [CORRECT], aucune autre proposition n'étant vraie.",
-    "mcqAdvancedSystemPrompt": "Tu es un expert pédagogique chargé de créer des questions à choix multiples (QCM) rigoureuses pour évaluer une compréhension approfondie du contenu fourni.\n\nOBJECTIF PRINCIPAL : L'exactitude prime sur tout le reste. Une question mal formulée, une mauvaise réponse marquée comme correcte, ou plusieurs réponses vraies dans les choix, est pire que pas de question du tout.\n\nSTRUCTURE OBLIGATOIRE :\n- Chaque question doit avoir exactement 5 propositions (A, B, C, D, E).\n- UNE SEULE proposition doit être correcte. Les 4 autres doivent être indiscutablement fausses.\n- Ne jamais présenter plusieurs affirmations vraies comme des choix séparés : si deux propositions sont toutes les deux vraies, la question est invalide et doit être reformulée.\n- Chaque proposition doit être une phrase complète et autonome, sans troncature, sans symbole de formatage non fermé (pas de **, _, ou balises Markdown incomplètes). Vérifie que chaque option a un contenu textuel réel avant de la finaliser.\n\nMÉTHODE DE TRAVAIL :\n1. Identifie dans le contenu source le passage exact qui justifie la réponse correcte.\n2. Rédige la question et les 5 choix de réponse.\n3. Vérifie chaque distracteur (les 4 mauvaises réponses) : il doit être plausible (erreur fréquente, confusion classique, nuance proche) mais objectivement et indiscutablement faux.\n4. Relis l'ensemble des 5 propositions et demande-toi : \"Est-ce qu'une seule est vraie, sans ambiguïté ?\" Si deux propositions pourraient être considérées vraies, ou si une proposition est incomplète/vide, corrige avant de continuer.\n5. Ne génère jamais de question dont tu n'es pas certain à 100% de la réponse à partir du contenu fourni. En cas de doute, privilégie une question plus simple mais fiable plutôt qu'une question ambiguë.\n\nCONSIGNES DE CONTENU :\n- Teste la compréhension, l'application et l'analyse — pas seulement la mémorisation brute.\n- N'invente aucune information absente du contenu source ; base-toi uniquement sur ce qui est fourni.\n- Si le contenu source est insuffisant pour créer une question fiable et complète à 5 propositions sur un point donné, ignore ce point plutôt que de forcer une question incomplète.\n\nFORMAT DE SORTIE :\n- Marque la réponse correcte avec [CORRECT] à la fin de la ligne correspondante.\n- Chaque proposition tient sur son format final, sans troncature ni caractères de mise en forme cassés.\n- Ajoute une brève justification (1 phrase) citant ou référençant le passage du contenu qui confirme la réponse correcte.\n- Avant de produire la sortie finale, relis-la une dernière fois pour vérifier : 5 propositions présentes et complètes, une seule marquée [CORRECT], aucune autre proposition n'étant vraie.",
+    "mcqBasicSystemPrompt": "Tu es un expert pédagogique chargé de créer des QCM rigoureux. Ta priorité absolue n'est PAS la créativité ou la rapidité, mais l'EXACTITUDE et la FIABILITÉ FORMELLE. Une seule erreur (contenu ou format) rend la question inutilisable.\n\nPROCESSUS OBLIGATOIRE EN 2 PHASES — tu dois réellement exécuter ce travail, pas seulement l'annoncer :\n\n═══ PHASE 1 : BROUILLON (travail interne, non affiché) ═══\nPour chaque question :\n1. Cite mentalement le passage exact du contenu source qui justifie la réponse correcte.\n2. Rédige la question + 5 propositions (A-E), une seule vraie.\n3. Pour CHACUNE des 4 propositions fausses, formule explicitement pourquoi elle est fausse (pas juste \"c'est différent\" — précise l'erreur factuelle exacte).\n\n═══ PHASE 2 : AUDIT (obligatoire avant de livrer quoi que ce soit) ═══\nRelis ton brouillon ligne par ligne et réponds toi-même à ces questions, en te comportant comme un correcteur externe sévère, pas comme l'auteur :\n\n- INTÉGRITÉ FORMELLE : chaque proposition a-t-elle un texte complet, réel, sans troncature ni symbole cassé (**, _, balises non fermées) ? → Si une seule proposition est vide ou tronquée, la question entière est rejetée et réécrite.\n- UNICITÉ DE LA VÉRITÉ : en isolant chaque proposition et en la jugeant seule, indépendamment des autres, est-elle vraie ou fausse ? Compte combien sont vraies. Si le compte ≠ 1, rejette et corrige.\n- SOLIDITÉ DES DISTRACTEURS : un expert du domaine pourrait-il défendre une des 4 mauvaises réponses avec un argument valable ? Si oui pour au moins une, cette proposition est trop ambiguë → reformule-la pour qu'elle soit fausse sans contestation possible.\n- ANCRAGE SOURCE : la réponse correcte est-elle explicitement vérifiable dans le contenu fourni, sans extrapolation ni connaissance externe ajoutée ? Si tu as dû compléter avec tes propres connaissances au-delà du texte fourni, signale-le ou écarte la question.\n- NIVEAU COGNITIF : la question teste-t-elle la compréhension/application/analyse, ou juste le rappel d'une phrase du texte ? Si c'est du pur rappel, reformule pour exiger un raisonnement.\n\nSi UNE SEULE de ces 5 vérifications échoue → tu ne livres pas la question. Tu la corriges et tu refais l'audit. Tu ne passes à la question suivante qu'une fois l'audit intégralement validé.\n\nRÈGLE DE DERNIER RECOURS : si après 2 tentatives de correction une question reste bancale, abandonne-la et remplace-la par une question plus simple mais sur laquelle aucun doute n'est possible. Une question facile et juste vaut mieux qu'une question intéressante mais fragile.\n\nFORMAT DE SORTIE (uniquement une fois l'audit validé) :\n- 5 propositions (A-E), textes complets, aucun formatage cassé.\n- Réponse correcte marquée [CORRECT] en fin de ligne.\n- 1 phrase de justification par question, citant le passage source précis.\n- Aucune mention du processus de brouillon/audit dans la sortie finale — seul le résultat propre apparaît.",
+    "mcqAdvancedSystemPrompt": "Tu es un expert pédagogique chargé de créer des QCM rigoureux. Ta priorité absolue n'est PAS la créativité ou la rapidité, mais l'EXACTITUDE et la FIABILITÉ FORMELLE. Une seule erreur (contenu ou format) rend la question inutilisable.\n\nPROCESSUS OBLIGATOIRE EN 2 PHASES — tu dois réellement exécuter ce travail, pas seulement l'annoncer :\n\n═══ PHASE 1 : BROUILLON (travail interne, non affiché) ═══\nPour chaque question :\n1. Cite mentalement le passage exact du contenu source qui justifie la réponse correcte.\n2. Rédige la question + 5 propositions (A-E), une seule vraie.\n3. Pour CHACUNE des 4 propositions fausses, formule explicitement pourquoi elle est fausse (pas juste \"c'est différent\" — précise l'erreur factuelle exacte).\n\n═══ PHASE 2 : AUDIT (obligatoire avant de livrer quoi que ce soit) ═══\nRelis ton brouillon ligne par ligne et réponds toi-même à ces questions, en te comportant comme un correcteur externe sévère, pas comme l'auteur :\n\n- INTÉGRITÉ FORMELLE : chaque proposition a-t-elle un texte complet, réel, sans troncature ni symbole cassé (**, _, balises non fermées) ? → Si une seule proposition est vide ou tronquée, la question entière est rejetée et réécrite.\n- UNICITÉ DE LA VÉRITÉ : en isolant chaque proposition et en la jugeant seule, indépendamment des autres, est-elle vraie ou fausse ? Compte combien sont vraies. Si le compte ≠ 1, rejette et corrige.\n- SOLIDITÉ DES DISTRACTEURS : un expert du domaine pourrait-il défendre une des 4 mauvaises réponses avec un argument valable ? Si oui pour au moins une, cette proposition est trop ambiguë → reformule-la pour qu'elle soit fausse sans contestation possible.\n- ANCRAGE SOURCE : la réponse correcte est-elle explicitement vérifiable dans le contenu fourni, sans extrapolation ni connaissance externe ajoutée ? Si tu as dû compléter avec tes propres connaissances au-delà du texte fourni, signale-le ou écarte la question.\n- NIVEAU COGNITIF : la question teste-t-elle la compréhension/application/analyse, ou juste le rappel d'une phrase du texte ? Si c'est du pur rappel, reformule pour exiger un raisonnement.\n\nSi UNE SEULE de ces 5 vérifications échoue → tu ne livres pas la question. Tu la corriges et tu refais l'audit. Tu ne passes à la question suivante qu'une fois l'audit intégralement validé.\n\nRÈGLE DE DERNIER RECOURS : si après 2 tentatives de correction une question reste bancale, abandonne-la et remplace-la par une question plus simple mais sur laquelle aucun doute n'est possible. Une question facile et juste vaut mieux qu'une question intéressante mais fragile.\n\nFORMAT DE SORTIE (uniquement une fois l'audit validé) :\n- 5 propositions (A-E), textes complets, aucun formatage cassé.\n- Réponse correcte marquée [CORRECT] en fin de ligne.\n- 1 phrase de justification par question, citant le passage source précis.\n- Aucune mention du processus de brouillon/audit dans la sortie finale — seul le résultat propre apparaît.",
     "pomodoroEnabled": true,
     "pomodoroSoundEnabled": false,
     "pomodoroWorkDuration": 25,
@@ -1002,6 +1002,365 @@
           }
         ],
         "generatedAt": 1790157290637
+      },
+      "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md_1790157491594": {
+        "notePath": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+        "questions": [
+          {
+            "question": "Convertir les valeurs binaires suivantes en notation décimale (détailler le calcul)",
+            "choices": [
+              "11001100 : 204",
+              "10101010 : 170",
+              "11001100 : 204",
+              "11100011 : 227",
+              "10110011 : 179"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Convertir les valeurs décimales suivantes en binaire (8 bits) (détailler la méthode)",
+            "choices": [
+              "48 : 00110000",
+              "48 : 00110000",
+              "222 : 11011110",
+              "119 : 01110111",
+              "135 : 10000111"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Convertir les adresses IP suivantes en binaire",
+            "choices": [
+              "145.32.59.24 :  10010001.00100000.00111011.00011000",
+              "200.42.129.16 : 11001000.00101010.10000001.00010000",
+              "14.82.19.54 : 00001110.01010010.00010011.00011110"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Trouver la classe des adresses IP suivantes (donner la méthode)",
+            "choices": [
+              "10000000.00001010.11011000.00100111 : Classe B",
+              "11101101.10000011.00001110.01011111 : Classe D",
+              "01001010.00011011.10001111.00010010 : Classe A",
+              "11001001.11011110.01000011.01110101 : Classe C"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Écrire la classe des adresses suivantes et justifier",
+            "choices": [
+              "118.89.67.234 : Classe B",
+              "199.254.250.223 : Classe C",
+              "223.25.191.75 : Classe C",
+              "10.20.30.40 : Réservé"
+            ],
+            "correctAnswerIndex": 3
+          },
+          {
+            "question": "Pour chaque adresse, entourer la partie demandée (réseau ou hôte) et donner le masque de sous-réseau",
+            "choices": [
+              "| Partie réseau       | Masque de sous-réseau | Partie hôte         | Masque de sous-réseau |",
+              "102.45.177    | 255.0.0.0             | 196.22.177==.13==   | 221.252==.77.10==   | 255.255.255.0         |"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Exercice",
+            "choices": [
+              "| Classe | Bits fixes | Bits réseau | Réseaux utilisables | Bits machine | Machines utilisables |",
+              "| A | `0` | 7 | 2⁷−2 = **126** | 24 | 2²⁴−2 = **16 777 214** |"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Remplir le tableau (le masque est celui associé à la classe)",
+            "choices": [
+              "| Adresse IP      | Valide (Oui/Non) | Adresse réseau |",
+              "| 191.168.1.1     | Oui              | 191.168.0.0    |"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Indiquer si les adresses suivantes sont valides ou non pour un hôte TCP/IP",
+            "choices": [
+              "| Adresse IP      | Classe | Valide (Oui/Non) | Explication                                            |",
+              "| 123.123.123.123 | A      | Oui              | rien de spécial                                        |"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Convertir les valeurs binaires suivantes en notation décimale (détailler le calcul)",
+            "choices": [
+              "11001100 : 204",
+              "10101010 : 170",
+              "11001100 : 204",
+              "11100011 : 227"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Convertir les valeurs décimales suivantes en binaire (8 bits) (détailler la méthode)",
+            "choices": [
+              "48 : 00110000",
+              "48 : 00110000",
+              "222 : 11011110",
+              "119 : 01110111"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Convertir les adresses IP suivantes en binaire",
+            "choices": [
+              "145.32.59.24 :  10010001.00100000.00111011.00011000",
+              "200.42.129.16 : 11001000.00101010.10000001.00010000"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Trouver la classe des adresses IP suivantes (donner la méthode)",
+            "choices": [
+              "10000000.00001010.11011000.00100111 : Classe B",
+              "11101101.10000011.00001110.01011111 : Classe D"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Écrire la classe des adresses suivantes et justifier",
+            "choices": [
+              "118.89.67.234 : Classe B",
+              "199.254.250.223 : Classe C",
+              "223.25.191.75 : Classe C",
+              "10.20.30.40 : Réservé"
+            ],
+            "correctAnswerIndex": 3
+          },
+          {
+            "question": "Pour chaque adresse, entourer la partie demandée (réseau ou hôte) et donner le masque de sous-réseau",
+            "choices": [
+              "| Partie réseau       | Masque de sous-réseau | Partie hôte         | Masque de sous-réseau |",
+              "102.45.177    | 255.0.0.0             | 196.22.177==.13==   | 221.252==.77.10==   | 255.255.255.0         |"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Exercice",
+            "choices": [
+              "| Classe | Bits fixes | Bits réseau | Réseaux utilisables | Bits machine | Machines utilisables |",
+              "| A | `0` | 7 | 2⁷−2 = **126** | 24 | 2²⁴−2 = **16 777 214** |"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Remplir le tableau (le masque est celui associé à la classe)",
+            "choices": [
+              "| Adresse IP      | Valide (Oui/Non) | Adresse réseau |",
+              "| 191.168.1.1     | Oui              | 191.168.0.0    |"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Indiquer si les adresses suivantes sont valides ou non pour un hôte TCP/IP",
+            "choices": [
+              "| Adresse IP      | Classe | Valide (Oui/Non) | Explication                                            |",
+              "| 123.123.123.123 | A      | Oui              | rien de spécial                                        |"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Convertir les valeurs binaires suivantes en notation décimale (détailler le calcul)",
+            "choices": [
+              "11001100 : 204",
+              "10101010 : 170",
+              "11001100 : 204",
+              "11100011 : 227"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Convertir les valeurs décimales suivantes en binaire (8 bits) (détailler la méthode)",
+            "choices": [
+              "48 : 00110000",
+              "48 : 00110000",
+              "222 : 11011110",
+              "119 : 01110111"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Convertir les adresses IP suivantes en binaire",
+            "choices": [
+              "145.32.59.24 :  10010001.00100000.00111011.00011000",
+              "200.42.129.16 : 11001000.00101010.10000001.00010000"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Trouver la classe des adresses IP suivantes (donner la méthode)",
+            "choices": [
+              "10000000.00001010.11011000.00100111 : Classe B",
+              "11101101.10000011.00001110.01011111 : Classe D"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Écrire la classe des adresses suivantes et justifier",
+            "choices": [
+              "118.89.67.234 : Classe B",
+              "199.254.250.223 : Classe C",
+              "223.25.191.75 : Classe C",
+              "10.20.30.40 : Réservé"
+            ],
+            "correctAnswerIndex": 3
+          },
+          {
+            "question": "Pour chaque adresse, entourer la partie demandée (réseau ou hôte) et donner le masque de sous-réseau",
+            "choices": [
+              "| Partie réseau       | Masque de sous-réseau | Partie hôte         | Masque de sous-réseau |",
+              "102.45.177    | 255.0.0.0             | 196.22.177==.13==   | 221.252==.77.10==   | 255.255.255.0         |"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Exercice",
+            "choices": [
+              "| Classe | Bits fixes | Bits réseau | Réseaux utilisables | Bits machine | Machines utilisables |",
+              "| A | `0` | 7 | 2⁷−2 = **126** | 24 | 2²⁴−2 = **16 777 214** |"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Remplir le tableau (le masque est celui associé à la classe)",
+            "choices": [
+              "| Adresse IP      | Valide (Oui/Non) | Adresse réseau |",
+              "| 191.168.1.1     | Oui              | 191.168.0.0    |"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Indiquer si les adresses suivantes sont valides ou non pour un hôte TCP/IP",
+            "choices": [
+              "| Adresse IP      | Classe | Valide (Oui/Non) | Explication                                            |",
+              "| 123.123.123.123 | A      | Oui              | rien de spécial                                        |"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Convertir les valeurs binaires suivantes en notation décimale (détailler le calcul)",
+            "choices": [
+              "11001100 : 204",
+              "10101010 : 170",
+              "11001100 : 204",
+              "11100011 : 227"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Convertir les valeurs décimales suivantes en binaire (8 bits) (détailler la méthode)",
+            "choices": [
+              "48 : 00110000",
+              "48 : 00110000",
+              "222 : 11011110",
+              "119 : 01110111"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Convertir les adresses IP suivantes en binaire",
+            "choices": [
+              "145.32.59.24 :  10010001.00100000.00111011.00011000",
+              "200.42.129.16 : 11001000.00101010.10000001.00010000"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Trouver la classe des adresses IP suivantes (donner la méthode)",
+            "choices": [
+              "10000000.00001010.11011000.00100111 : Classe B",
+              "11101101.10000011.00001110.01011111 : Classe D"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Écrire la classe des adresses suivantes et justifier",
+            "choices": [
+              "118.89.67.234 : Classe B",
+              "199.254.250.223 : Classe C",
+              "223.25.191.75 : Classe C",
+              "10.20.30.40 : Réservé"
+            ],
+            "correctAnswerIndex": 3
+          },
+          {
+            "question": "Pour chaque adresse, entourer la partie demandée (réseau ou hôte) et donner le masque de sous-réseau",
+            "choices": [
+              "| Partie réseau       | Masque de sous-réseau | Partie hôte         | Masque de sous-réseau |",
+              "102.45.177    | 255.0.0.0             | 196.22.177==.13==   | 221.252==.77.10==   | 255.255.255.0         |"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Exercice",
+            "choices": [
+              "| Classe | Bits fixes | Bits réseau | Réseaux utilisables | Bits machine | Machines utilisables |",
+              "| A | `0` | 7 | 2⁷−2 = **126** | 24 | 2²⁴−2 = **16 777 214** |"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Remplir le tableau (le masque est celui associé à la classe)",
+            "choices": [
+              "| Adresse IP      | Valide (Oui/Non) | Adresse réseau |",
+              "| 191.168.1.1     | Oui              | 191.168.0.0    |"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Indiquer si les adresses suivantes sont valides ou non pour un hôte TCP/IP",
+            "choices": [
+              "| Adresse IP      | Classe | Valide (Oui/Non) | Explication                                            |",
+              "| 123.123.123.123 | A      | Oui              | rien de spécial                                        |"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Convertir les valeurs binaires suivantes en notation décimale (détailler le calcul)",
+            "choices": [
+              "11001100 : 204",
+              "10101010 : 170",
+              "11001100 : 204",
+              "11100011 : 227"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Convertir les valeurs décimales suivantes en binaire (8 bits) (détailler la méthode)",
+            "choices": [
+              "48 : 00110000",
+              "48 : 00110000",
+              "222 : 11011110",
+              "119 : 01110111"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Convertir les adresses IP suivantes en binaire",
+            "choices": [
+              "145.32.59.24 :  10010001.00100000.00111011.00011000",
+              "200.42.129.16 : 11001000.00101010.10000001.00010000"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Trouver la classe des adresses IP suivantes (donner la méthode)",
+            "choices": [
+              "10000000.00001010.11011000.00100111 : Classe B",
+              "11101101.10000011.00001110.01011111 : Classe D"
+            ],
+            "correctAnswerIndex": 0
+          }
+        ],
+        "generatedAt": 1790157491594
       }
     },
     "mcqSessions": {
@@ -1051,6 +1410,45 @@
           "completed": false,
           "startedAt": 1790155956512,
           "completedAt": 1790156219618
+        },
+        {
+          "mcqSetId": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md_1790157491594",
+          "notePath": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+          "answers": [
+            {
+              "questionIndex": 0,
+              "selectedAnswerIndex": 2,
+              "correct": true,
+              "timeToAnswer": 31.643,
+              "attempts": 2
+            },
+            {
+              "questionIndex": 1,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 23.375,
+              "attempts": 4
+            },
+            {
+              "questionIndex": 2,
+              "selectedAnswerIndex": 0,
+              "correct": true,
+              "timeToAnswer": 15.627,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 3,
+              "selectedAnswerIndex": 0,
+              "correct": true,
+              "timeToAnswer": 15.678,
+              "attempts": 4
+            }
+          ],
+          "score": 0.025,
+          "currentQuestionIndex": 4,
+          "completed": false,
+          "startedAt": 1790157491632,
+          "completedAt": 1790157590760
         }
       ],
       "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md": [
