@@ -94,7 +94,7 @@ TImer tempo 8 bit TX2  16bit TX
 Chien de garde (watchdog)
 ## 4. Langage de programmation
 
-*(à compléter)*
+
 
 ---
 
