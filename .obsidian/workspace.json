@@ -393,7 +393,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.12/Cours/R1.12 (Neijar).md",
+                "file": "2026-2027/R1/R1.12/Cours/R1.12 (Nabih Nejjar).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -408,7 +408,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "R1.12 (Neijar)"
+              "title": "R1.12 (Nabih Nejjar)"
+            }
+          },
+          {
+            "id": "fc703f0bf1ca00b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TP1 (azzouni soumaya)"
             }
           },
           {
@@ -422,7 +446,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -442,7 +466,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false,
+                "autoReveal": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -525,7 +549,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "f84b71a3f552b5ac",
@@ -537,7 +561,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.12/Cours/R1.12 (Neijar).md",
+                "file": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -599,7 +623,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
+                "file": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -612,7 +636,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 421.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -632,10 +656,16 @@
       "spaceforge:Spaceforge review": false
     }
   },
-  "active": "b519e5bf6354f570",
+  "active": "fc703f0bf1ca00b8",
   "lastOpenFiles": [
+    "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+    "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
+    "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+    "2026-2027/R1/R1.12/Cours/R1.12 (Nabih Nejjar).md",
+    "2026-2027/R1/R1.01/R1.01.md",
+    "2026-2027/R1/R1.12/R1.12.md",
+    "2026-2027/R1/R1.11/R1.11.md",
     "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
-    "2026-2027/R1/R1.12/Cours/R1.12 (Neijar).md",
     "2026-2027/R1/R1.12/Docs",
     "2026-2027/R1/R1.12/Cours",
     "2026-2027/R1/R1.12",
@@ -658,21 +688,15 @@
     "Tableau Ressources.md",
     "2026-2027/R1/R1.07/Cours/TD1",
     "2026-2027/R1/R1.14/R1.14.md",
-    "2026-2027/R1/R1.11/R1.11.md",
     "2026-2027/R1/R1.08/R1.08.md",
     "2026-2027/R1/R1.07/R1.07.md",
     "2026-2027/R1/R1.06/R1.06.md",
     "2026-2027/R1/R1.05/R1.05.md",
-    "2026-2027/R1/R1.01/R1.01.md",
     "2026-2027/R1/R1.04/R1.04.md",
-    "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
     "2026-2027/R1/R1.07/Docs/TD1 (1).pdf",
     "Reminder.md",
     "README.md",
     "2026-2027/R1/R1.07/Docs/R107.pdf",
-    "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
-    "R1.10.md",
-    "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
     "2026-2027/R1/R1.01/R1.01b/Docs/Initiation aux réseaux dentreprise Partie 1 (1).pdf",
     "2026-2027/R1/R1.01/R1.01b/Docs/Initiation aux réseaux dentreprise Partie 2 (1).pdf",
     "Sans titre.canvas",

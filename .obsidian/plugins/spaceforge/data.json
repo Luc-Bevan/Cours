@@ -9,7 +9,7 @@
     "notifyBeforeDue": 120,
     "includeSubfolders": true,
     "readingSpeed": 100,
-    "sidebarViewType": "calendar",
+    "sidebarViewType": "list",
     "useInitialSchedule": true,
     "initialScheduleCustomIntervals": [
       0,
@@ -24,8 +24,8 @@
     "openRouterModel": "openai/gpt-4.1-mini",
     "openaiApiKey": "",
     "openaiModel": "gpt-3.5-turbo",
-    "ollamaApiUrl": "",
-    "ollamaModel": "",
+    "ollamaApiUrl": "http://localhost:11434/",
+    "ollamaModel": "llama3.2:3b",
     "geminiApiKey": "",
     "geminiModel": "gemini-pro",
     "claudeApiKey": "",
@@ -38,24 +38,24 @@
     "mcqPromptType": "detailed",
     "mcqQuestionsPerNote": 4,
     "mcqChoicesPerQuestion": 5,
-    "mcqQuestionAmountMode": "fixed",
-    "mcqWordsPerQuestion": 100,
+    "mcqQuestionAmountMode": "wordsPerQuestion",
+    "mcqWordsPerQuestion": 20,
     "mcqTimeDeductionAmount": 0.5,
     "mcqTimeDeductionSeconds": 90,
     "mcqDifficulty": "advanced",
     "mcqDeductFullMarkOnFirstFailure": true,
-    "mcqBasicSystemPrompt": "You are a tutor who creates clear, straightforward multiple-choice questions to test basic understanding of the given content. Focus on key concepts and important facts. Make questions simple and direct, with one clearly correct answer. Always mark the correct answer with [CORRECT] at the end of the line.",
-    "mcqAdvancedSystemPrompt": "You are an expert tutor who creates challenging but fair multiple-choice questions to test deep understanding of the given content. Generate questions that assess comprehension, application, and analysis, not just memorization. Make incorrect choices plausible to encourage critical thinking. Always mark the correct answer with [CORRECT] at the end of the line.",
+    "mcqBasicSystemPrompt": "Tu es un expert pédagogique chargé de créer des questions à choix multiples (QCM) rigoureuses pour évaluer une compréhension approfondie du contenu fourni.\n\nOBJECTIF PRINCIPAL : L'exactitude prime sur tout le reste. Une question mal formulée, une mauvaise réponse marquée comme correcte, ou plusieurs réponses vraies dans les choix, est pire que pas de question du tout.\n\nSTRUCTURE OBLIGATOIRE :\n- Chaque question doit avoir exactement 5 propositions (A, B, C, D, E).\n- UNE SEULE proposition doit être correcte. Les 4 autres doivent être indiscutablement fausses.\n- Ne jamais présenter plusieurs affirmations vraies comme des choix séparés : si deux propositions sont toutes les deux vraies, la question est invalide et doit être reformulée.\n- Chaque proposition doit être une phrase complète et autonome, sans troncature, sans symbole de formatage non fermé (pas de **, _, ou balises Markdown incomplètes). Vérifie que chaque option a un contenu textuel réel avant de la finaliser.\n\nMÉTHODE DE TRAVAIL :\n1. Identifie dans le contenu source le passage exact qui justifie la réponse correcte.\n2. Rédige la question et les 5 choix de réponse.\n3. Vérifie chaque distracteur (les 4 mauvaises réponses) : il doit être plausible (erreur fréquente, confusion classique, nuance proche) mais objectivement et indiscutablement faux.\n4. Relis l'ensemble des 5 propositions et demande-toi : \"Est-ce qu'une seule est vraie, sans ambiguïté ?\" Si deux propositions pourraient être considérées vraies, ou si une proposition est incomplète/vide, corrige avant de continuer.\n5. Ne génère jamais de question dont tu n'es pas certain à 100% de la réponse à partir du contenu fourni. En cas de doute, privilégie une question plus simple mais fiable plutôt qu'une question ambiguë.\n\nCONSIGNES DE CONTENU :\n- Teste la compréhension, l'application et l'analyse — pas seulement la mémorisation brute.\n- N'invente aucune information absente du contenu source ; base-toi uniquement sur ce qui est fourni.\n- Si le contenu source est insuffisant pour créer une question fiable et complète à 5 propositions sur un point donné, ignore ce point plutôt que de forcer une question incomplète.\n\nFORMAT DE SORTIE :\n- Marque la réponse correcte avec [CORRECT] à la fin de la ligne correspondante.\n- Chaque proposition tient sur son format final, sans troncature ni caractères de mise en forme cassés.\n- Ajoute une brève justification (1 phrase) citant ou référençant le passage du contenu qui confirme la réponse correcte.\n- Avant de produire la sortie finale, relis-la une dernière fois pour vérifier : 5 propositions présentes et complètes, une seule marquée [CORRECT], aucune autre proposition n'étant vraie.",
+    "mcqAdvancedSystemPrompt": "Tu es un expert pédagogique chargé de créer des questions à choix multiples (QCM) rigoureuses pour évaluer une compréhension approfondie du contenu fourni.\n\nOBJECTIF PRINCIPAL : L'exactitude prime sur tout le reste. Une question mal formulée, une mauvaise réponse marquée comme correcte, ou plusieurs réponses vraies dans les choix, est pire que pas de question du tout.\n\nSTRUCTURE OBLIGATOIRE :\n- Chaque question doit avoir exactement 5 propositions (A, B, C, D, E).\n- UNE SEULE proposition doit être correcte. Les 4 autres doivent être indiscutablement fausses.\n- Ne jamais présenter plusieurs affirmations vraies comme des choix séparés : si deux propositions sont toutes les deux vraies, la question est invalide et doit être reformulée.\n- Chaque proposition doit être une phrase complète et autonome, sans troncature, sans symbole de formatage non fermé (pas de **, _, ou balises Markdown incomplètes). Vérifie que chaque option a un contenu textuel réel avant de la finaliser.\n\nMÉTHODE DE TRAVAIL :\n1. Identifie dans le contenu source le passage exact qui justifie la réponse correcte.\n2. Rédige la question et les 5 choix de réponse.\n3. Vérifie chaque distracteur (les 4 mauvaises réponses) : il doit être plausible (erreur fréquente, confusion classique, nuance proche) mais objectivement et indiscutablement faux.\n4. Relis l'ensemble des 5 propositions et demande-toi : \"Est-ce qu'une seule est vraie, sans ambiguïté ?\" Si deux propositions pourraient être considérées vraies, ou si une proposition est incomplète/vide, corrige avant de continuer.\n5. Ne génère jamais de question dont tu n'es pas certain à 100% de la réponse à partir du contenu fourni. En cas de doute, privilégie une question plus simple mais fiable plutôt qu'une question ambiguë.\n\nCONSIGNES DE CONTENU :\n- Teste la compréhension, l'application et l'analyse — pas seulement la mémorisation brute.\n- N'invente aucune information absente du contenu source ; base-toi uniquement sur ce qui est fourni.\n- Si le contenu source est insuffisant pour créer une question fiable et complète à 5 propositions sur un point donné, ignore ce point plutôt que de forcer une question incomplète.\n\nFORMAT DE SORTIE :\n- Marque la réponse correcte avec [CORRECT] à la fin de la ligne correspondante.\n- Chaque proposition tient sur son format final, sans troncature ni caractères de mise en forme cassés.\n- Ajoute une brève justification (1 phrase) citant ou référençant le passage du contenu qui confirme la réponse correcte.\n- Avant de produire la sortie finale, relis-la une dernière fois pour vérifier : 5 propositions présentes et complètes, une seule marquée [CORRECT], aucune autre proposition n'étant vraie.",
     "pomodoroEnabled": true,
-    "pomodoroSoundEnabled": true,
+    "pomodoroSoundEnabled": false,
     "pomodoroWorkDuration": 25,
     "pomodoroShortBreakDuration": 5,
     "pomodoroLongBreakDuration": 15,
     "pomodoroSessionsUntilLongBreak": 4,
     "enableQuestionRegenerationOnRating": true,
-    "minSm2RatingForQuestionRegeneration": 4,
-    "minFsrsRatingForQuestionRegeneration": 3,
-    "defaultSchedulingAlgorithm": "fsrs",
+    "minSm2RatingForQuestionRegeneration": 5,
+    "minFsrsRatingForQuestionRegeneration": 4,
+    "defaultSchedulingAlgorithm": "sm2",
     "fsrsParameters": {
       "request_retention": 0.9,
       "maximum_interval": 36500,
@@ -99,24 +99,1097 @@
     "defaultRecurrenceInterval": 7
   },
   "pluginState": {
-    "schedules": {},
+    "schedules": {
+      "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md": {
+        "path": "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
+        "lastReviewDate": null,
+        "nextReviewDate": 1790121600000,
+        "ease": 250,
+        "interval": 0,
+        "consecutive": 0,
+        "reviewCount": 0,
+        "repetitionCount": 0,
+        "scheduleCategory": "initial",
+        "schedulingAlgorithm": "sm2"
+      },
+      "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md": {
+        "path": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+        "lastReviewDate": null,
+        "nextReviewDate": 1790121600000,
+        "ease": 250,
+        "interval": 0,
+        "consecutive": 0,
+        "reviewCount": 0,
+        "repetitionCount": 0,
+        "scheduleCategory": "initial",
+        "schedulingAlgorithm": "sm2"
+      },
+      "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md": {
+        "path": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+        "lastReviewDate": null,
+        "nextReviewDate": 1790121600000,
+        "ease": 250,
+        "interval": 0,
+        "consecutive": 0,
+        "reviewCount": 0,
+        "repetitionCount": 0,
+        "scheduleCategory": "initial",
+        "schedulingAlgorithm": "sm2"
+      },
+      "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md": {
+        "path": "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
+        "lastReviewDate": null,
+        "nextReviewDate": 1790121600000,
+        "ease": 250,
+        "interval": 0,
+        "consecutive": 0,
+        "reviewCount": 0,
+        "repetitionCount": 0,
+        "scheduleCategory": "initial",
+        "schedulingAlgorithm": "sm2"
+      },
+      "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md": {
+        "path": "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
+        "lastReviewDate": null,
+        "nextReviewDate": 1790121600000,
+        "ease": 250,
+        "interval": 0,
+        "consecutive": 0,
+        "reviewCount": 0,
+        "repetitionCount": 0,
+        "scheduleCategory": "initial",
+        "schedulingAlgorithm": "sm2"
+      },
+      "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md": {
+        "path": "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
+        "lastReviewDate": null,
+        "nextReviewDate": 1790121600000,
+        "ease": 250,
+        "interval": 0,
+        "consecutive": 0,
+        "reviewCount": 0,
+        "repetitionCount": 0,
+        "scheduleCategory": "initial",
+        "schedulingAlgorithm": "sm2"
+      },
+      "2026-2027/R1/R1.07/Cours/TD1/TD1.1 (Laurent Nils).md": {
+        "path": "2026-2027/R1/R1.07/Cours/TD1/TD1.1 (Laurent Nils).md",
+        "lastReviewDate": null,
+        "nextReviewDate": 1790121600000,
+        "ease": 250,
+        "interval": 0,
+        "consecutive": 0,
+        "reviewCount": 0,
+        "repetitionCount": 0,
+        "scheduleCategory": "initial",
+        "schedulingAlgorithm": "sm2"
+      },
+      "2026-2027/R1/R1.07/Cours/TD1/TD1.2 (Laurent Nils).md": {
+        "path": "2026-2027/R1/R1.07/Cours/TD1/TD1.2 (Laurent Nils).md",
+        "lastReviewDate": null,
+        "nextReviewDate": 1790121600000,
+        "ease": 250,
+        "interval": 0,
+        "consecutive": 0,
+        "reviewCount": 0,
+        "repetitionCount": 0,
+        "scheduleCategory": "initial",
+        "schedulingAlgorithm": "sm2"
+      },
+      "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md": {
+        "path": "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
+        "lastReviewDate": null,
+        "nextReviewDate": 1790121600000,
+        "ease": 250,
+        "interval": 0,
+        "consecutive": 0,
+        "reviewCount": 0,
+        "repetitionCount": 0,
+        "scheduleCategory": "initial",
+        "schedulingAlgorithm": "sm2"
+      },
+      "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md": {
+        "path": "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
+        "lastReviewDate": null,
+        "nextReviewDate": 1790121600000,
+        "ease": 250,
+        "interval": 0,
+        "consecutive": 0,
+        "reviewCount": 0,
+        "repetitionCount": 0,
+        "scheduleCategory": "initial",
+        "schedulingAlgorithm": "sm2"
+      },
+      "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md": {
+        "path": "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
+        "lastReviewDate": null,
+        "nextReviewDate": 1790121600000,
+        "ease": 250,
+        "interval": 0,
+        "consecutive": 0,
+        "reviewCount": 0,
+        "repetitionCount": 0,
+        "scheduleCategory": "initial",
+        "schedulingAlgorithm": "sm2"
+      },
+      "2026-2027/R1/R1.08/Cours/TP2 (Martini Pierre).md": {
+        "path": "2026-2027/R1/R1.08/Cours/TP2 (Martini Pierre).md",
+        "lastReviewDate": null,
+        "nextReviewDate": 1790121600000,
+        "ease": 250,
+        "interval": 0,
+        "consecutive": 0,
+        "reviewCount": 0,
+        "repetitionCount": 0,
+        "scheduleCategory": "initial",
+        "schedulingAlgorithm": "sm2"
+      },
+      "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md": {
+        "path": "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
+        "lastReviewDate": null,
+        "nextReviewDate": 1790121600000,
+        "ease": 250,
+        "interval": 0,
+        "consecutive": 0,
+        "reviewCount": 0,
+        "repetitionCount": 0,
+        "scheduleCategory": "initial",
+        "schedulingAlgorithm": "sm2"
+      },
+      "2026-2027/R1/R1.12/Cours/R1.12 (Nabih Nejjar).md": {
+        "path": "2026-2027/R1/R1.12/Cours/R1.12 (Nabih Nejjar).md",
+        "lastReviewDate": null,
+        "nextReviewDate": 1790121600000,
+        "ease": 250,
+        "interval": 0,
+        "consecutive": 0,
+        "reviewCount": 0,
+        "repetitionCount": 0,
+        "scheduleCategory": "initial",
+        "schedulingAlgorithm": "sm2"
+      },
+      "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md": {
+        "path": "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md",
+        "lastReviewDate": null,
+        "nextReviewDate": 1790121600000,
+        "ease": 250,
+        "interval": 0,
+        "consecutive": 0,
+        "reviewCount": 0,
+        "repetitionCount": 0,
+        "scheduleCategory": "initial",
+        "schedulingAlgorithm": "sm2"
+      }
+    },
     "history": [],
     "reviewSessions": {
       "sessions": {},
       "activeSessionId": null
     },
-    "mcqSets": {},
-    "mcqSessions": {},
-    "customNoteOrder": [],
+    "mcqSets": {
+      "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md_1790155941546": {
+        "notePath": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+        "questions": [
+          {
+            "question": "What is the binary representation of the decimal value 204?",
+            "choices": [
+              "11010000",
+              "11001100",
+              "10101010",
+              "11100011",
+              "00110101"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Convert the decimal value 48 to binary (8 bits).",
+            "choices": [
+              "00010000",
+              "00110000",
+              "01101000",
+              "11011110",
+              "10000111"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "What is the binary representation of the IP address 145.32.59.24?",
+            "choices": [
+              "10010001.00010000.00111011.00011000",
+              "11001000.00101010.10000001.00010000",
+              "00001110.01010010.00010011.00011110"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "What is the class of the IP address 10000000.00001010.11011000.00100111?",
+            "choices": [
+              "Classe B",
+              "Classe D",
+              "Classe A",
+              "Classe C",
+              "Classe B"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Which of the following IP addresses is not a valid host address for TCP/IP?",
+            "choices": [
+              "123.123.123.123",
+              "245.12.33.102",
+              "199.23.107.255",
+              "156.266.12.103"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "What is the binary representation of the IP address 200.42.129.16?",
+            "choices": [
+              "11001000.00101010.10000001.00010000",
+              "00001110.01010010.00010011.00011110",
+              "10010001.00010000.00111011.00011000"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "What is the class of the IP address 118.89.67.234?",
+            "choices": [
+              "Classe A",
+              "Classe C",
+              "Réservé",
+              "Classe B",
+              "Classe C"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "What is the binary representation of the decimal value 48 in hexadecimal notation (4 bits)?",
+            "choices": [
+              "00110000",
+              "01101000",
+              "11011110",
+              "10000111",
+              "00110101"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "What is the binary representation of the IP address 14.82.19.54?",
+            "choices": [
+              "00001110.01010010.00010011.00011110",
+              "11001000.00101010.10000001.00010000",
+              "10010001.00010000.00111011.00011000"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "What is the class of the IP address 172.32.14.172?",
+            "choices": [
+              "Classe A",
+              "Classe C",
+              "Réservé",
+              "Classe B",
+              "Classe B",
+              "... (the rest of the questions will be provided in a similar format)",
+              "Note: I've only provided 10 questions here, and there are 54 questions in total. Let me know if you want me to generate the rest!"
+            ],
+            "correctAnswerIndex": 0
+          }
+        ],
+        "generatedAt": 1790155941546
+      },
+      "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md_1790157043298": {
+        "notePath": "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
+        "questions": [
+          {
+            "question": "Couche 2 (Internet Protocol) et transmission aux couches supérieures**",
+            "choices": [
+              "- Le protocole IP utilise des adresses IP pour acheminer les datagrammes entre les machines.",
+              "- L'admission de paquets est gérée par la couche 3 (réseau), qui choisit le chemin d'origine.",
+              "- Le trafic UDP n'est pas renouvelé, il n'y a pas d'accusé de réception, ce qui en fait un service non fiable.",
+              "**"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Architecture Client-Serveur**",
+            "choices": [
+              "- La communication réseau se fait via les interfaces utilisateur (présentation), logique de traitement (métier) et gestion des données (stockage, base de données).",
+              "- Le client et le serveur sont connectés via un socket qui échange des messages pour définir une session.",
+              "**"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "DNS (Domain Name System)**",
+            "choices": [
+              "- Le système DNS traduit les noms de domaine lisibles en adresses IP utilisables par les machines.",
+              "- DNS utilise UDP (port 53) pour la majorité des requêtes classiques, et TCP pour les transferts de zone volumineuses.",
+              "**"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Commandes de configuration réseau**",
+            "choices": [
+              "- Les commandes de configuration réseau pour Windows sont `ipconfig /all`, et pour Linux, `ip -a`.",
+              "- Ces commandes affichent l'IP de la machine ainsi que la passerelle par défaut, les adresses DNS configurées, etc.",
+              "**"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Protocole TCP**",
+            "choices": [
+              "- Le protocole TCP établit des connexions préalables entre deux machines pour garantir une transmission fiable.",
+              "- TCP utilise un mécanisme de renouvellement (positive acknowledgement with retransmission) pour résoudre les problèmes d'accusé de réception.",
+              "**"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Protocole UDP**",
+            "choices": [
+              "- Le protocole UDP n'établit pas de connexions préalables, et ne garantit pas la livraison des données.",
+              "- Les applications qui utilisent UDP comme TCP doivent gérer l'éventualité que des messages ne soient jamais reçus.",
+              "**"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Avantages et Inconvénients du client-serveur**",
+            "choices": [
+              "- Le client-serveur offre une architecture scalable, fiable et centrale pour les requêtes.",
+              "- Cependant, il est sensible aux défaillances du serveur principal, et nécessite un système de sauvegarde.",
+              "**"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Références complémentaires**",
+            "choices": [
+              "- Les tables de répartition des adresses IP et des ports de service peuvent être consultées sur le site internet de l'IANA.",
+              "- L'article de Wikipedia sur les protocoles réseau TCP et UDP fournissent une vue d'ensemble générale des deux.",
+              "**"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Liens supplémentaires**",
+            "choices": [
+              "- Le site internet de l'IANA (Internet Assigned Numbers Authority) propose une liste complète des codes de nombres et d'adresses IP.",
+              "- La page Wikipedia sur les protocoles réseau offre une vue d'ensemble des principes généraux du networking.",
+              "**Vérification**",
+              "*   Les informations présentées dans cette note sont exactement celles mentionnées dans votre question, adaptées au format demandé.",
+              "*   La révision de ces points pour garantir la précision des informations et compléments si nécessaires est recommandée."
+            ],
+            "correctAnswerIndex": 0
+          }
+        ],
+        "generatedAt": 1790157043298
+      },
+      "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md_1790157290637": {
+        "notePath": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+        "questions": [
+          {
+            "question": "Quelle est la valeur moyenne de la résistance du corps humain ?",
+            "choices": [
+              "500 ohms",
+              "1000-2000 ohms",
+              "5000 ohms",
+              "10 000 ohms",
+              "50 000 ohms"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Qu'est-ce que la bonne façon de se décharger d'une charge statique ?",
+            "choices": [
+              "En touchant un ami ou un animal",
+              "En utilisant un appareil électronique",
+              "En touchant la broche de terre des prises",
+              "En plongeant la main dans l'eau",
+              "En faisant une saute"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quel est le risque principal associé à la résistance du corps humain ?",
+            "choices": [
+              "Devenir électricité statique",
+              "Tomber sur un objet tranchant",
+              "Recevoir une décharge électrique",
+              "Devenir aveugle",
+              "Devenir sourd",
+              "**Section 2 : Info flash : PoE (Power over Ethernet)**"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Qu'est-ce qu'une alimentation par câble réseau ?",
+            "choices": [
+              "Fournir de l'énergie électrique à un appareil",
+              "Envoi de données via Internet",
+              "Télévision sans fil",
+              "Radio",
+              "Réseau GPS"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Pourquoi est-ce nécessaire d'avoir un switch PoE ou un routeur/injecteur PoE ?",
+            "choices": [
+              "Pour améliorer la vitesse du réseau",
+              "Pour réduire les coûts de connexion",
+              "Pour augmenter la puissance des appareils",
+              "Pour éliminer le câble",
+              "Pour améliorer la sécurité",
+              "**Section 3 : Gravité des risques électriques**"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la mortalité moyenne pour chaque type d'accident du travail ?",
+            "choices": [
+              "1 mort pour 1000 arrêts de travail",
+              "1 mort pour 1237 arrêts de travail",
+              "1 mort pour 86 arrêts de travail (seulement pour les risques électriques)",
+              "1 mort pour 500 arrêts de travail",
+              "1 mort pour 10 000 arrêts de travail"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Qu'est-ce qui montre que les risques électriques sont plus graves que la moyenne des accidents du travail ?",
+            "choices": [
+              "Un nombre élevé d'accidents",
+              "Une faible mortalité",
+              "Un grand nombre d'arrêts de travail",
+              "Une faible perte financière",
+              "Une augmentation de la vitesse",
+              "**Section 4 : Répartition des causes d'accidents**"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel pourcentage de risques électriques est dû à une défaillance matérielle ?",
+            "choices": [
+              "5 %",
+              "10 %",
+              "20 %",
+              "50 %",
+              "80 %"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel pourcentage de risques électriques est dû à une omission d'étape ou procédure inexacte ?",
+            "choices": [
+              "15 %",
+              "10 %",
+              "5 %",
+              "20 %",
+              "30 %",
+              "**Section 5 : Analyse du risque électrique**"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Qu'est-ce que l'évènement déclencheur est ?",
+            "choices": [
+              "La gravité du dommage",
+              "La probabilité d'apparition de l'évènement",
+              "L'analyse du risque",
+              "Le type de dommage",
+              "La zone affectée"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Qu'est-ce que le dommage est ?",
+            "choices": [
+              "Un évènement déclencheur",
+              "La probabilité d'apparition de l'évènement",
+              "L'analyse du risque",
+              "Le type de dommage",
+              "La zone affectée",
+              "**Section 6 : Ouvrage vs installation**"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Qu'est-ce qu'un ouvrage est ?",
+            "choices": [
+              "Tout le reste que ce n'est pas un réseau public",
+              "Un réseau public",
+              "Une entreprise privée",
+              "Un pays",
+              "Un continent"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Qu'est-ce qu'une installation est ?",
+            "choices": [
+              "Un réseau public",
+              "Tout le reste que ce n'est pas un réseau public",
+              "Une entreprise privée",
+              "Un pays",
+              "Un continent",
+              "**Section 7 : Types de résultats d'un danger**"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quel type de résultat est le plus grave ?",
+            "choices": [
+              "Blessure superficielle sans arrêt",
+              "Blessure grave avec arrêt de travail",
+              "Blessure avec séquelle",
+              "Décès",
+              "Chirurgie"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Qu'est-ce qui est considéré comme un résultat grave ?",
+            "choices": [
+              "Un arrêt de travail",
+              "Une blessure superficielle",
+              "Une blessure grave",
+              "Un décès",
+              "Une chirurgie",
+              "**Section 8 : Processus d'apparition d'un dommage**"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Comment se produit un contact avec une pièce nue sous tension ?",
+            "choices": [
+              "En tirant sur un câble",
+              "En travailler à proximité de pièces nues sous tension",
+              "En toucher une masse métallique",
+              "En utiliser un appareil électronique",
+              "En faire une saute"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Qu'est-ce qui apparaît entre nos deux pieds lorsqu'un courant intense circule dans le sol ?",
+            "choices": [
+              "Une tension de pas",
+              "Un Amorçage",
+              "Un évènement déclencheur",
+              "Un dommage",
+              "Une gravité",
+              "**Section 9 : Contacts directs et indirects**"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Qu'est-ce qu'un contact direct est ?",
+            "choices": [
+              "Contact avec une pièce normalement sous tension",
+              "Contact avec une masse métallique",
+              "Contact avec un appareil électronique",
+              "Contact avec un ami ou un animal",
+              "Faire une saute"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Qu'est-ce qu'un contact indirect est ?",
+            "choices": [
+              "Contact avec une pièce normalement sous tension",
+              "Contact avec une masse métallique qui n'est pas censée être sous tension",
+              "Contact avec un ami ou un animal",
+              "Faire une saute",
+              "Utiliser un appareil électronique"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quel pourcentage des incidents mortels sont dus à des contacts directs ?",
+            "choices": [
+              "80 %",
+              "70 %",
+              "60 %",
+              "50 %",
+              "40 %"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Qu'est-ce qui est rarement associé aux contacts indirects ?",
+            "choices": [
+              "Des incidents mortels",
+              "Des arrêts de travail",
+              "Des blessures superficielles",
+              "Des chirurgies",
+              "Des décès",
+              "**Section 10 : Amorçage et tension de pas**"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Qu'est-ce qui survient lorsque la distance diminue dans un câble électrique ?",
+            "choices": [
+              "Un Amorçage",
+              "Une foudre",
+              "Un évènement déclencheur",
+              "Un dommage",
+              "Une gravité"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Qu'est-ce qui apparaît entre nos deux pieds lorsqu'un courant intense circule dans le sol ?",
+            "choices": [
+              "Un Amorçage",
+              "Une tension de pas",
+              "Un évènement déclencheur",
+              "Un dommage",
+              "Une gravité"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Qu'est-ce qui est associé à une foudre dans le sol ?",
+            "choices": [
+              "Une tension de pas",
+              "Un Amorçage",
+              "Un évènement déclencheur",
+              "Un dommage",
+              "Une gravité",
+              "**Section 11 : Points à vérifier avec le support de cours original**"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quelle est la valeur exacte de la résistance du corps humain donnée en cours ?",
+            "choices": [
+              "500 ohms",
+              "1000-2000 ohms",
+              "5000 ohms",
+              "10 000 ohms",
+              "50 000 ohms"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Qu'est-ce qui suit la phrase sur l'analyse du risque électrique dans les notes de cours ?",
+            "choices": [
+              "Un tableau des causes et des effets",
+              "Une liste des types de dommages",
+              "Une description des types d'évènement déclencheur",
+              "Une liste des types d'amorçage",
+              "Une liste des types de tension"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quel est le contenu du cours précédent à insérer en haut de la note ?",
+            "choices": [
+              "Un tableau des causes et des effets",
+              "Une liste des types de dommages",
+              "Une description des types d'évènement déclencheur",
+              "Une liste des types d'amorçage",
+              "Une liste des types de tension"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quelle est la source exacte des statistiques ?",
+            "choices": [
+              "Un article scientifique",
+              "Un rapport gouvernemental",
+              "Un livre sur les risques électriques",
+              "Un site web généraliste",
+              "Une encyclopédie"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quel est le pourcentage de risques électriques qui sont dûs à une défaillance matérielle ?",
+            "choices": [
+              "10 %",
+              "20 %",
+              "30 %",
+              "40 %",
+              "50 %"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quel est le pourcentage de risques électriques qui sont dûs à une omission d'étape ou procédure inexacte ?",
+            "choices": [
+              "15 %",
+              "10 %",
+              "5 %",
+              "20 %",
+              "30 %",
+              "**Section 12 : Analyse du risque électrique**"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Qu'est-ce que l'analyse du risque électrique est ?",
+            "choices": [
+              "La détection des causes d'évènement déclencheur",
+              "Le type de dommage",
+              "L'évènement déclencheur",
+              "La zone affectée",
+              "La gravité"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Qu'est-ce que la probabilité d'apparition de l'évènement est ?",
+            "choices": [
+              "La gravité du dommage",
+              "Le type de dommage",
+              "L'évènement déclencheur",
+              "La zone affectée",
+              "La tension"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Qu'est-ce que la gravité du dommage est ?",
+            "choices": [
+              "Une probabilité d'apparition de l'évènement",
+              "Le type de dommage",
+              "L'évènement déclencheur",
+              "La zone affectée",
+              "La tension"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Qu'est-ce que la zone affectée est ?",
+            "choices": [
+              "Une probabilité d'apparition de l'évènement",
+              "Le type de dommage",
+              "L'évènement déclencheur",
+              "La gravité du dommage",
+              "La tension"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Qu'est-ce que la tension est ?",
+            "choices": [
+              "Une probabilité d'apparition de l'évènement",
+              "Le type de dommage",
+              "L'évènement déclencheur",
+              "La zone affectée",
+              "La gravité du dommage",
+              "**Section 13 : Ouvrage vs installation**"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Qu'est-ce qu'un ouvrage est ?",
+            "choices": [
+              "Tout le reste que ce n'est pas un réseau public",
+              "Un réseau public",
+              "Une entreprise privée",
+              "Un pays",
+              "Un continent"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Qu'est-ce qu'une installation est ?",
+            "choices": [
+              "Un réseau public",
+              "Tout le reste que ce n'est pas un réseau public",
+              "Une entreprise privée",
+              "Un pays",
+              "Un continent"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quel est le type de document nécessaire pour les ouvrages et installations électriques ?",
+            "choices": [
+              "Un bilan financier",
+              "Un plan détaillé du réseau électrique",
+              "Une liste des matériaux utilisés",
+              "Un tableau des causes et des effets",
+              "Une liste des types de dommages"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quel est le risque principal associé à la construction d'un ouvrage électrique ?",
+            "choices": [
+              "La mort",
+              "Les blessures superficielles",
+              "Les arrêts de travail",
+              "Les pertes financières",
+              "L'environnement",
+              "**Section 14 : Types de résultats d'un danger**"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quel type de résultat est le plus grave ?",
+            "choices": [
+              "Blessure superficielle sans arrêt",
+              "Blessure grave avec arrêt de travail",
+              "Blessure avec séquelle",
+              "Décès",
+              "Chirurgie"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Qu'est-ce qui est considéré comme un résultat grave ?",
+            "choices": [
+              "Un arrêt de travail",
+              "Une blessure superficielle",
+              "Une blessure grave",
+              "Un décès",
+              "Une chirurgie"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quel est le type de document nécessaire pour les résultats d'un danger électrique ?",
+            "choices": [
+              "Un bilan financier",
+              "Un plan détaillé du réseau électrique",
+              "Une liste des matériaux utilisés",
+              "Un tableau des causes et des effets",
+              "Une liste des types de dommages"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quel est le risque principal associé à un résultat grave d'un danger électrique ?",
+            "choices": [
+              "La mort",
+              "Les blessures superficielles",
+              "Les arrêts de travail",
+              "Les pertes financières",
+              "L'environnement",
+              "**Section 15 : Processus d'apparition d'un dommage**"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Comment se produit un contact avec une pièce nue sous tension ?",
+            "choices": [
+              "En tirer sur un câble",
+              "En travailler à proximité de pièces nues sous tension",
+              "En toucher une masse métallique",
+              "En utiliser un appareil électronique",
+              "Faire une saute"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Qu'est-ce qui apparaît entre nos deux pieds lorsqu'un courant intense circule dans le sol ?",
+            "choices": [
+              "Une tension de pas",
+              "Un Amorçage",
+              "Un évènement déclencheur",
+              "Un dommage",
+              "La gravité"
+            ],
+            "correctAnswerIndex": 0
+          }
+        ],
+        "generatedAt": 1790157290637
+      }
+    },
+    "mcqSessions": {
+      "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md": [
+        {
+          "mcqSetId": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md_1790155941546",
+          "notePath": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+          "answers": [
+            {
+              "questionIndex": 0,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 34.812,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 1,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 22.707,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 2,
+              "selectedAnswerIndex": 0,
+              "correct": true,
+              "timeToAnswer": 43.989,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 3,
+              "selectedAnswerIndex": 0,
+              "correct": true,
+              "timeToAnswer": 16.446,
+              "attempts": 2
+            },
+            {
+              "questionIndex": 4,
+              "selectedAnswerIndex": 0,
+              "correct": true,
+              "timeToAnswer": 135.494,
+              "attempts": 4
+            }
+          ],
+          "score": 0.3,
+          "currentQuestionIndex": 5,
+          "completed": false,
+          "startedAt": 1790155956512,
+          "completedAt": 1790156219618
+        }
+      ],
+      "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md": [
+        {
+          "mcqSetId": "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md_1790157043298",
+          "notePath": "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
+          "answers": [
+            {
+              "questionIndex": 0,
+              "selectedAnswerIndex": 0,
+              "correct": true,
+              "timeToAnswer": 26.664,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 1,
+              "selectedAnswerIndex": 0,
+              "correct": true,
+              "timeToAnswer": 13.993,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 2,
+              "selectedAnswerIndex": 0,
+              "correct": true,
+              "timeToAnswer": 59.829,
+              "attempts": 2
+            },
+            {
+              "questionIndex": 3,
+              "selectedAnswerIndex": 0,
+              "correct": true,
+              "timeToAnswer": 2.893,
+              "attempts": 2
+            },
+            {
+              "questionIndex": 4,
+              "selectedAnswerIndex": 0,
+              "correct": true,
+              "timeToAnswer": 0.724,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 5,
+              "selectedAnswerIndex": 0,
+              "correct": true,
+              "timeToAnswer": 0.314,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 6,
+              "selectedAnswerIndex": 0,
+              "correct": true,
+              "timeToAnswer": 0.254,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 7,
+              "selectedAnswerIndex": 0,
+              "correct": true,
+              "timeToAnswer": 0.461,
+              "attempts": 1
+            }
+          ],
+          "score": 0.6666666666666666,
+          "currentQuestionIndex": 8,
+          "completed": false,
+          "startedAt": 1790157043300,
+          "completedAt": 1790157158014
+        }
+      ],
+      "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md": [
+        {
+          "mcqSetId": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md_1790157290637",
+          "notePath": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+          "answers": [
+            {
+              "questionIndex": 0,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 9.288,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 1,
+              "selectedAnswerIndex": 2,
+              "correct": true,
+              "timeToAnswer": 17.577,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 2,
+              "selectedAnswerIndex": 2,
+              "correct": true,
+              "timeToAnswer": 15.081,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 3,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 16.424,
+              "attempts": 2
+            }
+          ],
+          "score": 0.06666666666666667,
+          "currentQuestionIndex": 4,
+          "completed": false,
+          "startedAt": 1790157290907,
+          "completedAt": 1790157354636
+        }
+      ]
+    },
+    "customNoteOrder": [
+      "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
+      "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+      "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+      "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
+      "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
+      "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
+      "2026-2027/R1/R1.07/Cours/TD1/TD1.1 (Laurent Nils).md",
+      "2026-2027/R1/R1.07/Cours/TD1/TD1.2 (Laurent Nils).md",
+      "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
+      "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
+      "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
+      "2026-2027/R1/R1.08/Cours/TP2 (Martini Pierre).md",
+      "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
+      "2026-2027/R1/R1.12/Cours/R1.12 (Nabih Nejjar).md",
+      "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md"
+    ],
     "lastLinkAnalysisTimestamp": null,
-    "pomodoroCurrentMode": "idle",
-    "pomodoroTimeLeftInSeconds": 1500,
-    "pomodoroSessionsCompletedInCycle": 0,
+    "pomodoroCurrentMode": "longBreak",
+    "pomodoroTimeLeftInSeconds": 900,
+    "pomodoroSessionsCompletedInCycle": 4,
     "pomodoroIsRunning": false,
     "pomodoroEndTimeMs": null,
-    "pomodoroEstimatedTotalCycles": null,
-    "pomodoroEstimatedWorkSessions": null,
-    "pomodoroIsEstimationActive": false,
+    "pomodoroEstimatedTotalCycles": 2,
+    "pomodoroEstimatedWorkSessions": 5,
+    "pomodoroIsEstimationActive": true,
     "pomodoroUserHasModifiedSettings": false,
     "pomodoroUserOverrideHours": 0,
     "pomodoroUserOverrideMinutes": 0,
