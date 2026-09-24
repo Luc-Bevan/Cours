@@ -1361,6 +1361,22 @@
           }
         ],
         "generatedAt": 1790157491594
+      },
+      "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md_1790179077875": {
+        "notePath": "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
+        "questions": [
+          {
+            "question": "**Obfuscation detection**: Given its unusual appearance and formatting, there might be some sort of obfuscation technique used to hide the original content. I could try to detect such techniques.",
+            "choices": [
+              "Before proceeding, please specify which direction you'd like me to take with this string.",
+              "**UPDATE**",
+              "Given the random characters and formatting, it's likely that this is a **binary file dump** from a system or network. However, without knowing more context about where this data came from or what it represents, I'll need to make some educated guesses.",
+              "If you can provide more information about how you obtained this string or what you're trying to accomplish with it, I'd be happy to try and assist you further!"
+            ],
+            "correctAnswerIndex": 0
+          }
+        ],
+        "generatedAt": 1790179077875
       }
     },
     "mcqSessions": {
@@ -1559,6 +1575,26 @@
           "completed": false,
           "startedAt": 1790157290907,
           "completedAt": 1790157354636
+        }
+      ],
+      "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md": [
+        {
+          "mcqSetId": "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md_1790179077875",
+          "notePath": "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
+          "answers": [
+            {
+              "questionIndex": 0,
+              "selectedAnswerIndex": 0,
+              "correct": true,
+              "timeToAnswer": 15.45,
+              "attempts": 4
+            }
+          ],
+          "score": 0,
+          "currentQuestionIndex": 1,
+          "completed": true,
+          "startedAt": 1790179077878,
+          "completedAt": 1790179094341
         }
       ]
     },

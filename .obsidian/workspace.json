@@ -436,6 +436,66 @@
             }
           },
           {
+            "id": "9db06561ff6493d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.13/R1.13.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "R1.13"
+            }
+          },
+          {
+            "id": "3941799262004561",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.13/R1.13.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "R1.13"
+            }
+          },
+          {
+            "id": "1becc655ba3489e7",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-09-23 16.35.09.excalidraw"
+            }
+          },
+          {
             "id": "7167341b8747a040",
             "type": "leaf",
             "state": {
@@ -446,7 +506,7 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 21
       }
     ],
     "direction": "vertical"
@@ -561,7 +621,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+                "file": "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -653,14 +713,28 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "spaceforge:Spaceforge review": false
+      "spaceforge:Spaceforge review": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fc703f0bf1ca00b8",
+  "active": "1becc655ba3489e7",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+    "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
     "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
+    "2026-2027/R1/R1.13/Docs/1790175137205.jpg",
+    "1790175311968.jpg",
+    "1790175137205.jpg",
+    "2026-2027/R1/R1.13/Cours/R1.13(Yann).md",
+    "Excalidraw/Drawing 2026-09-23 16.34.47.excalidraw.md",
+    "Excalidraw",
+    "2026-2027/R1/R1.13/R1.13.md",
+    "2026-2027/R1/R1.04/R1.04.md",
     "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+    "Cours",
+    "2026-2027/R1/R1.13/Docs",
+    "2026-2027/R1/R1.13/Cours",
+    "2026-2027/R1/R1.13",
+    "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
     "2026-2027/R1/R1.12/Cours/R1.12 (Nabih Nejjar).md",
     "2026-2027/R1/R1.01/R1.01.md",
     "2026-2027/R1/R1.12/R1.12.md",
@@ -686,25 +760,11 @@
     "2026-2027/R1/R1.06/Docs/Pasted image 20260910083558.png",
     "Contacts Profs & Admin.md",
     "Tableau Ressources.md",
-    "2026-2027/R1/R1.07/Cours/TD1",
     "2026-2027/R1/R1.14/R1.14.md",
     "2026-2027/R1/R1.08/R1.08.md",
-    "2026-2027/R1/R1.07/R1.07.md",
-    "2026-2027/R1/R1.06/R1.06.md",
-    "2026-2027/R1/R1.05/R1.05.md",
-    "2026-2027/R1/R1.04/R1.04.md",
-    "2026-2027/R1/R1.07/Docs/TD1 (1).pdf",
-    "Reminder.md",
-    "README.md",
-    "2026-2027/R1/R1.07/Docs/R107.pdf",
-    "2026-2027/R1/R1.01/R1.01b/Docs/Initiation aux réseaux dentreprise Partie 1 (1).pdf",
-    "2026-2027/R1/R1.01/R1.01b/Docs/Initiation aux réseaux dentreprise Partie 2 (1).pdf",
     "Sans titre.canvas",
     "2026-2027/R1/R1.11/Docs/Pasted image 20260907104314.png",
     "2026-2027/R1/R1.04/Docs/Pasted image 20260908153126.png",
-    "2026-2027/R1/R1.04/Docs/Pasted image 20260908151417.png",
-    "2026-2027/R1/R1.01/R1.01b/Docs/1788938755927 1.jpg",
-    "1788938755927.jpg",
     "Existence/Sans titre.canvas"
   ]
 }
