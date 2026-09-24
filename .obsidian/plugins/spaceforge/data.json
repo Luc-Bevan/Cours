@@ -25,7 +25,7 @@
     "openaiApiKey": "",
     "openaiModel": "gpt-3.5-turbo",
     "ollamaApiUrl": "http://localhost:11434/",
-    "ollamaModel": "llama3.2:3b",
+    "ollamaModel": "qwen3:8b-q4_K_M",
     "geminiApiKey": "",
     "geminiModel": "gemini-pro",
     "claudeApiKey": "",
@@ -1377,6 +1377,179 @@
           }
         ],
         "generatedAt": 1790179077875
+      },
+      "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md_1790240692621": {
+        "notePath": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+        "questions": [
+          {
+            "question": "### **Questions sur l'adressage IP et les classes (A, B, C)**",
+            "choices": [
+              "---",
+              "#### **"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Conversion binaire-décimal et vice-versa**",
+            "choices": [
+              "**Question :**",
+              "Convertissez les adresses IP suivantes en notation décimale pointée (W.X.Y.Z) :",
+              "- `11000000 10101010 00000001 00000001`",
+              "- `00000001 00000001 00000001 00000001`",
+              "- `11111111 11111111 11111111 11111111`",
+              "**Réponse attendue :**",
+              "- `198.170.1.1`",
+              "- `1.1.1.1`",
+              "- `255.255.255.255`",
+              "---",
+              "#### **"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Classes d'adresses IP**",
+            "choices": [
+              "**Question :**",
+              "Identifiez la classe de chaque adresse IP suivante :",
+              "- `128.10.1.1`",
+              "- `192.168.1.1`",
+              "- `10.255.255.255`",
+              "- `224.0.0.1`",
+              "- `172.16.1.1`",
+              "**Réponse attendue :**",
+              "- **Classe B** (128-191)",
+              "- **Classe C** (192-223)",
+              "- **Classe A** (10.0.0.0/8)",
+              "- **Classe D** (multicast, 224-239)",
+              "- **Classe B** (172.16.0.0/12)",
+              "---",
+              "#### **"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Bits réseau et bits hôte**",
+            "choices": [
+              "**Question :**",
+              "Pour une adresse IP de classe B (`10.x.x.x`), combien de bits sont réservés au réseau et combien au hôte ?",
+              "**Réponse attendue :**",
+              "- **Bits réseau : 16**",
+              "- **Bits hôte : 16**",
+              "---",
+              "#### **"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Calcul de réseaux et machines utilisables**",
+            "choices": [
+              "**Question :**",
+              "Selon le tableau de la section 7, combien de réseaux utilisables existent pour la classe A, et combien de machines peuvent être configurées sur un réseau de classe C ?",
+              "**Réponse attendue :**",
+              "- **Réseaux utilisables (classe A) : 126**",
+              "- **Machines utilisables (classe C) : 254**",
+              "---",
+              "#### **"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Adresses invalides et raisons**",
+            "choices": [
+              "**Question :**",
+              "Pourquoi l'adresse `199.23.107.0` est-elle invalide ?",
+              "**Réponse attendue :**",
+              "- C'est une **adresse réseau** (dernier octet à 0), car le champ hôte est à"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "**Question :**",
+            "choices": [
+              "Pourquoi l'adresse `255.255.255.255` est-elle invalide ?",
+              "**Réponse attendue :**",
+              "- C'est une **adresse de diffusion** (broadcast) réservée.",
+              "---",
+              "#### **"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Adresses privées et publiques**",
+            "choices": [
+              "**Question :**",
+              "Les adresses suivantes sont-elles privées ou publiques ?",
+              "- `192.168.1.1`",
+              "- `8.8.8.8`",
+              "- `10.0.0.1`",
+              "- `172.16.254.1`",
+              "**Réponse attendue :**",
+              "- **Privée** (classe C)",
+              "- **Publique** (serveur DNS)",
+              "- **Privée** (classe A)",
+              "- **Privée** (classe B)",
+              "---",
+              "#### **"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Erreur dans le tableau de la section 7**",
+            "choices": [
+              "**Question :**",
+              "Pourquoi l'expression `255^n` est-elle incorrecte dans le tableau de la section 7 ?",
+              "**Réponse attendue :**",
+              "- Il faut utiliser **2^n** (nombre de combinaisons possibles) plutôt que 255^n, car chaque bit peut être 0 ou"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Adresses réservées**",
+            "choices": [
+              "**Question :**",
+              "Quelles adresses IP sont réservées et ne peuvent pas être utilisées comme adresses hôtes ?",
+              "**Réponse attendue :**",
+              "- **127.x.x.x** (loopback)",
+              "- **0.0.0.0** (adresse de réseau)",
+              "- **255.255.255.255** (broadcast)",
+              "- **169.254.x.x** (adresse privée non standard)",
+              "---",
+              "#### **"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Adresses de réseau et de diffusion**",
+            "choices": [
+              "**Question :**",
+              "Pour l'adresse `192.168.1.128` avec un masque de classe C (`255.255.255.0`), quelle est l'adresse de réseau et de diffusion ?",
+              "**Réponse attendue :**",
+              "- **Réseau :** `192.168.1.0`",
+              "- **Diffusion :** `192.168.1.255`",
+              "---",
+              "#### **"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Vérification de la validité d'une adresse**",
+            "choices": [
+              "**Question :**",
+              "L'adresse `156.266.12.103` est-elle valide ? Justifiez.",
+              "**Réponse attendue :**",
+              "- **Non** : Le deuxième octet (266) dépasse 255, ce qui rend l'adresse invalide.",
+              "---",
+              "### **Résumé des points clés**",
+              "- Les classes A, B, C définissent le nombre de bits réseau/hôte.",
+              "- Les adresses de réseau et de diffusion sont invalides pour les hôtes.",
+              "- Les adresses privées (10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16) ne sont pas routables.",
+              "- La formule correcte pour les réseaux/machines est **2^n**, pas **255^n**.",
+              "Ces questions testent la compréhension des bases de l'adressage IP et des règles de validité."
+            ],
+            "correctAnswerIndex": 9
+          }
+        ],
+        "generatedAt": 1790240692621
       }
     },
     "mcqSessions": {
@@ -1465,6 +1638,24 @@
           "completed": false,
           "startedAt": 1790157491632,
           "completedAt": 1790157590760
+        },
+        {
+          "mcqSetId": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md_1790240692621",
+          "notePath": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+          "answers": [
+            {
+              "questionIndex": 0,
+              "selectedAnswerIndex": 0,
+              "correct": true,
+              "timeToAnswer": 407.273,
+              "attempts": 2
+            }
+          ],
+          "score": 0,
+          "currentQuestionIndex": 1,
+          "completed": false,
+          "startedAt": 1790240692697,
+          "completedAt": 1790241119412
         }
       ],
       "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md": [
