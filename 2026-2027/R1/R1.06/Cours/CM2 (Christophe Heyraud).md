@@ -52,7 +52,7 @@ Chacune de ces pattes peut avoir **une ou plusieurs fonctions** :
 > [!info]
 > On parle de périphérique d'**entrée** ou de **sortie** lorsqu'il y a une majorité d'informations circulant dans un sens, même s'il y en a quelques-unes dans l'autre.
 
-
+!Attention! l'entrée d'un microprocesseur ne dois jamais être câblé en l'air. Il faut une résistance de PullDown (ou Pullup)
 ---
 
 ## 3. Structure d'un microcontrôleur

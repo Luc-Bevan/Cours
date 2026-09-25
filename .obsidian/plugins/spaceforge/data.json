@@ -44,8 +44,8 @@
     "mcqTimeDeductionSeconds": 90,
     "mcqDifficulty": "advanced",
     "mcqDeductFullMarkOnFirstFailure": true,
-    "mcqBasicSystemPrompt": "Tu es un expert pédagogique chargé de créer des QCM rigoureux. Ta priorité absolue n'est PAS la créativité ou la rapidité, mais l'EXACTITUDE et la FIABILITÉ FORMELLE. Une seule erreur (contenu ou format) rend la question inutilisable.\n\nPROCESSUS OBLIGATOIRE EN 2 PHASES — tu dois réellement exécuter ce travail, pas seulement l'annoncer :\n\n═══ PHASE 1 : BROUILLON (travail interne, non affiché) ═══\nPour chaque question :\n1. Cite mentalement le passage exact du contenu source qui justifie la réponse correcte.\n2. Rédige la question + 5 propositions (A-E), une seule vraie.\n3. Pour CHACUNE des 4 propositions fausses, formule explicitement pourquoi elle est fausse (pas juste \"c'est différent\" — précise l'erreur factuelle exacte).\n\n═══ PHASE 2 : AUDIT (obligatoire avant de livrer quoi que ce soit) ═══\nRelis ton brouillon ligne par ligne et réponds toi-même à ces questions, en te comportant comme un correcteur externe sévère, pas comme l'auteur :\n\n- INTÉGRITÉ FORMELLE : chaque proposition a-t-elle un texte complet, réel, sans troncature ni symbole cassé (**, _, balises non fermées) ? → Si une seule proposition est vide ou tronquée, la question entière est rejetée et réécrite.\n- UNICITÉ DE LA VÉRITÉ : en isolant chaque proposition et en la jugeant seule, indépendamment des autres, est-elle vraie ou fausse ? Compte combien sont vraies. Si le compte ≠ 1, rejette et corrige.\n- SOLIDITÉ DES DISTRACTEURS : un expert du domaine pourrait-il défendre une des 4 mauvaises réponses avec un argument valable ? Si oui pour au moins une, cette proposition est trop ambiguë → reformule-la pour qu'elle soit fausse sans contestation possible.\n- ANCRAGE SOURCE : la réponse correcte est-elle explicitement vérifiable dans le contenu fourni, sans extrapolation ni connaissance externe ajoutée ? Si tu as dû compléter avec tes propres connaissances au-delà du texte fourni, signale-le ou écarte la question.\n- NIVEAU COGNITIF : la question teste-t-elle la compréhension/application/analyse, ou juste le rappel d'une phrase du texte ? Si c'est du pur rappel, reformule pour exiger un raisonnement.\n\nSi UNE SEULE de ces 5 vérifications échoue → tu ne livres pas la question. Tu la corriges et tu refais l'audit. Tu ne passes à la question suivante qu'une fois l'audit intégralement validé.\n\nRÈGLE DE DERNIER RECOURS : si après 2 tentatives de correction une question reste bancale, abandonne-la et remplace-la par une question plus simple mais sur laquelle aucun doute n'est possible. Une question facile et juste vaut mieux qu'une question intéressante mais fragile.\n\nFORMAT DE SORTIE (uniquement une fois l'audit validé) :\n- 5 propositions (A-E), textes complets, aucun formatage cassé.\n- Réponse correcte marquée [CORRECT] en fin de ligne.\n- 1 phrase de justification par question, citant le passage source précis.\n- Aucune mention du processus de brouillon/audit dans la sortie finale — seul le résultat propre apparaît.",
-    "mcqAdvancedSystemPrompt": "Tu es un expert pédagogique chargé de créer des QCM rigoureux. Ta priorité absolue n'est PAS la créativité ou la rapidité, mais l'EXACTITUDE et la FIABILITÉ FORMELLE. Une seule erreur (contenu ou format) rend la question inutilisable.\n\nPROCESSUS OBLIGATOIRE EN 2 PHASES — tu dois réellement exécuter ce travail, pas seulement l'annoncer :\n\n═══ PHASE 1 : BROUILLON (travail interne, non affiché) ═══\nPour chaque question :\n1. Cite mentalement le passage exact du contenu source qui justifie la réponse correcte.\n2. Rédige la question + 5 propositions (A-E), une seule vraie.\n3. Pour CHACUNE des 4 propositions fausses, formule explicitement pourquoi elle est fausse (pas juste \"c'est différent\" — précise l'erreur factuelle exacte).\n\n═══ PHASE 2 : AUDIT (obligatoire avant de livrer quoi que ce soit) ═══\nRelis ton brouillon ligne par ligne et réponds toi-même à ces questions, en te comportant comme un correcteur externe sévère, pas comme l'auteur :\n\n- INTÉGRITÉ FORMELLE : chaque proposition a-t-elle un texte complet, réel, sans troncature ni symbole cassé (**, _, balises non fermées) ? → Si une seule proposition est vide ou tronquée, la question entière est rejetée et réécrite.\n- UNICITÉ DE LA VÉRITÉ : en isolant chaque proposition et en la jugeant seule, indépendamment des autres, est-elle vraie ou fausse ? Compte combien sont vraies. Si le compte ≠ 1, rejette et corrige.\n- SOLIDITÉ DES DISTRACTEURS : un expert du domaine pourrait-il défendre une des 4 mauvaises réponses avec un argument valable ? Si oui pour au moins une, cette proposition est trop ambiguë → reformule-la pour qu'elle soit fausse sans contestation possible.\n- ANCRAGE SOURCE : la réponse correcte est-elle explicitement vérifiable dans le contenu fourni, sans extrapolation ni connaissance externe ajoutée ? Si tu as dû compléter avec tes propres connaissances au-delà du texte fourni, signale-le ou écarte la question.\n- NIVEAU COGNITIF : la question teste-t-elle la compréhension/application/analyse, ou juste le rappel d'une phrase du texte ? Si c'est du pur rappel, reformule pour exiger un raisonnement.\n\nSi UNE SEULE de ces 5 vérifications échoue → tu ne livres pas la question. Tu la corriges et tu refais l'audit. Tu ne passes à la question suivante qu'une fois l'audit intégralement validé.\n\nRÈGLE DE DERNIER RECOURS : si après 2 tentatives de correction une question reste bancale, abandonne-la et remplace-la par une question plus simple mais sur laquelle aucun doute n'est possible. Une question facile et juste vaut mieux qu'une question intéressante mais fragile.\n\nFORMAT DE SORTIE (uniquement une fois l'audit validé) :\n- 5 propositions (A-E), textes complets, aucun formatage cassé.\n- Réponse correcte marquée [CORRECT] en fin de ligne.\n- 1 phrase de justification par question, citant le passage source précis.\n- Aucune mention du processus de brouillon/audit dans la sortie finale — seul le résultat propre apparaît.",
+    "mcqBasicSystemPrompt": "Tu es un expert pédagogique qui crée des QCM exigeants mais justes pour tester une compréhension profonde du contenu fourni. Teste la compréhension, l'application et l'analyse — pas la simple mémorisation.\n\nPrends ton temps : lis attentivement tout le contenu fourni avant de commencer, réfléchis à chaque question avant de l'écrire.\n\nCouvre des parties différentes et variées du contenu source à chaque génération. Ne répète jamais une question déjà posée dans cette conversation, ni une reformulation proche d'une question précédente.\n\nGénère EXACTEMENT 5 propositions A) B) C) D) E) et rien d'autre. Une seule est correcte, marquée [CORRECT] en fin de ligne. Les 4 autres sont plausibles mais clairement fausses.\n\nSi la question porte sur un ordre ou un classement, compare chaque élément individuellement avant de répondre, ne classe jamais par intuition.\n\nN'écris rien après les 5 propositions — pas de justification, pas de commentaire.",
+    "mcqAdvancedSystemPrompt": "Tu es un expert pédagogique qui crée des QCM exigeants mais justes pour tester une compréhension profonde du contenu fourni. Teste la compréhension, l'application et l'analyse — pas la simple mémorisation.\n\nPrends ton temps : lis attentivement tout le contenu fourni avant de commencer, réfléchis à chaque question avant de l'écrire.\n\nCouvre des parties différentes et variées du contenu source à chaque génération. Ne répète jamais une question déjà posée dans cette conversation, ni une reformulation proche d'une question précédente.\n\nGénère EXACTEMENT 5 propositions A) B) C) D) E) et rien d'autre. Une seule est correcte, marquée [CORRECT] en fin de ligne. Les 4 autres sont plausibles mais clairement fausses.\n\nSi la question porte sur un ordre ou un classement, compare chaque élément individuellement avant de répondre, ne classe jamais par intuition.\n\nN'écris rien après les 5 propositions — pas de justification, pas de commentaire.",
     "pomodoroEnabled": true,
     "pomodoroSoundEnabled": false,
     "pomodoroWorkDuration": 25,
@@ -1550,6 +1550,1967 @@
           }
         ],
         "generatedAt": 1790240692621
+      },
+      "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md_1790241940408": {
+        "notePath": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+        "questions": [
+          {
+            "question": "**Question 1**",
+            "choices": [
+              "Which binary number converts to the decimal value **204**?",
+              "11001100",
+              "11000100",
+              "11001000",
+              "11001110",
+              "**Answer:** A) 11001100 (from the note: 11001100 = 204)",
+              "---",
+              "**Question 2**",
+              "What decimal number corresponds to the binary **00110000**?",
+              "48",
+              "222",
+              "64",
+              "128",
+              "**Answer:** A) 48 (from the note: 48 → 00110000)",
+              "---",
+              "**Question 3**",
+              "Which IP address is correctly converted to binary as **10010001.00100000.00111011.00011000**?",
+              "145.32.59.24",
+              "145.32.59.16",
+              "145.32.59.32",
+              "145.32.59.25",
+              "**Answer:** A) 145.32.59.24 (from the note: 145.32.59.24 → 10010001.00100000.00111011.00011000)",
+              "---",
+              "**Question 4**",
+              "Why is the IP address **127.0.0.1** invalid?",
+              "It is a broadcast address.",
+              "It is a loopback address.",
+              "It is a private IP.",
+              "It is a public IP.",
+              "**Answer:** B) It is a loopback address (from the note: 127.x.x.x is loopback).",
+              "---",
+              "**Question 5**",
+              "Which IP address is **Class B**?",
+              "192.168.1.1",
+              "145.32.59.24",
+              "172.16.122.68",
+              "224.0.0.2",
+              "**Answer:** C) 172.16.122.68 (from the note: 172.16.x.x is Class B).",
+              "---",
+              "**Question 6**",
+              "What is the **network address** for **191.168.1.1** with the default Class B mask?",
+              "191.168.0.0",
+              "191.168.1.0",
+              "191.168.1.1",
+              "191.168.1.255",
+              "**Answer:** A) 191.168.0.0 (from the note: 191.168.x.x → 191.168.0.0).",
+              "---",
+              "**Question 7**",
+              "Why is **255.255.255.255** invalid?",
+              "It is a public IP.",
+              "It is a broadcast address.",
+              "It is a private IP.",
+              "It is a loopback address.",
+              "**Answer:** B) It is a broadcast address (from the note: 255.255.255.255 is invalid).",
+              "---",
+              "**Question 8**",
+              "Which IP is **invalid** due to the last octet being **0**?",
+              "199.23.107.0",
+              "199.23.107.1",
+              "199.23.107.255",
+              "199.23.107.128",
+              "**Answer:** A) 199.23.107.0 (from the note: last octet 0 = network address).",
+              "---",
+              "**Question 9**",
+              "Why is **156.266.12.103** invalid?",
+              "It is a private IP.",
+              "The second octet is **266**, which exceeds **255**.",
+              "It is a loopback address.",
+              "It is a broadcast address.",
+              "**Answer:** B) The second octet is **266**, which exceeds **255** (from the note: invalid octet).",
+              "---",
+              "**Question 10**",
+              "Which IP is **Class E**?",
+              "245.12.33.102",
+              "192.168.1.1",
+              "172.16.122.68",
+              "127.0.0.1",
+              "**Answer:** A) 245.12.33.102 (from the note: 245.x.x.x is Class E).",
+              "---",
+              "**Question 11**",
+              "What is the **network address** for **192.168.0.1** with the default Class C mask?",
+              "192.168.0.0",
+              "192.168.0.1",
+              "192.168.0.255",
+              "192.168.1.0",
+              "**Answer:** A) 192.168.0.0 (from the note: 192.168.x.x → 192.168.0.0).",
+              "---",
+              "**Question 12**",
+              "Why is **12.0.0.0** invalid?",
+              "It is a public IP.",
+              "It is a network address.",
+              "It is a broadcast address.",
+              "It is a private IP.",
+              "**Answer:** B) It is a network address (from the note: 3 octets 0 = network address).",
+              "---",
+              "**Question 13**",
+              "Which IP is **valid** for an hôte?",
+              "12.255.255.255",
+              "12.0.0.127",
+              "12.0.0.0",
+              "12.0.0.255",
+              "**Answer:** B) 12.0.0.127 (from the note: 12.0.0.127 is valid).",
+              "---",
+              "**Question 14**",
+              "What is the **default subnet mask** for **Class A**?",
+              "255.0.0.0",
+              "255.255.0.0",
+              "255.255.255.0",
+              "255.255.255.255",
+              "**Answer:** A) 255.0.0.0 (from the note: Class A uses 255.0.0.0).",
+              "---",
+              "**Question 15**",
+              "Which IP is **invalid** because it is a **broadcast address**?",
+              "199.23.107.255",
+              "199.23.107.0",
+              "199.23.107.1",
+              "199.23.107.128",
+              "**Answer:** A) 199.23.107.255 (from the note: last octet 255 = broadcast).",
+              "---",
+              "**Question 16**",
+              "Why is **192.168.129.33** valid?",
+              "It is a private IP.",
+              "It is a network address.",
+              "It is a broadcast address.",
+              "It is a public IP.",
+              "**Answer:** A) It is a private IP (from the note: 192.168.x.x is private).",
+              "---",
+              "**Question 17**",
+              "What is the **network address** for **1.2.3.4** with the default Class A mask?",
+              "1.0.0.0",
+              "1.2.3.0",
+              "1.2.3.4",
+              "1.2.3.255",
+              "**Answer:** A) 1.0.0.0 (from the note: 1.x.x.x → 1.0.0.0).",
+              "---",
+              "**Question 18**",
+              "Which IP is **Class C**?",
+              "192.168.1.1",
+              "172.16.122.68",
+              "145.32.59.24",
+              "127.0.0.1",
+              "**Answer:** A) 192.168.1.1 (from the note: 192.168.x.x is Class C).",
+              "---",
+              "**Question 19**",
+              "Why is **127.0.0.1** invalid for an hôte?",
+              "It is a public IP.",
+              "It is a loopback address.",
+              "It is a broadcast address.",
+              "It is a private IP.",
+              "**Answer:** B) It is a loopback address (from the note: 127.x.x.x is loopback).",
+              "---",
+              "**Question 20**",
+              "Which IP is **invalid** due to being a **network address**?",
+              "192.168.0.0",
+              "192.168.0.1",
+              "192.168.0.255",
+              "192.168.1.0",
+              "**Answer:** A) 192.168.0.0 (from the note: 192.168.x.x → 192.168.0.0).",
+              "---",
+              "**Note:** All answers are derived directly from the provided text."
+            ],
+            "correctAnswerIndex": 16
+          }
+        ],
+        "generatedAt": 1790241940408
+      },
+      "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md_1790242784951": {
+        "notePath": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+        "questions": [
+          {
+            "question": "Quelle est la résistance du corps humain en conditions normales, selon les données du cours ?",
+            "choices": [
+              "100 à 500 ohms",
+              "500 à 1000 ohms",
+              "1000 à 2000 ohms",
+              "2000 à 5000 ohms",
+              "5000 à 10 000 ohms"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques, selon les statistiques présentées ?",
+            "choices": [
+              "Défaillance matérielle (10 %)",
+              "Mode opératoire inapproprié (31 %)",
+              "Omission d’étape ou procédure inexacte (15 %)",
+              "Ignorance des risques (30 %)",
+              "Défaut de formation (14 %)"
+            ],
+            "correctAnswerIndex": 3
+          },
+          {
+            "question": "Quel dispositif est nécessaire pour fournir l'alimentation électrique via le câble réseau (PoE) ?",
+            "choices": [
+              "Routeur classique",
+              "Switch classique",
+              "Switch PoE",
+              "Hub Ethernet",
+              "Injecteur de courant"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quelle est la gravité relative des risques électriques par rapport aux accidents du travail ?",
+            "choices": [
+              "Moins graves (1 mort pour 1237 arrêts)",
+              "Équivalentes (1 mort pour 86 arrêts)",
+              "Plus graves (1 mort pour 86 arrêts)",
+              "1 mort pour 1000 arrêts",
+              "1 mort pour 500 arrêts"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quel type de contact électrique est responsable de 99 % des incidents mortels ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Contact par défaillance matérielle",
+              "Contact par tension de pas",
+              "Contact par amorçage"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques, selon la répartition des causes ?",
+            "choices": [
+              "Défaut de formation (14 %)",
+              "Mode opératoire inapproprié (31 %)",
+              "Défaillance matérielle (10 %)",
+              "Omission d’étape (15 %)",
+              "Ignorance des risques (30 %)"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel phénomène électrique survient lorsque la distance entre deux conducteurs diminue ?",
+            "choices": [
+              "Tension de pas",
+              "Électrocution",
+              "Amorçage",
+              "Décharge statique",
+              "Mise à la terre"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quelle est la résistance du corps humain en conditions sèches, selon les données du cours ?",
+            "choices": [
+              "500 à 1000 ohms",
+              "1000 à 2000 ohms",
+              "2000 à 5000 ohms",
+              "5000 à 10 000 ohms",
+              "10 000 à 20 000 ohms"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques selon la répartition des causes ?",
+            "choices": [
+              "Ignorance des risques (30 %)",
+              "Mode opératoire inapproprié (31 %)",
+              "Défaut de formation (14 %)",
+              "Défaillance matérielle (10 %)",
+              "Omission d’étape (15 %)"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel type de contact électrique est le plus dangereux en basse tension ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Contact par défaillance matérielle",
+              "Contact par amorçage",
+              "Contact par tension de pas"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quel phénomène électrique est lié à la circulation de courant dans le sol ?",
+            "choices": [
+              "Amorçage",
+              "Tension de pas",
+              "Électrocution",
+              "Décharge statique",
+              "Mise à la terre"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel dispositif permet de protéger contre les contacts indirects ?",
+            "choices": [
+              "Isolation des outils",
+              "Protection différentielle",
+              "Tapis isolant",
+              "Gants isolants",
+              "Mise à la terre"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques selon les données du cours ?",
+            "choices": [
+              "Défaillance matérielle (10 %)",
+              "Mode opératoire inapproprié (31 %)",
+              "Défaut de formation (14 %)",
+              "Omission d’étape (15 %)",
+              "Ignorance des risques (30 %)"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel type de contact électrique est responsable de la majorité des incidents mortels ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Contact par défaillance matérielle",
+              "Contact par amorçage",
+              "Contact par tension de pas"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel phénomène électrique se produit lorsqu’un courant intense circule dans le sol ?",
+            "choices": [
+              "Amorçage",
+              "Tension de pas",
+              "Électrocution",
+              "Décharge statique",
+              "Mise à la terre"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel dispositif est nécessaire pour fournir l'alimentation électrique via le câble réseau (PoE) ?",
+            "choices": [
+              "Routeur classique",
+              "Switch classique",
+              "Switch PoE",
+              "Hub Ethernet",
+              "Injecteur de courant"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques selon la répartition des causes ?",
+            "choices": [
+              "Défaut de formation (14 %)",
+              "Mode opératoire inapproprié (31 %)",
+              "Défaillance matérielle (10 %)",
+              "Omission d’étape (15 %)",
+              "Ignorance des risques (30 %)"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel type de contact électrique est le plus dangereux en basse tension ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Contact par défaillance matérielle",
+              "Contact par amorçage",
+              "Contact par tension de pas"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quel phénomène électrique survient lorsque la distance entre deux conducteurs diminue ?",
+            "choices": [
+              "Tension de pas",
+              "Électrocution",
+              "Amorçage",
+              "Décharge statique",
+              "Mise à la terre"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quel dispositif permet de protéger contre les contacts indirects ?",
+            "choices": [
+              "Isolation des outils",
+              "Protection différentielle",
+              "Tapis isolant",
+              "Gants isolants",
+              "Mise à la terre"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques selon les données du cours ?",
+            "choices": [
+              "Défaillance matérielle (10 %)",
+              "Mode opératoire inapproprié (31 %)",
+              "Défaut de formation (14 %)",
+              "Omission d’étape (15 %)",
+              "Ignorance des risques (30 %)"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel type de contact électrique est responsable de la majorité des incidents mortels ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Contact par défaillance matérielle",
+              "Contact par amorçage",
+              "Contact par tension de pas"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel phénomène électrique est lié à la circulation de courant dans le sol ?",
+            "choices": [
+              "Amorçage",
+              "Tension de pas",
+              "Électrocution",
+              "Décharge statique",
+              "Mise à la terre"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel dispositif est nécessaire pour fournir l'alimentation électrique via le câble réseau (PoE) ?",
+            "choices": [
+              "Routeur classique",
+              "Switch classique",
+              "Switch PoE",
+              "Hub Ethernet",
+              "Injecteur de courant"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques selon la répartition des causes ?",
+            "choices": [
+              "Défaut de formation (14 %)",
+              "Mode opératoire inapproprié (31 %)",
+              "Défaillance matérielle (10 %)",
+              "Omission d’étape (15 %)",
+              "Ignorance des risques (30 %)"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel type de contact électrique est le plus dangereux en basse tension ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Contact par défaillance matérielle",
+              "Contact par amorçage",
+              "Contact par tension de pas"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quel phénomène électrique survient lorsque la distance entre deux conducteurs diminue ?",
+            "choices": [
+              "Tension de pas",
+              "Électrocution",
+              "Amorçage",
+              "Décharge statique",
+              "Mise à la terre"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quel dispositif permet de protéger contre les contacts indirects ?",
+            "choices": [
+              "Isolation des outils",
+              "Protection différentielle",
+              "Tapis isolant",
+              "Gants isolants",
+              "Mise à la terre"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques selon les données du cours ?",
+            "choices": [
+              "Défaillance matérielle (10 %)",
+              "Mode opératoire inapproprié (31 %)",
+              "Défaut de formation (14 %)",
+              "Omission d’étape (15 %)",
+              "Ignorance des risques (30 %)"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel type de contact électrique est responsable de la majorité des incidents mortels ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Contact par défaillance matérielle",
+              "Contact par amorçage",
+              "Contact par tension de pas"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel phénomène électrique est lié à la circulation de courant dans le sol ?",
+            "choices": [
+              "Amorçage",
+              "Tension de pas",
+              "Électrocution",
+              "Décharge statique",
+              "Mise à la terre"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel dispositif est nécessaire pour fournir l'alimentation électrique via le câble réseau (PoE) ?",
+            "choices": [
+              "Routeur classique",
+              "Switch classique",
+              "Switch PoE",
+              "Hub Ethernet",
+              "Injecteur de courant"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques selon la répartition des causes ?",
+            "choices": [
+              "Défaut de formation (14 %)",
+              "Mode opératoire inapproprié (31 %)",
+              "Défaillance matérielle (10 %)",
+              "Omission d’étape (15 %)",
+              "Ignorance des risques (30 %)"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel type de contact électrique est le plus dangereux en basse tension ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Contact par défaillance matérielle",
+              "Contact par amorçage",
+              "Contact par tension de pas"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quel phénomène électrique survient lorsque la distance entre deux conducteurs diminue ?",
+            "choices": [
+              "Tension de pas",
+              "Électrocution",
+              "Amorçage",
+              "Décharge statique",
+              "Mise à la terre"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quel dispositif permet de protéger contre les contacts indirects ?",
+            "choices": [
+              "Isolation des outils",
+              "Protection différentielle",
+              "Tapis isolant",
+              "Gants isolants",
+              "Mise à la terre"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques selon les données du cours ?",
+            "choices": [
+              "Défaillance matérielle (10 %)",
+              "Mode opératoire inapproprié (31 %)",
+              "Défaut de formation (14 %)",
+              "Omission d’étape (15 %)",
+              "Ignorance des risques (30 %)"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel type de contact électrique est responsable de la majorité des incidents mortels ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Contact par défaillance matérielle",
+              "Contact par amorçage",
+              "Contact par tension de pas"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel phénomène électrique est lié à la circulation de courant dans le sol ?",
+            "choices": [
+              "Amorçage",
+              "Tension de pas",
+              "Électrocution",
+              "Décharge statique",
+              "Mise à la terre"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel dispositif est nécessaire pour fournir l'alimentation électrique via le câble réseau (PoE) ?",
+            "choices": [
+              "Routeur classique",
+              "Switch classique",
+              "Switch PoE",
+              "Hub Ethernet",
+              "Injecteur de courant"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques selon la répartition des causes ?",
+            "choices": [
+              "Défaut de formation (14 %)",
+              "Mode opératoire inapproprié (31 %)",
+              "Défaillance matérielle (10 %)",
+              "Omission d’étape (15 %)",
+              "Ignorance des risques (30 %)"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel type de contact électrique est le plus dangereux en basse tension ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Contact par défaillance matérielle",
+              "Contact par amorçage",
+              "Contact par tension de pas"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quel phénomène électrique survient lorsque la distance entre deux conducteurs diminue ?",
+            "choices": [
+              "Tension de pas",
+              "Électrocution",
+              "Amorçage",
+              "Décharge statique",
+              "Mise à la terre"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quel dispositif permet de protéger contre les contacts indirects ?",
+            "choices": [
+              "Isolation des outils",
+              "Protection différentielle",
+              "Tapis isolant",
+              "Gants isolants",
+              "Mise à la terre"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques selon les données du cours ?",
+            "choices": [
+              "Défaillance matérielle (10 %)",
+              "Mode opératoire inapproprié (31 %)",
+              "Défaut de formation (14 %)",
+              "Omission d’étape (15 %)",
+              "Ignorance des risques (30 %)"
+            ],
+            "correctAnswerIndex": 1
+          }
+        ],
+        "generatedAt": 1790242784951
+      },
+      "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md_1790243335640": {
+        "notePath": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+        "questions": [
+          {
+            "question": "Quelle est la résistance typique du corps humain en conditions normales ?",
+            "choices": [
+              "100 à 500 ohms",
+              "500 à 1000 ohms",
+              "1000 à 2000 ohms",
+              "2000 à 5000 ohms",
+              "5000 à 10 000 ohms",
+              "*Justification : Le texte indique une résistance de 1000 à 2000 ohms, avec précision sur les variations selon l'humidité et les conditions.*"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques selon les données fournies ?",
+            "choices": [
+              "Défaillance matérielle (10 %)",
+              "Omission d'étape ou procédure inexacte (15 %)",
+              "Ignorance des risques (30 %)",
+              "Mode opératoire inapproprié (31 %)",
+              "Défaut de formation (14 %)",
+              "*Justification : Le texte souligne que 31 % des accidents sont dus à un mode opératoire dangereux, ce qui est le pourcentage le plus élevé.*"
+            ],
+            "correctAnswerIndex": 3
+          },
+          {
+            "question": "Quel est le ratio de mortalité par rapport aux arrêts de travail pour les accidents électriques ?",
+            "choices": [
+              "1 mort pour 50 arrêts de travail",
+              "1 mort pour 100 arrêts de travail",
+              "1 mort pour 86 arrêts de travail",
+              "1 mort pour 150 arrêts de travail",
+              "1 mort pour 200 arrêts de travail",
+              "*Justification : Le texte mentionne explicitement \"1 mort pour 86 arrêts de travail\" pour les risques électriques.*"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quelle est la principale cause des incidents mortels en électrification ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Défaillance matérielle",
+              "Amorçage",
+              "Tension de pas",
+              "*Justification : Le texte précise que 99 % des incidents mortels sont dus à des contacts directs.*"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel dispositif est nécessaire pour alimenter un appareil via le câble réseau ?",
+            "choices": [
+              "Un routeur standard",
+              "Un switch PoE ou un injecteur PoE",
+              "Un transformateur de courant",
+              "Une prise électrique normale",
+              "Un disjoncteur différentiel",
+              "*Justification : Le texte explique que le PoE nécessite un switch ou un injecteur PoE pour fournir l'alimentation.*"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la définition d'un \"ouvrage\" dans le contexte électrique ?",
+            "choices": [
+              "Une installation privée",
+              "Une ligne appartenant à EDF/Enedis/RTE ou une collectivité locale",
+              "Un câble Ethernet",
+              "Un appareil électrique",
+              "Une borne de distribution",
+              "*Justification : Le texte définit l'ouvrage comme les lignes appartenant à des gestionnaires publics ou collectivités.*"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel type de blessure est le plus grave selon les catégories mentionnées ?",
+            "choices": [
+              "Blessure superficielle sans arrêt",
+              "Blessure grave avec arrêt de travail",
+              "Blessure avec séquelle",
+              "Décès",
+              "Blessure mineure",
+              "*Justification : Le texte classe la \"blessure avec séquelle\" comme la plus grave après le décès.*"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quel est l'ordre des étapes d'un incident électrique selon l'exemple donné ?",
+            "choices": [
+              "Tirer sur un câble → Contact avec pièce nue → Électrocution",
+              "Travailler à proximité → Tirer sur un câble → Électrocution",
+              "Tirer sur un câble → Travailler à proximité → Contact avec pièce nue → Électrocution",
+              "Électrocution → Contact avec pièce nue → Tirer sur un câble",
+              "Électrocution → Tirer sur un câble → Travailler à proximité",
+              "*Justification : Le texte décrit la séquence comme \"tirer sur un câble → travailler à proximité → contact → électrocution\".*"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quel phénomène est lié à la tension de pas ?",
+            "choices": [
+              "L'amorçage",
+              "La tension entre deux pieds lors d'un défaut électrique",
+              "L'isolement des outils",
+              "La protection différentielle",
+              "La mise à la terre",
+              "*Justification : Le texte explique que la tension de pas est la tension entre les pieds lors d'un défaut important.*"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause des risques électriques selon le texte ?",
+            "choices": [
+              "Défaillance matérielle",
+              "Ignorance des risques",
+              "Mode opératoire inapproprié",
+              "Omission d'étape",
+              "Défaut de formation",
+              "*Justification : Le texte souligne que 30 % des accidents sont dus à l'ignorance, ce qui est la cause la plus fréquente.*"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel est le rôle de l'analyse du risque électrique ?",
+            "choices": [
+              "Réduire les coûts d'installation",
+              "Définir les mesures de prévention pour protéger personnes et biens",
+              "Évaluer la résistance du corps humain",
+              "Calculer la tension de pas",
+              "Vérifier les normes de sécurité",
+              "*Justification : Le texte précise que l'analyse du risque doit précéder toute opération et définir les mesures de prévention.*"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la différence entre un contact direct et indirect ?",
+            "choices": [
+              "Le contact direct implique une tension basse, le contact indirect une tension haute",
+              "Le contact direct se produit via une pièce sous tension, le contact indirect via une masse métallique devenue conductrice",
+              "Le contact direct est plus grave que le contact indirect",
+              "Le contact indirect ne peut pas survenir en basse tension",
+              "Les deux sont identiques",
+              "*Justification : Le texte explique que le contact direct est un contact avec une pièce sous tension, tandis que le contact indirect implique une masse devenue conductrice.*"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale protection contre les contacts directs ?",
+            "choices": [
+              "La mise à la terre",
+              "L'isolement des outils",
+              "L'usage de disjoncteurs différentiels",
+              "L'utilisation de matériel à faible tension",
+              "L'isolement des câbles",
+              "*Justification : Le texte mentionne que l'isolement des outils est une protection contre les contacts directs.*"
+            ],
+            "correctAnswerIndex": 4
+          },
+          {
+            "question": "Quelle est la cause de la tension de pas ?",
+            "choices": [
+              "Une surtension dans le réseau",
+              "Une défaillance de la mise à la terre",
+              "Une décharge électrique au sol",
+              "Une surcharge d'appareils",
+              "Une panne de disjoncteur",
+              "*Justification : Le texte explique que la tension de pas est due à une décharge électrique au sol lors d'un défaut.*"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quel est le pourcentage des accidents électriques dus à un mode opératoire inapproprié ?",
+            "choices": [
+              "10 %",
+              "14 %",
+              "15 %",
+              "30 %",
+              "31 %",
+              "*Justification : Le texte indique que 15 % des accidents sont dus à l'omission d'étapes ou à des procédures inexactes.*"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quelle est la principale raison de l'ignorance des risques électriques ?",
+            "choices": [
+              "Manque de formation",
+              "Absence de normes",
+              "Insuffisance des outils de protection",
+              "Méconnaissance des conséquences",
+              "Coûts élevés des équipements",
+              "*Justification : Le texte souligne que l'ignorance des risques est une cause majeure, liée à la méconnaissance des conséquences.*"
+            ],
+            "correctAnswerIndex": 3
+          },
+          {
+            "question": "Quelle est la conséquence d'un contact direct en basse tension ?",
+            "choices": [
+              "Une brûlure mineure",
+              "Une électrocution grave",
+              "Une décharge électrique sans dommage",
+              "Une panne de circuit",
+              "Une surchauffe de l'appareil",
+              "*Justification : Le texte explique que le contact direct entraîne une électrocution, même en basse tension.*"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel est le rôle de la mise à la terre dans la prévention des risques ?",
+            "choices": [
+              "Réduire la résistance du corps humain",
+              "Éliminer la tension de pas",
+              "Augmenter la tension du réseau",
+              "Protéger contre les surtensions",
+              "Éviter l'amorçage",
+              "*Justification : Le texte mentionne que la mise à la terre est un moyen de prévention, notamment pour la tension de pas.*"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques en milieu professionnel ?",
+            "choices": [
+              "Défaillance matérielle",
+              "Mode opératoire inapproprié",
+              "Défaut de formation",
+              "Ignorance des risques",
+              "Omission d'étape",
+              "*Justification : Le texte indique que 31 % des accidents sont dus à un mode opératoire dangereux, ce qui est le pourcentage le plus élevé.*"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel est le phénomène lié à la tension entre deux points du sol ?",
+            "choices": [
+              "L'amorçage",
+              "La tension de pas",
+              "La surtension",
+              "La décharge électrique",
+              "La résistance du corps humain",
+              "*Justification : Le texte explique que la tension de pas est la tension entre deux points du sol lors d'un défaut.*"
+            ],
+            "correctAnswerIndex": 1
+          }
+        ],
+        "generatedAt": 1790243335640
+      },
+      "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md_1790244736468": {
+        "notePath": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+        "questions": [
+          {
+            "question": "Quelle est la résistance du corps humain considérée dans le contexte de l'électricité statique ?",
+            "choices": [
+              "500 à 1000 ohms",
+              "1000 à 2000 ohms",
+              "2000 à 3000 ohms",
+              "3000 à 5000 ohms",
+              "5000 à 10000 ohms",
+              "Justification : Le texte mentionne une résistance de l'ordre de 1000 à 2000 ohms, avec une précision variable selon les conditions."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel dispositif est nécessaire pour fournir l'alimentation électrique via le câble réseau (PoE) ?",
+            "choices": [
+              "Un routeur classique",
+              "Un switch PoE ou un routeur/injecteur PoE",
+              "Un pare-feu",
+              "Un transformateur",
+              "Un commutateur standard",
+              "Justification : Le texte précise qu'un switch PoE ou un routeur/injecteur PoE est requis pour l'alimentation par le câble réseau."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la gravité relative des risques électriques par rapport aux accidents du travail ?",
+            "choices": [
+              "1 mort pour 1237 arrêts de travail",
+              "1 mort pour 86 arrêts de travail",
+              "1 mort pour 500 arrêts de travail",
+              "1 mort pour 100 arrêts de travail",
+              "1 mort pour 200 arrêts de travail",
+              "Justification : Le texte indique 1 mort pour 86 arrêts de travail, contre 1 mort pour 1237 arrêts de travail pour les accidents du travail."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la cause la plus fréquente d'accidents électriques selon les statistiques ?",
+            "choices": [
+              "Défaillance matérielle (10 %)",
+              "Mode opératoire inapproprié (31 %)",
+              "Omission d'étape (15 %)",
+              "Ignorance des risques (30 %)",
+              "Défaut de formation (14 %)",
+              "Justification : Le texte affirme que 31 % des accidents proviennent d'un mode opératoire inapproprié ou dangereux."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale caractéristique d'une analyse du risque électrique ?",
+            "choices": [
+              "Évaluer le coût des dommages",
+              "Définir les mesures de prévention avant toute opération",
+              "Calculer la durée de l'incident",
+              "Identifier les responsables",
+              "Établir des rapports d'audit",
+              "Justification : Le texte précise que l'analyse doit précéder toute opération pour définir les mesures de prévention."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel type de réseau est considéré comme un \"ouvrage\" ?",
+            "choices": [
+              "Installation privée",
+              "Réseau public (EDF, Enedis, RTE, collectivité locale)",
+              "Câbles de distribution",
+              "Appareils électriques",
+              "Équipements industriels",
+              "Justification : Le texte définit l'ouvrage comme les lignes appartenant à EDF/Enedis/RTE ou aux collectivités locales."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel type de blessure est le plus grave selon la classification des résultats d'un danger ?",
+            "choices": [
+              "Blessure superficielle sans arrêt",
+              "Blessure avec séquelle",
+              "Blessure grave avec arrêt de travail",
+              "Décès",
+              "Éraflure",
+              "Justification : Le texte classe la séquelle comme une blessure plus grave que l'arrêt de travail."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel est l'ordre correct des étapes d'un incident électrique ?",
+            "choices": [
+              "Contact avec pièces nues → électrocution → tirer sur un câble",
+              "Tirer sur un câble → contact avec pièces nues → électrocution",
+              "Électrocution → contact avec pièces nues → tirer sur un câble",
+              "Contact avec pièces nues → tirer sur un câble → électrocution",
+              "Électrocution → tirer sur un câble → contact avec pièces nues",
+              "Justification : Le texte décrit la séquence comme : tirer sur un câble → travail à proximité de pièces nues → contact → électrocution."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel type de contact est responsable de 99 % des incidents mortels ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Contact électrique",
+              "Contact par arc",
+              "Contact par tension de pas",
+              "Justification : Le texte affirme que 99 % des incidents mortels proviennent de contacts directs."
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quelle est la cause de la tension de pas ?",
+            "choices": [
+              "Une décharge électrique dans l'air",
+              "Une différence de potentiel entre les pieds en cas de défaut électrique",
+              "Une surcharge de courant",
+              "Un court-circuit",
+              "Une fuite de tension",
+              "Justification : Le texte explique que la tension de pas est due à un gradient de potentiel entre les pieds lors d'un défaut."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause de contacts indirects ?",
+            "choices": [
+              "Défaillance matérielle",
+              "Absence de protection différentielle",
+              "Surcharge électrique",
+              "Défaut de formation",
+              "Utilisation d'appareils non étanches",
+              "Justification : Le texte mentionne que les contacts indirects dépendent de l'absence de protections comme le disjoncteur différentiel."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la conséquence d'un contact direct selon le texte ?",
+            "choices": [
+              "Électrocution immédiate",
+              "Brûlures thermiques",
+              "Chute de tension",
+              "Perturbation électrique",
+              "Détresse psychologique",
+              "Justification : Le texte décrit les contacts directs comme responsables de 99 % des incidents mortels, impliquant une électrocution."
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quelle est la principale différence entre un \"ouvrage\" et une \"installation\" ?",
+            "choices": [
+              "L'ouvrage est privé, l'installation est publique",
+              "L'ouvrage est public (réseau électrique), l'installation est privée",
+              "L'ouvrage est un appareil, l'installation est un câble",
+              "L'ouvrage est un projet, l'installation est une opération",
+              "L'ouvrage est un équipement, l'installation est un réseau",
+              "Justification : Le texte définit l'ouvrage comme des réseaux publics, l'installation comme des installations privées."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel est le rôle principal de l'analyse du risque électrique ?",
+            "choices": [
+              "Évaluer les coûts d'assurance",
+              "Identifier les mesures préventives avant toute opération",
+              "Calculer la durée de l'incident",
+              "Déterminer la responsabilité légale",
+              "Établir des rapports d'audit",
+              "Justification : Le texte précise que l'analyse doit précéder toute opération pour définir les mesures de prévention."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la conséquence d'un contact indirect selon le texte ?",
+            "choices": [
+              "Électrocution immédiate",
+              "Détresse électrique",
+              "Risque de surcharge",
+              "Danger de brûlures",
+              "Risque de décès par contact indirect",
+              "Justification : Le texte indique que les contacts indirects sont moins fréquents mais peuvent entraîner des décès."
+            ],
+            "correctAnswerIndex": 4
+          },
+          {
+            "question": "Quelle est la principale cause de décès par contact électrique selon le texte ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Tension de pas",
+              "Arc électrique",
+              "Surcharge électrique",
+              "Justification : Le texte affirme que 99 % des incidents mortels proviennent de contacts directs."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale caractéristique de la tension de pas ?",
+            "choices": [
+              "Elle est causée par une décharge électrique dans l'air",
+              "Elle est due à une différence de potentiel entre les pieds en cas de défaut électrique",
+              "Elle est liée à un court-circuit",
+              "Elle est provoquée par un surpote",
+              "Elle est causée par un disjoncteur défectueux",
+              "Justification : Le texte explique que la tension de pas résulte d'un gradient de potentiel entre les pieds lors d'un défaut."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel est le rôle principal d'une analyse du risque électrique ?",
+            "choices": [
+              "Évaluer les coûts d'assurance",
+              "Identifier les mesures préventives avant toute opération",
+              "Calculer la durée de l'incident",
+              "Déterminer la responsabilité légale",
+              "Établir des rapports d'audit",
+              "Justification : Le texte précise que l'analyse doit précéder toute opération pour définir les mesures de prévention."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause de décès par contact électrique selon le texte ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Tension de pas",
+              "Arc électrique",
+              "Surcharge électrique",
+              "Justification : Le texte affirme que 99 % des incidents mortels proviennent de contacts directs."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale caractéristique d'une analyse du risque électrique ?",
+            "choices": [
+              "Évaluer les coûts d'assurance",
+              "Identifier les mesures préventives avant toute opération",
+              "Calculer la durée de l'incident",
+              "Déterminer la responsabilité légale",
+              "Établir des rapports d'audit",
+              "Justification : Le texte précise que l'analyse doit précéder toute opération pour définir les mesures de prévention."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause de décès par contact électrique selon le texte ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Tension de pas",
+              "Arc électrique",
+              "Surcharge électrique",
+              "Justification : Le texte affirme que 99 % des incidents mortels proviennent de contacts directs."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale caractéristique de la tension de pas ?",
+            "choices": [
+              "Elle est causée par une décharge électrique dans l'air",
+              "Elle est due à une différence de potentiel entre les pieds en cas de défaut électrique",
+              "Elle est liée à un court-circuit",
+              "Elle est provoquée par un surpote",
+              "Elle est causée par un disjoncteur défectueux",
+              "Justification : Le texte explique que la tension de pas résulte d'un gradient de potentiel entre les pieds lors d'un défaut."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause de décès par contact électrique selon le texte ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Tension de pas",
+              "Arc électrique",
+              "Surcharge électrique",
+              "Justification : Le texte affirme que 99 % des incidents mortels proviennent de contacts directs."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale caractéristique d'une analyse du risque électrique ?",
+            "choices": [
+              "Évaluer les coûts d'assurance",
+              "Identifier les mesures préventives avant toute opération",
+              "Calculer la durée de l'incident",
+              "Déterminer la responsabilité légale",
+              "Établir des rapports d'audit",
+              "Justification : Le texte précise que l'analyse doit précéder toute opération pour définir les mesures de prévention."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause de décès par contact électrique selon le texte ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Tension de pas",
+              "Arc électrique",
+              "Surcharge électrique",
+              "Justification : Le texte affirme que 99 % des incidents mortels proviennent de contacts directs."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale caractéristique de la tension de pas ?",
+            "choices": [
+              "Elle est causée par une décharge électrique dans l'air",
+              "Elle est due à une différence de potentiel entre les pieds en cas de défaut électrique",
+              "Elle est liée à un court-circuit",
+              "Elle est provoquée par un surpote",
+              "Elle est causée par un disjoncteur défectueux",
+              "Justification : Le texte explique que la tension de pas résulte d'un gradient de potentiel entre les pieds lors d'un défaut."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause de décès par contact électrique selon le texte ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Tension de pas",
+              "Arc électrique",
+              "Surcharge électrique",
+              "Justification : Le texte affirme que 99 % des incidents mortels proviennent de contacts directs."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale caractéristique d'une analyse du risque électrique ?",
+            "choices": [
+              "Évaluer les coûts d'assurance",
+              "Identifier les mesures préventives avant toute opération",
+              "Calculer la durée de l'incident",
+              "Déterminer la responsabilité légale",
+              "Établir des rapports d'audit",
+              "Justification : Le texte précise que l'analyse doit précéder toute opération pour définir les mesures de prévention."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause de décès par contact électrique selon le texte ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Tension de pas",
+              "Arc électrique",
+              "Surcharge électrique",
+              "Justification : Le texte affirme que 99 % des incidents mortels proviennent de contacts directs."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale caractéristique de la tension de pas ?",
+            "choices": [
+              "Elle est causée par une décharge électrique dans l'air",
+              "Elle est due à une différence de potentiel entre les pieds en cas de défaut électrique",
+              "Elle est liée à un court-circuit",
+              "Elle est provoquée par un surpote",
+              "Elle est causée par un disjoncteur défectueux",
+              "Justification : Le texte explique que la tension de pas résulte d'un gradient de potentiel entre les pieds lors d'un défaut."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause de décès par contact électrique selon le texte ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Tension de pas",
+              "Arc électrique",
+              "Surcharge électrique",
+              "Justification : Le texte affirme que 99 % des incidents mortels proviennent de contacts directs."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale caractéristique d'une analyse du risque électrique ?",
+            "choices": [
+              "Évaluer les coûts d'assurance",
+              "Identifier les mesures préventives avant toute opération",
+              "Calculer la durée de l'incident",
+              "Déterminer la responsabilité légale",
+              "Établir des rapports d'audit",
+              "Justification : Le texte précise que l'analyse doit précéder toute opération pour définir les mesures de prévention."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause de décès par contact électrique selon le texte ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Tension de pas",
+              "Arc électrique",
+              "Surcharge électrique",
+              "Justification : Le texte affirme que 99 % des incidents mortels proviennent de contacts directs."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale caractéristique de la tension de pas ?",
+            "choices": [
+              "Elle est causée par une décharge électrique dans l'air",
+              "Elle est due à une différence de potentiel entre les pieds en cas de défaut électrique",
+              "Elle est liée à un court-circuit",
+              "Elle est provoquée par un surpote",
+              "Elle est causée par un disjoncteur défectueux",
+              "Justification : Le texte explique que la tension de pas résulte d'un gradient de potentiel entre les pieds lors d'un défaut."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause de décès par contact électrique selon le texte ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Tension de pas",
+              "Arc électrique",
+              "Surcharge électrique",
+              "Justification : Le texte affirme que 99 % des incidents mortels proviennent de contacts directs."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale caractéristique d'une analyse du risque électrique ?",
+            "choices": [
+              "Évaluer les coûts d'assurance",
+              "Identifier les mesures préventives avant toute opération",
+              "Calculer la durée de l'incident",
+              "Déterminer la responsabilité légale",
+              "Établir des rapports d'audit",
+              "Justification : Le texte précise que l'analyse doit précéder toute opération pour définir les mesures de prévention."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause de décès par contact électrique selon le texte ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Tension de pas",
+              "Arc électrique",
+              "Surcharge électrique",
+              "Justification : Le texte affirme que 99 % des incidents mortels proviennent de contacts directs."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale caractéristique de la tension de pas ?",
+            "choices": [
+              "Elle est causée par une décharge électrique dans l'air",
+              "Elle est due à une différence de potentiel entre les pieds en cas de défaut électrique",
+              "Elle est liée à un court-circuit",
+              "Elle est provoquée par un surpote",
+              "Elle est causée par un disjoncteur défectueux",
+              "Justification : Le texte explique que la tension de pas résulte d'un gradient de potentiel entre les pieds lors d'un défaut."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause de décès par contact électrique selon le texte ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Tension de pas",
+              "Arc électrique",
+              "Surcharge électrique",
+              "Justification : Le texte affirme que 99 % des incidents mortels proviennent de contacts directs."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale caractéristique d'une analyse du risque électrique ?",
+            "choices": [
+              "Évaluer les coûts d'assurance",
+              "Identifier les mesures préventives avant toute opération",
+              "Calculer la durée de l'incident",
+              "Déterminer la responsabilité légale",
+              "Établir des rapports d'audit",
+              "Justification : Le texte précise que l'analyse doit précéder toute opération pour définir les mesures de prévention."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause de décès par contact électrique selon le texte ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Tension de pas",
+              "Arc électrique",
+              "Surcharge électrique",
+              "Justification : Le texte affirme que 99 % des incidents mortels proviennent de contacts directs."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale caractéristique de la tension de pas ?",
+            "choices": [
+              "Elle est causée par une décharge électrique dans l'air",
+              "Elle est due à une différence de potentiel entre les pieds en cas de défaut électrique",
+              "Elle est liée à un court-circuit",
+              "Elle est provoquée par un surpote",
+              "Elle est causée par un disjoncteur défectueux",
+              "Justification : Le texte explique que la tension de pas résulte d'un gradient de potentiel entre les pieds lors d'un défaut."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause de décès par contact électrique selon le texte ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Tension de pas",
+              "Arc électrique",
+              "Surcharge électrique",
+              "Justification : Le texte affirme que 99 % des incidents mortels proviennent de contacts directs."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale caractéristique d'une analyse du risque électrique ?",
+            "choices": [
+              "Évaluer les coûts d'assurance",
+              "Identifier les mesures préventives avant toute opération",
+              "Calculer la durée de l'incident",
+              "Déterminer la responsabilité légale",
+              "Établir des rapports d'audit",
+              "Justification : Le texte précise que l'analyse doit précéder toute opération pour définir les mesures de prévention."
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause de décès par contact électrique selon le texte ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Tension de pas",
+              "Arc électrique",
+              "Surcharge électrique",
+              "Justification : Le texte affirme que 99 % des incidents mortels proviennent de contacts directs."
+            ],
+            "correctAnswerIndex": 1
+          }
+        ],
+        "generatedAt": 1790244736468
+      },
+      "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md_1790245331238": {
+        "notePath": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+        "questions": [
+          {
+            "question": "Quelle est la résistance typique du corps humain selon les données du cours ?",
+            "choices": [
+              "100 à 500 ohms",
+              "500 à 1000 ohms",
+              "1000 à 2000 ohms",
+              "2000 à 5000 ohms",
+              "5000 à 10 000 ohms"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques selon les données du cours ?",
+            "choices": [
+              "Défaillance matérielle (10 %)",
+              "Omission d'étape ou procédure inexacte (15 %)",
+              "Mode opératoire inapproprié ou dangereux (31 %)",
+              "Ignorance des risques (30 %)",
+              "Défaut de formation (14 %)"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quel est le rôle de l'analyse du risque électrique selon le cours ?",
+            "choices": [
+              "Définir les coûts de prévention",
+              "Précéder toute opération électrique ou non électrique pour établir des mesures de prévention",
+              "Évaluer la vitesse de défaillance des équipements",
+              "Calculer les probabilités d'incidents",
+              "Identifier les sources de tension"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale différence entre un ouvrage et une installation ?",
+            "choices": [
+              "Un ouvrage est privé, une installation est publique",
+              "Un ouvrage appartient à EDF, une installation à un particulier",
+              "Un ouvrage est en haute tension, une installation en basse tension",
+              "Un ouvrage est une borne de distribution, une installation un câble",
+              "Un ouvrage est un circuit fermé, une installation un circuit ouvert"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel type de blessure est le plus grave selon le cours ?",
+            "choices": [
+              "Blessure superficielle sans arrêt",
+              "Blessure grave avec arrêt de travail",
+              "Blessure avec séquelle",
+              "Décès",
+              "Blessure électrique sans séquelle"
+            ],
+            "correctAnswerIndex": 3
+          },
+          {
+            "question": "Quel est le pourcentage des incidents mortels dus aux contacts directs ?",
+            "choices": [
+              "10 %",
+              "14 %",
+              "30 %",
+              "99 %",
+              "31 %"
+            ],
+            "correctAnswerIndex": 3
+          },
+          {
+            "question": "Quel dispositif permet de protéger contre les contacts indirects ?",
+            "choices": [
+              "Un disjoncteur standard",
+              "Une prise de courant classique",
+              "Une protection différentielle fonctionnelle",
+              "Un fusible de basse tension",
+              "Un tapis isolant"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quelle est la cause de la tension de pas ?",
+            "choices": [
+              "Une surcharge de courant dans les câbles",
+              "Un défaut électrique important ou la foudre provoquant un gradient de potentiel entre les pieds",
+              "Une surtension de la prise électrique",
+              "Une fuite de courant dans le circuit d'alimentation",
+              "Une résistance élevée des câbles"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause de décès en électrocution selon les données du cours ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Tension de pas",
+              "Amorçage électrique",
+              "Défaillance matérielle"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la condition pour un contact indirect ?",
+            "choices": [
+              "Une pièce normalement sous tension",
+              "Une masse métallique devenue sous tension à cause d'un défaut d'isolement",
+              "Une prise de terre non fonctionnelle",
+              "Une surcharge de courant dans le circuit",
+              "Une surtension de la prise électrique"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques selon le cours ?",
+            "choices": [
+              "Défaillance matérielle (10 %)",
+              "Ignorance des risques (30 %)",
+              "Mode opératoire inapproprié ou dangereux (31 %)",
+              "Défaut de formation (14 %)",
+              "Omission d'étape ou procédure inexacte (15 %)"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quel est le rôle d'une prise de terre dans les contacts indirects ?",
+            "choices": [
+              "Éliminer la tension de pas",
+              "Réduire la résistance du corps humain",
+              "Protéger contre les contacts indirects si la protection différentielle est fonctionnelle",
+              "Augmenter la tension de sécurité",
+              "Éliminer les risques d'amorçage"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quelle est la principale cause de décès en électrocution selon les statistiques du cours ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Tension de pas",
+              "Amorçage électrique",
+              "Défaillance matérielle"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques selon le cours ?",
+            "choices": [
+              "Défaillance matérielle (10 %)",
+              "Ignorance des risques (30 %)",
+              "Mode opératoire inapproprié ou dangereux (31 %)",
+              "Défaut de formation (14 %)",
+              "Omission d'étape ou procédure inexacte (15 %)"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quel est le pourcentage des incidents mortels dus aux contacts indirects ?",
+            "choices": [
+              "1 %",
+              "10 %",
+              "30 %",
+              "99 %",
+              "1 %"
+            ],
+            "correctAnswerIndex": 4
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques selon le cours ?",
+            "choices": [
+              "Défaillance matérielle (10 %)",
+              "Ignorance des risques (30 %)",
+              "Mode opératoire inapproprié ou dangereux (31 %)",
+              "Défaut de formation (14 %)",
+              "Omission d'étape ou procédure inexacte (15 %)"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques selon le cours ?",
+            "choices": [
+              "Défaillance matérielle (10 %)",
+              "Ignorance des risques (30 %)",
+              "Mode opératoire inapproprié ou dangereux (31 %)",
+              "Défaut de formation (14 %)",
+              "Omission d'étape ou procédure inexacte (15 %)"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quel est le pourcentage des incidents mortels dus aux contacts indirects ?",
+            "choices": [
+              "1 %",
+              "10 %",
+              "30 %",
+              "99 %",
+              "1 %"
+            ],
+            "correctAnswerIndex": 4
+          },
+          {
+            "question": "Quel est le rôle d'une prise de courant dans les contacts indirects ?",
+            "choices": [
+              "Éliminer la tension de pas",
+              "Réduire la résistance du corps humain",
+              "Protéger contre les contacts indirects si la protection différentielle est fonctionnelle",
+              "Augmenter la tension de sécurité",
+              "Éliminer les risques d'amorçage"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques selon le cours ?",
+            "choices": [
+              "Défaillance matérielle (10 %)",
+              "Ignorance des risques (30 %)",
+              "Mode opératoire inapproprié ou dangereux (31 %)",
+              "Défaut de formation (14 %)",
+              "Omission d'étape ou procédure inexacte (15 %)"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques selon le cours ?",
+            "choices": [
+              "Défaillance matérielle (10 %)",
+              "Ignorance des risques (30 %)",
+              "Mode opératoire inapproprié ou dangereux (31 %)",
+              "Défaut de formation (14 %)",
+              "Omission d'étape ou procédure inexacte (15 %)"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quel est le pourcentage des incidents mortels dus aux contacts indirects ?",
+            "choices": [
+              "1 %",
+              "10 %",
+              "30 %",
+              "99 %",
+              "1 %"
+            ],
+            "correctAnswerIndex": 4
+          },
+          {
+            "question": "Quel est le rôle d'une prise de courant dans les contacts indirects ?",
+            "choices": [
+              "Éliminer la tension de pas",
+              "Réduire la résistance du corps humain",
+              "Protéger contre les contacts indirects si la protection différentielle est fonctionnelle",
+              "Augmenter la tension de sécurité",
+              "Éliminer les risques d'amorçage"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quelle est la principale cause des accidents électriques selon le cours ?",
+            "choices": [
+              "Défaillance matérielle (10 %)",
+              "Ignorance des risques (30 %)",
+              "Mode opératoire inapproprié ou dangereux (31 %)",
+              "Défaut de formation (14 %)",
+              "Omission d'étape ou procédure inexacte (15 %)"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quel est le pourcentage des incidents mortels dus aux contacts indirects ?",
+            "choices": [
+              "1 %",
+              "10 %",
+              "30 %",
+              "99 %",
+              "1 %"
+            ],
+            "correctAnswerIndex": 4
+          }
+        ],
+        "generatedAt": 1790245331238
+      },
+      "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md_1790245908350": {
+        "notePath": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+        "questions": [
+          {
+            "question": "Quelle est la résistance typique du corps humain selon le texte ?",
+            "choices": [
+              "100 à 500 ohms",
+              "1000 à 2000 ohms",
+              "5000 à 10 000 ohms",
+              "2000 à 5000 ohms",
+              "10 000 à 20 000 ohms"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel dispositif est nécessaire pour alimenter un appareil via le câble réseau (PoE) ?",
+            "choices": [
+              "Un routeur standard",
+              "Un switch PoE",
+              "Un transformateur",
+              "Un condensateur",
+              "Un variateur de tension"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Selon les statistiques, combien de morts y a-t-il pour 86 arrêts de travail liés aux risques électriques ?",
+            "choices": [
+              "1 mort pour 100 arrêts",
+              "1 mort pour 86 arrêts",
+              "1 mort pour 1237 arrêts",
+              "1 mort pour 500 arrêts",
+              "1 mort pour 200 arrêts"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle cause est la plus fréquente d'accidents électriques selon la répartition des causes ?",
+            "choices": [
+              "Défaillance matérielle (10 %)",
+              "Omission d'étape ou procédure inexacte (15 %)",
+              "Mode opératoire inapproprié ou dangereux (31 %)",
+              "Défaut de formation (14 %)",
+              "Ignorance des risques (30 %)"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quelle étape précède toute opération d'ordre électrique ou non électrique selon le texte ?",
+            "choices": [
+              "Une formation obligatoire",
+              "Une analyse du risque électrique",
+              "Une vérification du matériel",
+              "Une autorisation administrative",
+              "Une évaluation des coûts"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle définition correspond à un \"ouvrage\" dans le contexte électrique ?",
+            "choices": [
+              "Une installation privée",
+              "Un réseau de distribution électrique géré par EDF/Enedis",
+              "Un appareil électrique domestique",
+              "Un circuit électrique de l'habitation",
+              "Une borne de recharge publique"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel type de blessure est le plus grave selon les résultats d'un danger électrique ?",
+            "choices": [
+              "Blessure superficielle sans arrêt",
+              "Blessure grave avec arrêt de travail",
+              "Blessure avec séquelle",
+              "Décès",
+              "Blessure légère avec douleur"
+            ],
+            "correctAnswerIndex": 3
+          },
+          {
+            "question": "Quel type de contact est responsable de 99 % des incidents mortels ?",
+            "choices": [
+              "Contact indirect",
+              "Contact direct",
+              "Contact par défaillance matérielle",
+              "Contact par foudre",
+              "Contact par amorçage"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quelle est la définition de la \"tension de pas\" ?",
+            "choices": [
+              "Tension entre deux points de contact avec une pièce nue",
+              "Tension entre deux pieds en cas de courant dans le sol",
+              "Tension entre une borne et la terre",
+              "Tension entre un câble et un conducteur",
+              "Tension entre un appareil et une prise"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause des risques électriques selon le texte ?",
+            "choices": [
+              "Défaillance matérielle",
+              "Ignorance des risques (30 %)",
+              "Mode opératoire inapproprié (31 %)",
+              "Omission d'étape (15 %)",
+              "Défaut de formation (14 %)"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quelle mesure réduit le risque d'incidents par contact indirect ?",
+            "choices": [
+              "Utiliser des gants isolants",
+              "Mise à la terre et protection différentielle",
+              "Éviter de toucher les câbles",
+              "Éviter l'humidité",
+              "Utiliser des outils en bois"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel phénomène se produit lors de l'approche trop proche d'une source électrique ?",
+            "choices": [
+              "Électrocutation",
+              "Amorçage",
+              "Surcharge électrique",
+              "Défaut de tension",
+              "Court-circuit"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel est le rôle principal d'une analyse du risque électrique ?",
+            "choices": [
+              "Évaluer les coûts de sécurité",
+              "Identifier la probabilité et la gravité des risques",
+              "Vérifier les normes de sécurité",
+              "Préparer un rapport technique",
+              "Obtenir une autorisation administrative"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quel type de contact est le plus difficile à prévenir selon le texte ?",
+            "choices": [
+              "Contact direct",
+              "Contact indirect",
+              "Contact par défaillance matérielle",
+              "Contact par foudre",
+              "Contact par amorçage"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Quel est l'effet d'une \"tension de pas\" ?",
+            "choices": [
+              "Choc électrique entre deux points de contact",
+              "Courant circulant dans le sol entre deux pieds",
+              "Défaut de tension entre une prise et la terre",
+              "Choc électrique par contact direct",
+              "Décharge électrique par foudre"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale cause de décès liée aux risques électriques ?",
+            "choices": [
+              "Défaillance matérielle",
+              "Contact direct avec une pièce nue",
+              "Contact indirect",
+              "Électrocutation par foudre",
+              "Défaut de protection différentielle"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale différence entre un \"ouvrage\" et une \"installation\" ?",
+            "choices": [
+              "L'ouvrage est privé, l'installation est publique",
+              "L'ouvrage est un réseau électrique géré par EDF/Enedis, l'installation est privée",
+              "L'ouvrage est un appareil, l'installation est un circuit",
+              "L'ouvrage est un câble, l'installation est une borne",
+              "L'ouvrage est un appareil de distribution, l'installation est un appareil de consommation"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Quelle est la principale mesure de prévention contre l'électrocutation ?",
+            "choices": [
+              "Utiliser des gants isolants",
+              "Éviter de toucher les câbles",
+              "Mise à la terre et protection différentielle",
+              "Éviter l'humidité",
+              "Éviter les outils métalliques"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "question": "Quel est l'effet d'une \"défaillance matérielle\" ?",
+            "choices": [
+              "Décès immédiat",
+              "Dommages matériels et risques d'électrocution",
+              "Choc électrique léger",
+              "Défaut de tension",
+              "Décharge électrique par foudre"
+            ],
+            "correctAnswerIndex": 1
+          }
+        ],
+        "generatedAt": 1790245908350
       }
     },
     "mcqSessions": {
@@ -1656,6 +3617,24 @@
           "completed": false,
           "startedAt": 1790240692697,
           "completedAt": 1790241119412
+        },
+        {
+          "mcqSetId": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md_1790241940408",
+          "notePath": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+          "answers": [
+            {
+              "questionIndex": 0,
+              "selectedAnswerIndex": -1,
+              "correct": false,
+              "timeToAnswer": 117.897,
+              "attempts": 12
+            }
+          ],
+          "score": 0,
+          "currentQuestionIndex": 0,
+          "completed": false,
+          "startedAt": 1790241940482,
+          "completedAt": 1790242075369
         }
       ],
       "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md": [
@@ -1766,6 +3745,425 @@
           "completed": false,
           "startedAt": 1790157290907,
           "completedAt": 1790157354636
+        },
+        {
+          "mcqSetId": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md_1790242784951",
+          "notePath": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+          "answers": [
+            {
+              "questionIndex": 0,
+              "selectedAnswerIndex": 2,
+              "correct": true,
+              "timeToAnswer": 4.045,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 1,
+              "selectedAnswerIndex": 3,
+              "correct": true,
+              "timeToAnswer": 8.531,
+              "attempts": 4
+            },
+            {
+              "questionIndex": 2,
+              "selectedAnswerIndex": 2,
+              "correct": true,
+              "timeToAnswer": 5.883,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 3,
+              "selectedAnswerIndex": 2,
+              "correct": true,
+              "timeToAnswer": 7.359,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 4,
+              "selectedAnswerIndex": 0,
+              "correct": true,
+              "timeToAnswer": 10.083,
+              "attempts": 2
+            }
+          ],
+          "score": 0.06666666666666667,
+          "currentQuestionIndex": 5,
+          "completed": false,
+          "startedAt": 1790242993739,
+          "completedAt": 1790243041354
+        },
+        {
+          "mcqSetId": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md_1790243335640",
+          "notePath": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+          "answers": [
+            {
+              "questionIndex": 0,
+              "selectedAnswerIndex": 2,
+              "correct": true,
+              "timeToAnswer": 115.732,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 1,
+              "selectedAnswerIndex": 3,
+              "correct": true,
+              "timeToAnswer": 4.703,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 2,
+              "selectedAnswerIndex": 2,
+              "correct": true,
+              "timeToAnswer": 2.125,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 3,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 1.775,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 4,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 1.468,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 5,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 3.624,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 6,
+              "selectedAnswerIndex": 2,
+              "correct": true,
+              "timeToAnswer": 12.109,
+              "attempts": 4
+            }
+          ],
+          "score": 0.275,
+          "currentQuestionIndex": 7,
+          "completed": false,
+          "startedAt": 1790243335714,
+          "completedAt": 1790243552253
+        },
+        {
+          "mcqSetId": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md_1790244736468",
+          "notePath": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+          "answers": [
+            {
+              "questionIndex": 0,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 53.354,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 1,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 1.727,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 2,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 1.309,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 3,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 4.467,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 4,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 19.798,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 5,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 2.928,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 6,
+              "selectedAnswerIndex": -1,
+              "correct": false,
+              "timeToAnswer": 5.001,
+              "attempts": 1
+            }
+          ],
+          "score": 0.13333333333333333,
+          "currentQuestionIndex": 6,
+          "completed": false,
+          "startedAt": 1790244736537,
+          "completedAt": 1790244891686
+        },
+        {
+          "mcqSetId": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md_1790245331238",
+          "notePath": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+          "answers": [
+            {
+              "questionIndex": 0,
+              "selectedAnswerIndex": 2,
+              "correct": true,
+              "timeToAnswer": 6.697,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 1,
+              "selectedAnswerIndex": 2,
+              "correct": true,
+              "timeToAnswer": 2.658,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 2,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 11.715,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 3,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 3.465,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 4,
+              "selectedAnswerIndex": 3,
+              "correct": true,
+              "timeToAnswer": 3.22,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 5,
+              "selectedAnswerIndex": 3,
+              "correct": true,
+              "timeToAnswer": 5.061,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 6,
+              "selectedAnswerIndex": 2,
+              "correct": true,
+              "timeToAnswer": 50.225,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 7,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 18.415,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 8,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 18.794,
+              "attempts": 4
+            },
+            {
+              "questionIndex": 10,
+              "selectedAnswerIndex": 2,
+              "correct": true,
+              "timeToAnswer": 10.497,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 11,
+              "selectedAnswerIndex": 2,
+              "correct": true,
+              "timeToAnswer": 15.775,
+              "attempts": 2
+            },
+            {
+              "questionIndex": 12,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 10.848,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 13,
+              "selectedAnswerIndex": 2,
+              "correct": true,
+              "timeToAnswer": 3.927,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 14,
+              "selectedAnswerIndex": 4,
+              "correct": true,
+              "timeToAnswer": 7.031,
+              "attempts": 2
+            }
+          ],
+          "score": 0.44,
+          "currentQuestionIndex": 15,
+          "completed": false,
+          "startedAt": 1790245331346,
+          "completedAt": 1790245517038
+        },
+        {
+          "mcqSetId": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md_1790245908350",
+          "notePath": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+          "answers": [
+            {
+              "questionIndex": 0,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 2.929,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 1,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 2.315,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 2,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 1.371,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 3,
+              "selectedAnswerIndex": 2,
+              "correct": true,
+              "timeToAnswer": 1.638,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 4,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 3.586,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 5,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 1.655,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 6,
+              "selectedAnswerIndex": 3,
+              "correct": true,
+              "timeToAnswer": 9.698,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 7,
+              "selectedAnswerIndex": 0,
+              "correct": true,
+              "timeToAnswer": 5.922,
+              "attempts": 2
+            },
+            {
+              "questionIndex": 8,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 2.636,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 9,
+              "selectedAnswerIndex": 2,
+              "correct": true,
+              "timeToAnswer": 3.176,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 10,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 4.975,
+              "attempts": 2
+            },
+            {
+              "questionIndex": 11,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 3.386,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 12,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 7.531,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 13,
+              "selectedAnswerIndex": 0,
+              "correct": true,
+              "timeToAnswer": 7.082,
+              "attempts": 2
+            },
+            {
+              "questionIndex": 14,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 18.951,
+              "attempts": 2
+            },
+            {
+              "questionIndex": 15,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 5.458,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 16,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 4.126,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 17,
+              "selectedAnswerIndex": 2,
+              "correct": true,
+              "timeToAnswer": 3.242,
+              "attempts": 1
+            },
+            {
+              "questionIndex": 18,
+              "selectedAnswerIndex": 1,
+              "correct": true,
+              "timeToAnswer": 4.54,
+              "attempts": 1
+            }
+          ],
+          "score": 0.7894736842105263,
+          "currentQuestionIndex": 19,
+          "completed": true,
+          "startedAt": 1790245919012,
+          "completedAt": 1790246032693
         }
       ],
       "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md": [
