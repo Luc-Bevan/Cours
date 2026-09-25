@@ -112,18 +112,6 @@
         "scheduleCategory": "initial",
         "schedulingAlgorithm": "sm2"
       },
-      "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md": {
-        "path": "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
-        "lastReviewDate": null,
-        "nextReviewDate": 1790121600000,
-        "ease": 250,
-        "interval": 0,
-        "consecutive": 0,
-        "reviewCount": 0,
-        "repetitionCount": 0,
-        "scheduleCategory": "initial",
-        "schedulingAlgorithm": "sm2"
-      },
       "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md": {
         "path": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
         "lastReviewDate": null,
@@ -270,6 +258,18 @@
       },
       "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md": {
         "path": "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md",
+        "lastReviewDate": null,
+        "nextReviewDate": 1790121600000,
+        "ease": 250,
+        "interval": 0,
+        "consecutive": 0,
+        "reviewCount": 0,
+        "repetitionCount": 0,
+        "scheduleCategory": "initial",
+        "schedulingAlgorithm": "sm2"
+      },
+      "2026-2027/R1/R1.01/R1.01b/Cours/TD1 (azzouni soumaya).md": {
+        "path": "2026-2027/R1/R1.01/R1.01b/Cours/TD1 (azzouni soumaya).md",
         "lastReviewDate": null,
         "nextReviewDate": 1790121600000,
         "ease": 250,
@@ -4189,7 +4189,7 @@
     },
     "customNoteOrder": [
       "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
-      "2026-2027/R1/R1.01/R1.01b/Cours/TP1 (azzouni soumaya).md",
+      "2026-2027/R1/R1.01/R1.01b/Cours/TD1 (azzouni soumaya).md",
       "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
       "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
       "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
