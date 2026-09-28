@@ -449,9 +449,21 @@
             "id": "1043f376b7791d13",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "2026-2027/R1/R1.01/R1.01b/Docs/1788938755927 1.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "1788938755927 1"
+            }
+          },
+          {
+            "id": "496ab20f5f0b5235",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.01/R1.01b/Cours/TD2 (azzouni soumaya).md",
+                "file": "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -466,7 +478,43 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TD2 (azzouni soumaya)"
+              "title": "CM CH1 (Gaultier Béatrice)"
+            }
+          },
+          {
+            "id": "c7adcec9ba22d494",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.14/Cours/TD CH2 (Gaultier Béatrice).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TD CH2 (Gaultier Béatrice)"
+            }
+          },
+          {
+            "id": "92ad90dfe8f9ef7e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "2026-2027/R1/R1.14/Cours/TD CH2 Draw (Gaultier Béatrice.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "TD CH2 Draw (Gaultier Béatrice"
             }
           },
           {
@@ -658,7 +706,7 @@
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 24
       }
     ],
     "direction": "vertical"
@@ -775,7 +823,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.01/R1.01b/Cours/TD2 (azzouni soumaya).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -871,22 +918,27 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1043f376b7791d13",
+  "active": "92ad90dfe8f9ef7e",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.01/R1.01b/Docs/image1.png",
+    "2026-2027/R1/R1.14/Cours/TD CH2 Draw (Gaultier Béatrice.md",
+    "2026-2027/R1/R1.14/Cours/TD CH2 (Gaultier Béatrice).md",
+    "2026-2027/R1/R1.14/R1.14.md",
+    "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md",
+    "2026-2027/R1/R1.01/R1.01b/Docs/Pasted image 20260925144631.png",
+    "2026-2027/R1/R1.01/R1.01b/Docs/Pasted image 20260925144612.png",
+    "2026-2027/R1/R1.01/R1.01b/Docs/Pasted image 20260925144504.png",
+    "2026-2027/R1/R1.01/R1.01b/Docs/Pasted image 20260925144439.png",
+    "2026-2027/R1/R1.01/R1.01b/Docs/Pasted image 20260925144552.png",
+    "2026-2027/R1/R1.01/R1.01b/Docs/Pasted image 20260925144521.png",
+    "2026-2027/R1/R1.01/R1.01b/Docs/Pasted image 20260925144538.png",
+    "2026-2027/R1/R1.01/R1.01b/Docs/1788938755927 1.jpg",
+    "2026-2027/R1/R1.01/R1.01b/Docs/image2.png",
+    "2026-2027/R1/R1.01/R1.01.md",
     "2026-2027/R1/R1.01/R1.01b/Cours/TD2 (azzouni soumaya).md",
-    "Pasted image 20260925144631.png",
-    "Pasted image 20260925144612.png",
-    "Pasted image 20260925144552.png",
+    "2026-2027/R1/R1.01/R1.01b/Docs/image1.png",
     "2026-2027/R1/R1.01/R1.01b/Cours/TD1 (azzouni soumaya).md",
-    "Pasted image 20260925144538.png",
-    "Pasted image 20260925144521.png",
-    "Pasted image 20260925144504.png",
-    "Pasted image 20260925144439.png",
     "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
     "2026-2027/R1/R1.01/R1.01b/Docs/Drawing 2026-09-25 14.42.36.excalidraw.md",
-    "2026-2027/R1/R1.01/R1.01b/Docs/image2.png",
-    "2026-2027/R1/R1.01/R1.01b/Docs/1788938755927 1.jpg",
     "2026-2027/R1/R1.05/R1.05.md",
     "2026-2027/R1/R1.09/Cours/TD 1.md",
     "M1 - Comment fonctionne le Web — mis en forme.docx",
@@ -909,15 +961,11 @@
     "2026-2027/R1/R1.13/Cours",
     "2026-2027/R1/R1.13",
     "2026-2027/R1/R1.12/Cours/R1.12 (Nabih Nejjar).md",
-    "2026-2027/R1/R1.01/R1.01.md",
     "2026-2027/R1/R1.12/R1.12.md",
     "2026-2027/R1/R1.12/Docs",
     "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
     "2026-2027/R1/R1.07/Cours/TD1/TD1.1 (Laurent Nils).md",
     "2026-2027/R1/R1.07/Cours/TD1/TD1.2 (Laurent Nils).md",
-    "2026-2027/R1/R1.08/Cours/TP2 (Martini Pierre).md",
-    "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
-    "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
     "Sans titre.canvas",
     "Existence/Sans titre.canvas"
   ]
