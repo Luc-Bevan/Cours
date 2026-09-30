@@ -518,6 +518,18 @@
             }
           },
           {
+            "id": "8f2a72a4437ff841",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "2026-2027/R1/R1.04/Cours/TD1 (azzouni soumaya).md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "TD1 (azzouni soumaya)"
+            }
+          },
+          {
             "id": "b38f25db4be9915f",
             "type": "leaf",
             "state": {
@@ -706,7 +718,7 @@
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 25
       }
     ],
     "direction": "vertical"
@@ -823,7 +835,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.14/Cours/TD CH2 Draw (Gaultier Béatrice.md",
+                "file": "2026-2027/R1/R1.04/Cours/TD1 (azzouni soumaya).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -919,8 +931,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "92ad90dfe8f9ef7e",
+  "active": "8f2a72a4437ff841",
   "lastOpenFiles": [
+    "2026-2027/R1/R1.04/Cours/TD1 (azzouni soumaya).md",
     "2026-2027/R1/R1.14/Cours/TD CH2 Draw (Gaultier Béatrice.md",
     "2026-2027/R1/R1.14/Cours/TD CH2 (Gaultier Béatrice).md",
     "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md",
@@ -966,7 +979,6 @@
     "2026-2027/R1/R1.12/Docs",
     "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
     "2026-2027/R1/R1.07/Cours/TD1/TD1.1 (Laurent Nils).md",
-    "2026-2027/R1/R1.07/Cours/TD1/TD1.2 (Laurent Nils).md",
     "Sans titre.canvas",
     "Existence/Sans titre.canvas"
   ]
