@@ -521,12 +521,24 @@
             "id": "8f2a72a4437ff841",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md"
+                "file": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-09-23 16.35.09.excalidraw"
+              "icon": "lucide-file",
+              "title": "TD1 (Christophe Héraud)"
             }
           },
           {
@@ -835,7 +847,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
+                "file": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -933,10 +945,11 @@
   },
   "active": "8f2a72a4437ff841",
   "lastOpenFiles": [
+    "2026-2027/R1/R1.04/Cours/TD1 (azzouni soumaya).md",
+    "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
     "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
     "2026-2027/R1/R1.13/R1.13.md",
     "Tableau Ressources.md",
-    "2026-2027/R1/R1.04/Cours/TD1 (azzouni soumaya).md",
     "2026-2027/R1/R1.14/Cours/TD CH2 Draw (Gaultier Béatrice.md",
     "2026-2027/R1/R1.14/Cours/TD CH2 (Gaultier Béatrice).md",
     "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md",
@@ -965,7 +978,6 @@
     "2026-2027/R1/R1.09/Docs",
     "2026-2027/R1/R1.09/Cours",
     "2026-2027/R1/R1.09",
-    "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
     "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
     "2026-2027/R1/R1.13/Cours/R1.13(Yann).md",
     "Excalidraw/Drawing 2026-09-23 16.34.47.excalidraw.md",
