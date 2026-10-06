@@ -521,12 +521,24 @@
             "id": "8f2a72a4437ff841",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md"
+                "file": "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-09-23 16.35.09.excalidraw"
+              "icon": "lucide-file",
+              "title": "CM2 (Christophe Heyraud)"
             }
           },
           {
@@ -718,7 +730,7 @@
             }
           }
         ],
-        "currentTab": 25
+        "currentTab": 26
       }
     ],
     "direction": "vertical"
@@ -835,7 +847,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
+                "file": "2026-2027/R1/R1.01/R1.01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -930,11 +942,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8f2a72a4437ff841",
+  "active": "b38f25db4be9915f",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
-    "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
+    "2026-2027/R1/R1.06/Cours/Drawing 2026-10-06 08.55.01.excalidraw.md",
     "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
+    "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
+    "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
     "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
     "2026-2027/R1/R1.04/Cours/TD1 (azzouni soumaya).md",
     "2026-2027/R1/R1.13/R1.13.md",
@@ -976,7 +989,6 @@
     "2026-2027/R1/R1.13/Cours",
     "2026-2027/R1/R1.13",
     "2026-2027/R1/R1.12/Cours/R1.12 (Nabih Nejjar).md",
-    "2026-2027/R1/R1.12/R1.12.md",
     "2026-2027/R1/R1.12/Docs",
     "Sans titre.canvas",
     "Existence/Sans titre.canvas"
