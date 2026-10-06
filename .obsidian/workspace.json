@@ -521,24 +521,12 @@
             "id": "8f2a72a4437ff841",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "CM1 (Christophe Heyraud)"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-09-23 16.35.09.excalidraw"
             }
           },
           {
@@ -847,7 +835,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
+                "file": "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -926,14 +914,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:Créer un nouveau canvas": false,
       "graph:Ouvrir la vue graphique": false,
       "switcher:Ouvrir le sélecteur rapide": false,
-      "canvas:Créer une nouvelle toile": false,
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
       "bases:Créer une nouvelle base": false,
-      "markdown-importer:Ouvrir l'importateur Markdown": false,
       "obsidian-custom-frames:Open 1.0.0.1": false,
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
@@ -945,11 +932,11 @@
   },
   "active": "8f2a72a4437ff841",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
+    "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
     "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
+    "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
     "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
     "2026-2027/R1/R1.04/Cours/TD1 (azzouni soumaya).md",
-    "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
     "2026-2027/R1/R1.13/R1.13.md",
     "Tableau Ressources.md",
     "2026-2027/R1/R1.14/Cours/TD CH2 Draw (Gaultier Béatrice.md",
