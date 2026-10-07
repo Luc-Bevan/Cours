@@ -713,10 +713,36 @@
             "id": "2978568a51db1a43",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vue graphique"
+              "type": "markdown",
+              "state": {
+                "file": "Tableau Ressources.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Tableau Ressources"
+            }
+          },
+          {
+            "id": "9c5649a5006341e5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Drawing 2026-10-07 13.50.30.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-10-07 13.50.30.excalidraw"
             }
           },
           {
@@ -874,7 +900,7 @@
             }
           }
         ],
-        "currentTab": 33
+        "currentTab": 35
       }
     ],
     "direction": "vertical"
@@ -936,7 +962,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.1666717529297
+    "width": 219.16668701171875
   },
   "right": {
     "id": "523d16dad8332a33",
@@ -991,7 +1017,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1086,22 +1111,24 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f7f98c19a5ca40f4",
+  "active": "9c5649a5006341e5",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
+    "Drawing 2026-10-07 13.50.30.excalidraw.md",
+    "Drawing 2026-10-06 14.20.16.excalidraw.md",
+    "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
+    "Tableau Ressources.md",
+    "Sans titre.md",
     "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
+    "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
     "2026-2027/R1/R1.06/Cours/Cours perso (Christophe Heyraud).md",
     "2026-2027/R1/R1.14/Cours/TD CH3 (Gautier Béatrice).md",
     "2026-2027/R1/R1.14/Cours/TD CH3 (Gaultier Béatrice).md",
     "2026-2027/R1/R1.14/Cours/TD CH2 Draw (Gaultier Béatrice.md",
     "R1. 15.md",
     "Contacts Profs & Admin.md",
-    "Drawing 2026-10-06 14.20.16.excalidraw.md",
-    "Tableau Ressources.md",
     "RT1 — TD2 — Fiche de travail équipe 1.pdf",
     "RT1 — TD2 — Fiche de travail équipe.pdf",
     "Reminder.md",
-    "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
     "Pasted image 20261006150234.png",
     "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
     "2026-2027/R1/R1.04/Cours/TD1 (azzouni soumaya).md",
@@ -1124,8 +1151,6 @@
     "2026-2027/R1/R1.01/R1.01b/Cours/TD1 (azzouni soumaya).md",
     "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
     "2026-2027/R1/R1.01/R1.01b/Docs/Drawing 2026-09-25 14.42.36.excalidraw.md",
-    "2026-2027/R1/R1.05/R1.05.md",
-    "2026-2027/R1/R1.09/Cours/TD 1.md",
     "M1 - Comment fonctionne le Web — mis en forme.docx",
     "2026-2027/R1/R1.09/Docs",
     "2026-2027/R1/R1.09/Cours",
