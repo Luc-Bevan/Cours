@@ -581,9 +581,21 @@
             "id": "4f731ae21b93587c",
             "type": "leaf",
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "2026-2027/R1/R1.14/Cours/TD CH2 Draw (Gaultier Béatrice.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "TD CH2 Draw (Gaultier Béatrice"
+            }
+          },
+          {
+            "id": "19a2f1c5bb21a20f",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "R1. 15.md",
+                "file": "2026-2027/R1/R1.14/Cours/TD CH3 (Gautier Béatrice).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -598,7 +610,103 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "R1. 15"
+              "title": "TD CH3 (Gautier Béatrice)"
+            }
+          },
+          {
+            "id": "65264112c8564aa7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.14/Cours/TD CH3 (Gautier Béatrice).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TD CH3 (Gautier Béatrice)"
+            }
+          },
+          {
+            "id": "4f33158c4b45f1ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.14/Cours/TD CH3 (Gautier Béatrice).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TD CH3 (Gautier Béatrice)"
+            }
+          },
+          {
+            "id": "868bab826b598038",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.14/Cours/TD CH3 (Gautier Béatrice).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TD CH3 (Gautier Béatrice)"
+            }
+          },
+          {
+            "id": "f7f98c19a5ca40f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.06/Cours/Cours perso (Christophe Heyraud).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cours perso (Christophe Heyraud)"
             }
           },
           {
@@ -766,7 +874,7 @@
             }
           }
         ],
-        "currentTab": 28
+        "currentTab": 33
       }
     ],
     "direction": "vertical"
@@ -883,7 +991,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "R1. 15.md",
+                "file": "2026-2027/R1/R1.06/Cours/Cours perso (Christophe Heyraud).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -978,8 +1086,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4f731ae21b93587c",
+  "active": "f7f98c19a5ca40f4",
   "lastOpenFiles": [
+    "2026-2027/R1/R1.14/Cours/TD CH3 (Gautier Béatrice).md",
+    "2026-2027/R1/R1.14/Cours/TD CH3 (Gaultier Béatrice).md",
+    "2026-2027/R1/R1.06/Cours/Cours perso (Christophe Heyraud).md",
+    "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
+    "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
+    "2026-2027/R1/R1.14/Cours/TD CH2 Draw (Gaultier Béatrice.md",
+    "R1. 15.md",
     "Contacts Profs & Admin.md",
     "Drawing 2026-10-06 14.20.16.excalidraw.md",
     "Tableau Ressources.md",
@@ -987,16 +1102,12 @@
     "RT1 — TD2 — Fiche de travail équipe.pdf",
     "Reminder.md",
     "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
-    "R1. 15.md",
     "Pasted image 20261006150234.png",
-    "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
-    "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
     "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
     "2026-2027/R1/R1.04/Cours/TD1 (azzouni soumaya).md",
     "2026-2027/R1/R1.01/R1.01.md",
     "2026-2027/R1/R1.06/Cours/Drawing 2026-10-06 08.55.01.excalidraw.md",
     "2026-2027/R1/R1.13/R1.13.md",
-    "2026-2027/R1/R1.14/Cours/TD CH2 Draw (Gaultier Béatrice.md",
     "2026-2027/R1/R1.14/Cours/TD CH2 (Gaultier Béatrice).md",
     "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md",
     "2026-2027/R1/R1.14/R1.14.md",
@@ -1016,9 +1127,6 @@
     "2026-2027/R1/R1.05/R1.05.md",
     "2026-2027/R1/R1.09/Cours/TD 1.md",
     "M1 - Comment fonctionne le Web — mis en forme.docx",
-    "2026-2027/R1/R1.09/R1.09.md",
-    "2026-2027/R1/R1.11/R1.11.md",
-    "2026-2027/R1/R1.07/R1.07.md",
     "2026-2027/R1/R1.09/Docs",
     "2026-2027/R1/R1.09/Cours",
     "2026-2027/R1/R1.09",

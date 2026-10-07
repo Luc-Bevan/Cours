@@ -127,10 +127,10 @@ Un processeur peut communiquer de deux manières :
 
 ### Technologies CISC vs RISC
 
-| Technologie | Signification | Caractéristiques |
-|---|---|---|
-| **CISC** | Complex Instruction Set Computing | Beaucoup d'instructions, au détriment de la surface de la puce |
-| **RISC** | Reduced Instruction Set Computing | Une cinquantaine d'instructions, plus petits, moins performants |
+| Technologie | Signification                     | Caractéristiques                                                |
+| ----------- | --------------------------------- | --------------------------------------------------------------- |
+| **CISC**    | Complex Instruction Set Computing | Beaucoup d'instructions, au détriment de la surface de la puce  |
+| **RISC**    | Reduced Instruction Set Computing | Une cinquantaine d'instructions, plus petits, moins performants |
 
 - Un microprocesseur intègre plusieurs **millions de transistors** (gravure à 3 nm) et de la **mémoire cache** (mémoire ultra rapide).
 - Fréquence d'horloge de plusieurs **GHz** → calculs très rapides, effectués sur **32 ou 64 bits** selon le modèle (désormais aussi 84 bits — *à vérifier auprès du prof/support de cours, ce chiffre est inhabituel pour une architecture CPU grand public*).
@@ -196,14 +196,14 @@ Les SSD utilisent de la mémoire **flash de type NAND**, principal type de mémo
 
 ## 7. Types de connecteurs vidéo
 
-| Connecteur | Type | Signal |
-|---|---|---|
-| **VGA** (*Video Graphics Array*) | Port analogique | Vidéo uniquement |
-| **HDMI** (*High-Definition Multimedia Interface*) | Port numérique | Vidéo **et** audio |
-| **DVI-I** (*Digital Visual Interface – Integrated*) | Port numérique **et** analogique | Vidéo |
-| **DVI-D** (*Digital Visual Interface – Digital*) | Port numérique | Vidéo |
-| **DVI-A** (*Digital Visual Interface – Analog*) | Port analogique | Vidéo |
-| **DP** (*DisplayPort*) | Port numérique | Vidéo **et** audio |
+| Connecteur                                          | Type                             | Signal             |
+| --------------------------------------------------- | -------------------------------- | ------------------ |
+| **VGA** (*Video Graphics Array*)                    | Port analogique                  | Vidéo uniquement   |
+| **HDMI** (*High-Definition Multimedia Interface*)   | Port numérique                   | Vidéo **et** audio |
+| **DVI-I** (*Digital Visual Interface – Integrated*) | Port numérique **et** analogique | Vidéo              |
+| **DVI-D** (*Digital Visual Interface – Digital*)    | Port numérique                   | Vidéo              |
+| **DVI-A** (*Digital Visual Interface – Analog*)     | Port analogique                  | Vidéo              |
+| **DP** (*DisplayPort*)                              | Port numérique                   | Vidéo **et** audio |
 
 ---
 
