@@ -737,12 +737,50 @@
             "id": "4c8ad07ab4279217",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md"
+                "file": "2026-2027/R1/R1.07/Cours/TD1/TD1.2 (Laurent Nils).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-09-23 16.35.09.excalidraw"
+              "icon": "lucide-file",
+              "title": "TD1.2 (Laurent Nils)"
+            }
+          },
+          {
+            "id": "f9df11234341b517",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vue graphique"
+            }
+          },
+          {
+            "id": "67257c27ca3d0972",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2026-2027/R1/R1.07/Docs/R107.pdf",
+                "page": 35,
+                "left": -9,
+                "top": 4,
+                "zoom": 1.6123057791653714
+              },
+              "icon": "lucide-file-text",
+              "title": "R107"
             }
           },
           {
@@ -876,7 +914,7 @@
             }
           }
         ],
-        "currentTab": 35
+        "currentTab": 37
       }
     ],
     "direction": "vertical"
@@ -993,7 +1031,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
+                "file": "2026-2027/R1/R1.07/Docs/R107.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1088,33 +1126,41 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4c8ad07ab4279217",
+  "active": "67257c27ca3d0972",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
-    "Tableau Ressources.md",
-    "RT1 — TD2 — Fiche de travail équipe 1.pdf",
-    "R1. 15.md",
-    "Contacts Profs & Admin.md",
-    "Drawing 2026-10-06 14.20.16.excalidraw.md",
-    "Drawing 2026-10-07 13.50.30.excalidraw.md",
-    "Sans titre.md",
-    "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
-    "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
+    "2026-2027/R1/R1.07/Docs/TD1 (1).pdf",
+    "2026-2027/R1/R1.07/Docs/TD2 (1).pdf",
+    "2026-2027/R1/R1.07/R1.07.md",
+    "2026-2027/R1/R1.07/Cours/TD1/TD1.1 (Laurent Nils).md",
+    "2026-2027/R1/R1.07/Cours/TD1/TD2 (Laurent Nils).md",
+    "2026-2027/R1/R1.01/R1.01.md",
+    "2026-2027/R1/R1.01/R1.01b/Cours/TD1 (azzouni soumaya).md",
+    "2026-2027/R1/R1.01/R1.01b/Cours/TD2 (azzouni soumaya).md",
+    "2026-2027/R1/R1.08/R1.08.md",
+    "2026-2027/R1/R1.08/Cours/TP2 (Martini Pierre).md",
+    "2026-2027/R1/R1.06/R1.06.md",
     "2026-2027/R1/R1.06/Cours/Cours perso (Christophe Heyraud).md",
-    "2026-2027/R1/R1.14/Cours/TD CH3 (Gautier Béatrice).md",
-    "2026-2027/R1/R1.14/Cours/TD CH3 (Gaultier Béatrice).md",
-    "2026-2027/R1/R1.14/Cours/TD CH2 Draw (Gaultier Béatrice.md",
-    "RT1 — TD2 — Fiche de travail équipe.pdf",
-    "Reminder.md",
-    "Pasted image 20261006150234.png",
+    "2026-2027/R1/R1.04/R1.04.md",
     "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
     "2026-2027/R1/R1.04/Cours/TD1 (azzouni soumaya).md",
-    "2026-2027/R1/R1.01/R1.01.md",
-    "2026-2027/R1/R1.06/Cours/Drawing 2026-10-06 08.55.01.excalidraw.md",
-    "2026-2027/R1/R1.13/R1.13.md",
-    "2026-2027/R1/R1.14/Cours/TD CH2 (Gaultier Béatrice).md",
-    "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md",
     "2026-2027/R1/R1.14/R1.14.md",
+    "2026-2027/R1/R1.14/Cours/TD CH2 Draw (Gaultier Béatrice.md",
+    "2026-2027/R1/R1.07/Cours/TD1/TD1.2 (Laurent Nils).md",
+    "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
+    "2026-2027/R1/R1.08/Cours/TD1 (Martini Pierre).md",
+    "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
+    "2026-2027/R1/R1.14/Cours/TD CH3 (Gautier Béatrice).md",
+    "2026-2027/R1/R1.14/Cours/TD CH2 (Gaultier Béatrice).md",
+    "2026-2027/R1/R1.15/Docs/RT1 — TD2 — Fiche de travail équipe 1.pdf",
+    "2026-2027/R1/R1.14/Cours/TD CH3 (Gaultier Béatrice).md",
+    "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
+    "2026-2027/R1/R1.15/Cours/R1. 15.md",
+    "2026-2027/R1/R1.13/R1.13.md",
+    "2026-2027/R1/R1.15/Docs",
+    "2026-2027/R1/R1.15/Cours",
+    "2026-2027/R1/R1.15",
+    "RT1 — TD2 — Fiche de travail équipe.pdf",
+    "Pasted image 20261006150234.png",
     "2026-2027/R1/R1.01/R1.01b/Docs/Pasted image 20260925144631.png",
     "2026-2027/R1/R1.01/R1.01b/Docs/Pasted image 20260925144612.png",
     "2026-2027/R1/R1.01/R1.01b/Docs/Pasted image 20260925144504.png",
@@ -1124,17 +1170,9 @@
     "2026-2027/R1/R1.01/R1.01b/Docs/Pasted image 20260925144538.png",
     "2026-2027/R1/R1.01/R1.01b/Docs/1788938755927 1.jpg",
     "2026-2027/R1/R1.01/R1.01b/Docs/image2.png",
-    "2026-2027/R1/R1.01/R1.01b/Cours/TD2 (azzouni soumaya).md",
-    "2026-2027/R1/R1.01/R1.01b/Cours/TD1 (azzouni soumaya).md",
-    "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
     "M1 - Comment fonctionne le Web — mis en forme.docx",
     "2026-2027/R1/R1.09/Docs",
     "2026-2027/R1/R1.09/Cours",
-    "2026-2027/R1/R1.09",
-    "Excalidraw",
-    "2026-2027/R1/R1.09/Cours",
-    "2026-2027/R1/R1.13/Docs",
-    "2026-2027/R1/R1.13/Cours",
     "Sans titre.canvas",
     "Existence/Sans titre.canvas"
   ]

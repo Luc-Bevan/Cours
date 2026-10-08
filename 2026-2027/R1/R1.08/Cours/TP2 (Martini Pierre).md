@@ -1,3 +1,7 @@
+---
+aliases:
+  - TP1.1.1
+---
 ![[TP2.pdf]]
 
 1) La commande ```ls *```  ser à lister tous ce qui se trouve dans le répertoire courant, elle fais la meme chose que simplement ```ls``` .

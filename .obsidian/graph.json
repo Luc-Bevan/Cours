@@ -3,7 +3,7 @@
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
@@ -48,18 +48,25 @@
         "a": 1,
         "rgb": 11412449
       }
+    },
+    {
+      "query": "PERSO",
+      "color": {
+        "a": 1,
+        "rgb": 6084190
+      }
     }
   ],
   "collapse-display": false,
-  "showArrow": false,
-  "textFadeMultiplier": -1.4,
-  "nodeSizeMultiplier": 1.54933815502183,
-  "lineSizeMultiplier": 4.30960016375546,
+  "showArrow": true,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 2.40119305856833,
+  "lineSizeMultiplier": 5,
   "collapse-forces": false,
-  "centerStrength": 0.535957969432314,
+  "centerStrength": 0,
   "repelStrength": 20,
-  "linkStrength": 1,
-  "linkDistance": 30,
-  "scale": 0.40252085108207086,
-  "close": true
+  "linkStrength": 0.834056399132321,
+  "linkDistance": 500,
+  "scale": 0.08317427835927552,
+  "close": false
 }

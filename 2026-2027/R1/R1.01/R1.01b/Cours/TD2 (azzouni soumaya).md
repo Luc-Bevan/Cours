@@ -1,6 +1,6 @@
 ---
-title: TD2 - Vérification de connectivité et de configuration
-tags: [réseaux, tcp-ip, td, cours]
+aliases:
+  - TD1.1.1
 ---
 
 # TD2 : Vérification de connectivité et de configuration

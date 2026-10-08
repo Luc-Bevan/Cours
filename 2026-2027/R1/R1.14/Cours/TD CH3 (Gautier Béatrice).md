@@ -1,3 +1,7 @@
+---
+aliases:
+  - TD1.1.1
+---
 # Les nombres complexes — Cours complet perso
 
 > **Niveau** : fin de lycée / début d'enseignement supérieur (Terminale spécialité maths expertes, Licence 1, classes préparatoires).

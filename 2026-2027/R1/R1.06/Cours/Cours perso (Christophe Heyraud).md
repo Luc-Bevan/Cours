@@ -1,3 +1,7 @@
+---
+aliases:
+  - PERSO
+---
 # Les systèmes de numération : binaire, octal, décimal, hexadécimal
 
 > **Niveau** : lycée (NSI), IUT, licence d'informatique, électronique numérique.
