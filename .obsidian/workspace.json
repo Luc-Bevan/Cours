@@ -771,16 +771,24 @@
             "id": "67257c27ca3d0972",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.07/Docs/R107.pdf",
-                "page": 60,
-                "left": -9,
-                "top": 186,
-                "zoom": 1.6123057791653714
+                "file": "2026-2027/R1/R1.04/Cours/TP1 (Chevrier Jean-Pierre).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "R107"
+              "icon": "lucide-file",
+              "title": "TP1 (Chevrier Jean-Pierre)"
             }
           },
           {
@@ -1031,7 +1039,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.07/Docs/R107.pdf",
+                "file": "2026-2027/R1/R1.04/Cours/TP1 (Chevrier Jean-Pierre).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1128,6 +1136,8 @@
   },
   "active": "67257c27ca3d0972",
   "lastOpenFiles": [
+    "2026-2027/R1/R1.07/Docs/R107.pdf",
+    "2026-2027/R1/R1.04/Cours/TP1 (Chevrier Jean-Pierre).md",
     "2026-2027/R1/R1.07/Docs/TD1 (1).pdf",
     "2026-2027/R1/R1.07/Docs/TD2 (1).pdf",
     "2026-2027/R1/R1.07/R1.07.md",
@@ -1155,7 +1165,6 @@
     "2026-2027/R1/R1.14/Cours/TD CH3 (Gaultier Béatrice).md",
     "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
     "2026-2027/R1/R1.15/Cours/R1. 15.md",
-    "2026-2027/R1/R1.13/R1.13.md",
     "2026-2027/R1/R1.15/Docs",
     "2026-2027/R1/R1.15/Cours",
     "2026-2027/R1/R1.15",
