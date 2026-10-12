@@ -797,7 +797,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.md",
+                "file": "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -812,7 +812,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1"
+              "title": "CM2 (Christophe Heyraud)"
             }
           },
           {
@@ -1063,7 +1063,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.md",
+                "file": "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1160,8 +1160,11 @@
   },
   "active": "26ef17d2426eb520",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.04/Cours/TP1 (Chevrier Jean-Pierre).md",
+    "2026-2027/R1/R1.06/Cours/Cours perso (Christophe Heyraud).md",
+    "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
+    "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
     "1.md",
+    "2026-2027/R1/R1.04/Cours/TP1 (Chevrier Jean-Pierre).md",
     "2026-2027/R1/R1.07/Docs/R107.pdf",
     "2026-2027/R1/R1.07/Docs/TD1 (1).pdf",
     "2026-2027/R1/R1.07/Docs/TD2 (1).pdf",
@@ -1174,7 +1177,6 @@
     "2026-2027/R1/R1.08/R1.08.md",
     "2026-2027/R1/R1.08/Cours/TP2 (Martini Pierre).md",
     "2026-2027/R1/R1.06/R1.06.md",
-    "2026-2027/R1/R1.06/Cours/Cours perso (Christophe Heyraud).md",
     "2026-2027/R1/R1.04/R1.04.md",
     "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
     "2026-2027/R1/R1.04/Cours/TD1 (azzouni soumaya).md",
@@ -1188,8 +1190,6 @@
     "2026-2027/R1/R1.14/Cours/TD CH2 (Gaultier Béatrice).md",
     "2026-2027/R1/R1.15/Docs/RT1 — TD2 — Fiche de travail équipe 1.pdf",
     "2026-2027/R1/R1.14/Cours/TD CH3 (Gaultier Béatrice).md",
-    "2026-2027/R1/R1.08/Cours/TD2 (Martini Pierre).md",
-    "2026-2027/R1/R1.15/Cours/R1. 15.md",
     "2026-2027/R1/R1.15/Docs",
     "2026-2027/R1/R1.15/Cours",
     "2026-2027/R1/R1.15",
