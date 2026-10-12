@@ -792,6 +792,30 @@
             }
           },
           {
+            "id": "26ef17d2426eb520",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "1"
+            }
+          },
+          {
             "id": "58dbe1edc4edd5db",
             "type": "leaf",
             "state": {
@@ -922,7 +946,7 @@
             }
           }
         ],
-        "currentTab": 37
+        "currentTab": 38
       }
     ],
     "direction": "vertical"
@@ -1039,7 +1063,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.04/Cours/TP1 (Chevrier Jean-Pierre).md",
+                "file": "1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1134,10 +1158,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "67257c27ca3d0972",
+  "active": "26ef17d2426eb520",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.07/Docs/R107.pdf",
     "2026-2027/R1/R1.04/Cours/TP1 (Chevrier Jean-Pierre).md",
+    "1.md",
+    "2026-2027/R1/R1.07/Docs/R107.pdf",
     "2026-2027/R1/R1.07/Docs/TD1 (1).pdf",
     "2026-2027/R1/R1.07/Docs/TD2 (1).pdf",
     "2026-2027/R1/R1.07/R1.07.md",
@@ -1181,7 +1206,6 @@
     "2026-2027/R1/R1.01/R1.01b/Docs/image2.png",
     "M1 - Comment fonctionne le Web — mis en forme.docx",
     "2026-2027/R1/R1.09/Docs",
-    "2026-2027/R1/R1.09/Cours",
     "Sans titre.canvas",
     "Existence/Sans titre.canvas"
   ]
