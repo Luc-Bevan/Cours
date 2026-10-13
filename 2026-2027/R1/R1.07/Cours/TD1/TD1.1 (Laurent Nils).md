@@ -3,7 +3,8 @@ aliases:
   - TD1.1.1
 ---
 ![[R107.pdf]]
-
+![[slides_R107.pdf]]
+Python Tutor (site pour expliquer le code).
 
 ### Exercice 1:
 
