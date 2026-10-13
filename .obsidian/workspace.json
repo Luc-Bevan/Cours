@@ -867,24 +867,16 @@
             "id": "04ba349f27c07585",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "2026-2027/R1/R1.15/Docs/RT1 — TP1 — Modèle de planning Journée découverte.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "2026-2027/R1/R1.07/Docs/R107.pdf",
+                "page": 79,
+                "left": -9,
+                "top": 258,
+                "zoom": 1.7049100085328184
               },
-              "icon": "lucide-file",
-              "title": "RT1 — TP1 — Modèle de planning Journée découverte"
+              "icon": "lucide-file-text",
+              "title": "R107"
             }
           },
           {
@@ -1121,7 +1113,8 @@
               "title": "Spaceforge review"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "f84b71a3f552b5ac",
@@ -1134,7 +1127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.15/Docs/RT1 — TP1 — Modèle de planning Journée découverte.md",
+                "file": "2026-2027/R1/R1.07/Docs/R107.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1209,8 +1202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.833251953125,
-    "collapsed": true
+    "width": 364.833251953125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1231,17 +1223,23 @@
       "vault-lens:Vault Lens Dev: 打开当前文件": false
     }
   },
-  "active": "04ba349f27c07585",
+  "active": "2bc74a254e60e9da",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.15/Docs/RT1 — TP1 — Modèle de planning Journée découverte.xlsx",
-    "2026-2027/R1/R1.15/Docs/RT1 — TP1 — Fiche étudiant - Construire et piloter un planning.pdf",
-    "2026-2027/R1/R1.15/Docs/RT1 — TP1 — Construire et piloter un planning.pdf",
-    "2026-2027/R1/R1.15/Docs/RT1 — TD2 — Fiche de travail équipe 1.pdf",
-    "2026-2027/R1/R1.15/Cours/TD2.md",
-    "2026-2027/R1/R1.15/Cours/TP1.md",
-    "2026-2027/R1/R1.15/Docs/RT1 — TP1 — Modèle de planning Journée découverte.md",
+    "2026-2027/R1/R1.07/Docs/TD1 (1).pdf",
+    "2026-2027/R1/R1.07/Docs/TD2 (1).pdf",
     "TD1 exercices conversion, classes et adresses valides.docx",
     "M1 - Comment fonctionne le Web — mis en forme.docx",
+    "2026-2027/R1/R1.07/Docs/R107.pdf",
+    "2026-2027/R1/R1.07/Cours/TD1/TD1.1 (Laurent Nils).md",
+    "2026-2027/R1/R1.07/Cours/TD1/TD1.2 (Laurent Nils).md",
+    "2026-2027/R1/R1.15/Cours/TP1.md",
+    "2026-2027/R1/R1.15/Cours/TD2.md",
+    "2026-2027/R1/R1.15/Docs/Bevan Luc & Mario Mondoloni.xlsx",
+    "2026-2027/R1/R1.15/Docs/RT1 — TD2 — Fiche de travail équipe 1.pdf",
+    "2026-2027/R1/R1.15/Docs/RT1 — TP1 — Fiche étudiant - Construire et piloter un planning.pdf",
+    "2026-2027/R1/R1.15/Docs/RT1 — TP1 — Modèle de planning Journée découverte.md",
+    "2026-2027/R1/R1.15/Docs/RT1 — TP1 — Modèle de planning Journée découverte.xlsx",
+    "2026-2027/R1/R1.15/Docs/RT1 — TP1 — Construire et piloter un planning.pdf",
     "2026-2027/R1/R1.15/R1.15.md",
     "Tableau Ressources.md",
     "1.md",
@@ -1249,11 +1247,7 @@
     "2026-2027/R1/R1.06/Cours/Cours perso (Christophe Heyraud).md",
     "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
     "2026-2027/R1/R1.04/Cours/TP1 (Chevrier Jean-Pierre).md",
-    "2026-2027/R1/R1.07/Docs/R107.pdf",
-    "2026-2027/R1/R1.07/Docs/TD1 (1).pdf",
-    "2026-2027/R1/R1.07/Docs/TD2 (1).pdf",
     "2026-2027/R1/R1.07/R1.07.md",
-    "2026-2027/R1/R1.07/Cours/TD1/TD1.1 (Laurent Nils).md",
     "2026-2027/R1/R1.07/Cours/TD1/TD2 (Laurent Nils).md",
     "2026-2027/R1/R1.01/R1.01.md",
     "2026-2027/R1/R1.01/R1.01b/Cours/TD1 (azzouni soumaya).md",
@@ -1266,8 +1260,6 @@
     "2026-2027/R1/R1.04/Cours/TD1 (azzouni soumaya).md",
     "2026-2027/R1/R1.14/R1.14.md",
     "2026-2027/R1/R1.14/Cours/TD CH2 Draw (Gaultier Béatrice.md",
-    "2026-2027/R1/R1.07/Cours/TD1/TD1.2 (Laurent Nils).md",
-    "2026-2027/R1/R1.15/Docs",
     "Pasted image 20261006150234.png",
     "2026-2027/R1/R1.01/R1.01b/Docs/Pasted image 20260925144631.png",
     "2026-2027/R1/R1.01/R1.01b/Docs/Pasted image 20260925144612.png",
