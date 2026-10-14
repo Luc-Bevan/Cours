@@ -320,129 +320,27 @@
             }
           },
           {
-            "id": "5a2185abffe152a1",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://github.com/user-attachments/assets/10bb251e-360c-41ae-a128-e90f3f3e2576",
-                "title": "Page not found · GitHub · GitHub",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Page not found · GitHub · GitHub"
-            }
-          },
-          {
-            "id": "83f040aba529cb38",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://github.com/user-attachments/assets/10bb251e-360c-41ae-a128-e90f3f3e2576",
-                "title": "Page not found · GitHub · GitHub",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Page not found · GitHub · GitHub"
-            }
-          },
-          {
-            "id": "3a4c8b40f15a09d6",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://github.com/user-attachments/assets/10bb251e-360c-41ae-a128-e90f3f3e2576",
-                "title": "Page not found · GitHub · GitHub",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Page not found · GitHub · GitHub"
-            }
-          },
-          {
-            "id": "28a05f32d51b54ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-2027/R1/R1.07/R1.07.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "R1.07"
-            }
-          },
-          {
-            "id": "dfd03f918af39b01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-2027/R1/R1.09/R1.09.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "R1.09"
-            }
-          },
-          {
-            "id": "be3f4339ac178611",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-2027/R1/R1.01/R1.01b/Cours/TD1 (azzouni soumaya).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "TD1 (azzouni soumaya)"
-            }
-          },
-          {
             "id": "aebfb72e9e91841a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.01/R1.01b/Docs/image1.png"
+                "file": "2026-2027/R1/R1.10/R1.10.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-image",
-              "title": "image1"
+              "icon": "lucide-file",
+              "title": "R1.10"
             }
           },
           {
@@ -1042,7 +940,7 @@
             }
           }
         ],
-        "currentTab": 42
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -1159,7 +1057,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.10/Cours/13-10-2026.md",
+                "file": "2026-2027/R1/R1.01/R1.01b/Docs/1788938755927 1.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1234,7 +1132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.833251953125
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1255,11 +1153,15 @@
       "vault-lens:Vault Lens Dev: 打开当前文件": false
     }
   },
-  "active": "6d978778ceb80bd5",
+  "active": "1043f376b7791d13",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.10/Cours/13-10-2026.md",
-    "Tableau Ressources.md",
     "2026-2027/R1/R1.10/R1.10.md",
+    "Tableau Ressources.md",
+    "2026-2027/R1/R1.01/R1.01b/Docs/image1.png",
+    "2026-2027/R1/R1.01/R1.01b/Cours/TD1 (azzouni soumaya).md",
+    "2026-2027/R1/R1.09/R1.09.md",
+    "2026-2027/R1/R1.07/R1.07.md",
+    "2026-2027/R1/R1.10/Cours/13-10-2026.md",
     "2026-2027/R1/R1.10/Docs",
     "2026-2027/R1/R1.10/Cours",
     "2026-2027/R1/R1.10",
@@ -1268,14 +1170,11 @@
     "Contacts Profs & Admin.md",
     "2026-2027/Conseil de classe/Réunion 1.md",
     "2026-2027/Conseil de classe",
-    "2026-2027/R1/R1.09/R1.09.md",
     "2026-2027/R1/R1.09/Cours/TD 1.md",
     "2026-2027/R1/R1.09/Docs/M1 - Comment fonctionne le Web — mis en forme.docx",
     "2026-2027/R1/R1.01/R1.01b/Docs/TD1 exercices conversion, classes et adresses valides.docx",
-    "2026-2027/R1/R1.01/R1.01b/Cours/TD1 (azzouni soumaya).md",
     "2026-2027/R1/R1.01/R1.01b/Cours/TD2 (azzouni soumaya).md",
     "2026-2027/R1/R1.01/R1.01b/Docs/1788938755927 1.jpg",
-    "2026-2027/R1/R1.01/R1.01b/Docs/image1.png",
     "2026-2027/R1/R1.01/R1.01b/Docs/image2.png",
     "2026-2027/R1/R1.01/R1.01b/Docs/image3.png",
     "2026-2027/R1/R1.01/R1.01b/Docs/image4.png",
@@ -1300,9 +1199,7 @@
     "2026-2027/R1/R1.06/Cours/Cours perso (Christophe Heyraud).md",
     "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
     "2026-2027/R1/R1.04/Cours/TP1 (Chevrier Jean-Pierre).md",
-    "2026-2027/R1/R1.07/R1.07.md",
     "2026-2027/R1/R1.07/Cours/TD1/TD2 (Laurent Nils).md",
-    "2026-2027/R1/R1.01/R1.01.md",
     "Sans titre.canvas",
     "Existence/Sans titre.canvas"
   ]
