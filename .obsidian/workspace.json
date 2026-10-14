@@ -347,24 +347,12 @@
             "id": "1043f376b7791d13",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "2026-2027/R1/R1.07/Cours/TD1/TD2 (Laurent Nils).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "TD2 (Laurent Nils)"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-09-23 16.35.09.excalidraw"
             }
           },
           {
@@ -1069,7 +1057,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.07/Cours/TD1/TD2 (Laurent Nils).md",
+                "file": "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1167,7 +1155,9 @@
   },
   "active": "1043f376b7791d13",
   "lastOpenFiles": [
+    "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
     "2026-2027/R1/R1.07/Cours/TD1/TD1.2 (Laurent Nils).md",
+    "2026-2027/R1/R1.07/Cours/TD1/TD2 (Laurent Nils).md",
     "2026-2027/R1/R1.07/Cours/TD1/TD1.1 (Laurent Nils).md",
     "2026-2027/R1/R1.01/R1.01b/Cours/TD2 (azzouni soumaya).md",
     "2026-2027/R1/R1.01/R1.01b/Cours/TD1 (azzouni soumaya).md",
@@ -1200,7 +1190,6 @@
     "2026-2027/R1/R1.01/R1.01b/Docs/image10.png",
     "2026-2027/R1/R1.01/R1.01b/Docs/Initiation aux réseaux dentreprise Partie 1 (1).pdf",
     "2026-2027/R1/R1.01/R1.01b/Docs/Initiation aux réseaux dentreprise Partie 2 (1).pdf",
-    "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
     "2026-2027/R1/R1.07/Docs/slides_R107.pdf",
     "2026-2027/R1/R1.07/Docs/R107.pdf",
     "2026-2027/R1/R1.15/Cours/TP1.md",
@@ -1211,7 +1200,6 @@
     "2026-2027/R1/R1.06/Cours/Cours perso (Christophe Heyraud).md",
     "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
     "2026-2027/R1/R1.04/Cours/TP1 (Chevrier Jean-Pierre).md",
-    "2026-2027/R1/R1.07/Cours/TD1/TD2 (Laurent Nils).md",
     "Sans titre.canvas",
     "Existence/Sans titre.canvas"
   ]
