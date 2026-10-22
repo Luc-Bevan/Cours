@@ -6,5 +6,13 @@
       ],
       "key": "A"
     }
+  ],
+  "quickadd:choice:3f0bd52d-4308-432b-b2ff-fdf2a5359b3e": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "/"
+    }
   ]
 }
