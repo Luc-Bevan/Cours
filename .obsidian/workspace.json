@@ -45,10 +45,36 @@
             "id": "eb8e99ef73fd8f1f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vue graphique"
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.13/R1.13.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "R1.13"
+            }
+          },
+          {
+            "id": "5c8d9d87cbe751e9",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-09-23 16.35.09.excalidraw"
             }
           },
           {
@@ -926,7 +952,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -1043,6 +1069,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1138,16 +1165,20 @@
       "vault-lens:Vault Lens Dev: 打开当前文件": false
     }
   },
-  "active": "b519e5bf6354f570",
+  "active": "5c8d9d87cbe751e9",
   "lastOpenFiles": [
+    "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
+    "2026-2027/R1/R1.13/R1.13.md",
+    "Tableau Ressources.md",
+    "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
     "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+    "2026-2027/R1/R1.04/Cours/TP1 (Chevrier Jean-Pierre).md",
+    "Pasted Image 20261021144747_368.png",
     "2026-2027/R1/R1.04/Cours/TD1 (azzouni soumaya).md",
     "2026-2027/R1/R1.04/R1.04.md",
     "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
     "2026-2027/R1/R1.08/R1.08.md",
-    "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
     "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
-    "Pasted Image 20261021144747_368.png",
     "2026-2027/R1/R1.10/Cours/19-10-2026.md",
     "Contacts Profs & Admin.md",
     "2026-2027/R1/R1.07/Cours/TD1/TD1.1 (Laurent Nils).md",
@@ -1158,7 +1189,6 @@
     "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
     "2026-2027/R1/R1.01/R1.01b/Docs/1788938755927 1.jpg",
     "2026-2027/R1/R1.10/R1.10.md",
-    "Tableau Ressources.md",
     "2026-2027/R1/R1.01/R1.01b/Docs/image1.png",
     "2026-2027/R1/R1.09/R1.09.md",
     "2026-2027/R1/R1.07/R1.07.md",
@@ -1183,9 +1213,6 @@
     "2026-2027/R1/R1.01/R1.01b/Docs/Initiation aux réseaux dentreprise Partie 2 (1).pdf",
     "2026-2027/R1/R1.07/Docs/slides_R107.pdf",
     "2026-2027/R1/R1.07/Docs/R107.pdf",
-    "2026-2027/R1/R1.15/Cours/TP1.md",
-    "2026-2027/R1/R1.15/Cours/TD2.md",
-    "2026-2027/R1/R1.15/Docs/RT1 — TP1 — Modèle de planning Journée découverte.md",
     "Sans titre.canvas",
     "Existence/Sans titre.canvas"
   ]
