@@ -107,7 +107,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.15/Cours/TP1.md",
+                "file": "2026-2027/R1/R1.15/Cours/TD3 Fiche individuelle à compléter.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -122,7 +122,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TP1"
+              "title": "TD3 Fiche individuelle à compléter"
             }
           },
           {
@@ -1117,7 +1117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.15/Cours/TP1.md",
+                "file": "2026-2027/R1/R1.15/Cours/TD3 Fiche individuelle à compléter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1213,14 +1213,15 @@
       "vault-lens:Vault Lens Dev: 打开当前文件": false
     }
   },
-  "active": "b519e5bf6354f570",
+  "active": "304157032cb73551",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.15/Docs/RT1 — TD3 — Pilotage, reporting et ReX.pdf",
-    "2026-2027/R1/R1.15/Cours/Fiche individuelle à compléter.md",
     "2026-2027/R1/R1.15/Docs/Fiche individuelle à completer.docx",
+    "2026-2027/R1/R1.15/Docs/Bevan Luc & Mario Mondoloni.xlsx",
+    "2026-2027/R1/R1.15/Cours/TD3 Fiche individuelle à compléter.md",
+    "2026-2027/R1/R1.15/Cours/TP1.md",
+    "2026-2027/R1/R1.15/Docs/RT1 — TD3 — Pilotage, reporting et ReX.pdf",
     "2026-2027/R1/R1.15/Cours/TD3.md",
     "2026-2027/R1/R1.15/Cours/TD2.md",
-    "2026-2027/R1/R1.15/Cours/TP1.md",
     "2026-2027/R1/R1.09/Cours/TD 1.md",
     "2026-2027/R1/R1.04/Cours/TP1 (Chevrier Jean-Pierre).md",
     "2026-2027/R1/R1.04/Cours/TD1 (azzouni soumaya).md",
