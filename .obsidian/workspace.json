@@ -71,7 +71,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.09/Cours/TD 1.md",
+                "file": "2026-2027/R1/R1.15/Cours/TD2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -86,7 +86,43 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TD 1"
+              "title": "TD2"
+            }
+          },
+          {
+            "id": "b3f81b088174da75",
+            "type": "leaf",
+            "state": {
+              "type": "file-preview-dev",
+              "state": {
+                "file": "2026-2027/R1/R1.15/Docs/Fiche individuelle à completer.docx"
+              },
+              "icon": "lucide-file",
+              "title": "Fiche individuelle à completer"
+            }
+          },
+          {
+            "id": "304157032cb73551",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.15/Cours/TP1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TP1"
             }
           },
           {
@@ -964,7 +1000,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -1081,7 +1117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.09/Cours/TD 1.md",
+                "file": "2026-2027/R1/R1.15/Cours/TP1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1177,8 +1213,15 @@
       "vault-lens:Vault Lens Dev: 打开当前文件": false
     }
   },
-  "active": "5c8d9d87cbe751e9",
+  "active": "b519e5bf6354f570",
   "lastOpenFiles": [
+    "2026-2027/R1/R1.15/Docs/RT1 — TD3 — Pilotage, reporting et ReX.pdf",
+    "2026-2027/R1/R1.15/Cours/Fiche individuelle à compléter.md",
+    "2026-2027/R1/R1.15/Docs/Fiche individuelle à completer.docx",
+    "2026-2027/R1/R1.15/Cours/TD3.md",
+    "2026-2027/R1/R1.15/Cours/TD2.md",
+    "2026-2027/R1/R1.15/Cours/TP1.md",
+    "2026-2027/R1/R1.09/Cours/TD 1.md",
     "2026-2027/R1/R1.04/Cours/TP1 (Chevrier Jean-Pierre).md",
     "2026-2027/R1/R1.04/Cours/TD1 (azzouni soumaya).md",
     "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
@@ -1186,7 +1229,6 @@
     "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
     "2026-2027/R1/R1.01/R1.01b/Cours/TD1 (azzouni soumaya).md",
     "2026-2027/R1/R1.01/R1.01b/Cours/TD2 (azzouni soumaya).md",
-    "2026-2027/R1/R1.09/Cours/TD 1.md",
     "2026-2027/R1/R1.13/R1.13.md",
     "Tableau Ressources.md",
     "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
@@ -1203,14 +1245,9 @@
     "2026-2027/R1/R1.01/R1.01b/Docs/1788938755927 1.jpg",
     "2026-2027/R1/R1.10/R1.10.md",
     "2026-2027/R1/R1.01/R1.01b/Docs/image1.png",
-    "2026-2027/R1/R1.09/R1.09.md",
-    "2026-2027/R1/R1.07/R1.07.md",
     "2026-2027/R1/R1.10/Docs",
     "2026-2027/R1/R1.10/Cours",
     "2026-2027/R1/R1.10",
-    "Reminder.md",
-    "README.md",
-    "2026-2027/Conseil de classe/Réunion 1.md",
     "2026-2027/Conseil de classe",
     "2026-2027/R1/R1.09/Docs/M1 - Comment fonctionne le Web — mis en forme.docx",
     "2026-2027/R1/R1.01/R1.01b/Docs/TD1 exercices conversion, classes et adresses valides.docx",
@@ -1223,8 +1260,6 @@
     "2026-2027/R1/R1.01/R1.01b/Docs/image9.png",
     "2026-2027/R1/R1.01/R1.01b/Docs/Initiation aux réseaux dentreprise Partie 1 (1).pdf",
     "2026-2027/R1/R1.01/R1.01b/Docs/Initiation aux réseaux dentreprise Partie 2 (1).pdf",
-    "2026-2027/R1/R1.07/Docs/slides_R107.pdf",
-    "2026-2027/R1/R1.07/Docs/R107.pdf",
     "Sans titre.canvas",
     "Existence/Sans titre.canvas"
   ]
