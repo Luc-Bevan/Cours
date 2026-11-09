@@ -150,6 +150,40 @@
             }
           },
           {
+            "id": "b1ef698798b019d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.02/R1.02.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "R1.02"
+            }
+          },
+          {
+            "id": "2a7e528698861615",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vue graphique"
+            }
+          },
+          {
             "id": "791ee87ee22bb8ac",
             "type": "leaf",
             "state": {
@@ -1024,7 +1058,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -1141,7 +1175,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.07/Cours/TD1/TD1.1 (Laurent Nils).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1237,17 +1270,24 @@
       "vault-lens:Vault Lens Dev: 打开当前文件": false
     }
   },
-  "active": "03245a92e95aa776",
+  "active": "2a7e528698861615",
   "lastOpenFiles": [
+    "2026-2027/R1/R1.02/Cours/CM1 (Azzouni soumaya).md",
+    "2026-2027/R1/R1.02/R1.02.md",
+    "Pasted image 20261103144608.png",
+    "Pasted image 20261103144545.png",
+    "Pasted image 20261103144532.png",
+    "Pasted image 20261103142824.png",
+    "Pasted image 20261103142833.png",
+    "2026-2027/R1/R1.04/R1.04.md",
+    "2026-2027/R1/R1.07/Cours/TD1/TD1.1 (Laurent Nils).md",
+    "2026-2027/R1/R1.02/Docs",
+    "2026-2027/R1/R1.02/Cours",
+    "2026-2027/R1/R1.02",
     "Tableau Ressources.md",
     "2026-2027/R1/R1.08/R1.08.md",
     "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
     "2026-2027/R1/R1.11/Cours/TD barney.md",
-    "Pasted image 20261103144608.png",
-    "Pasted image 20261103144545.png",
-    "Pasted image 20261103144532.png",
-    "Pasted image 20261103142833.png",
-    "Pasted image 20261103142824.png",
     "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
     "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
     "2026-2027/R1/R1.01/R1.01b/Cours/TD1 (azzouni soumaya).md",
@@ -1267,23 +1307,17 @@
     "2026-2027/R1/R1.13/R1.13.md",
     "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
     "Pasted Image 20261021144747_368.png",
-    "2026-2027/R1/R1.04/R1.04.md",
     "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
     "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
     "2026-2027/R1/R1.10/Cours/19-10-2026.md",
-    "2026-2027/R1/R1.07/Cours/TD1/TD1.1 (Laurent Nils).md",
-    "2026-2027/R1/R1.07/Cours/TD1/TD1.2 (Laurent Nils).md",
     "2026-2027/R1/R1.01/R1.01b/Docs/1788938755927 1.jpg",
     "2026-2027/R1/R1.01/R1.01b/Docs/image1.png",
     "2026-2027/R1/R1.10/Docs",
     "2026-2027/R1/R1.10/Cours",
     "2026-2027/R1/R1.10",
     "2026-2027/Conseil de classe",
-    "2026-2027/R1/R1.09/Docs/M1 - Comment fonctionne le Web — mis en forme.docx",
-    "2026-2027/R1/R1.01/R1.01b/Docs/TD1 exercices conversion, classes et adresses valides.docx",
     "2026-2027/R1/R1.01/R1.01b/Docs/image2.png",
     "2026-2027/R1/R1.01/R1.01b/Docs/image3.png",
-    "2026-2027/R1/R1.01/R1.01b/Docs/Initiation aux réseaux dentreprise Partie 1 (1).pdf",
     "Sans titre.canvas",
     "Existence/Sans titre.canvas"
   ]
