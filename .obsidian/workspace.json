@@ -177,10 +177,36 @@
             "id": "2a7e528698861615",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vue graphique"
+              "type": "markdown",
+              "state": {
+                "file": "2026-2027/R1/R1.02/Cours/CM1 (Azzouni soumaya).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CM1 (Azzouni soumaya)"
+            }
+          },
+          {
+            "id": "7c8f42b8542eb84e",
+            "type": "leaf",
+            "state": {
+              "type": "file-preview-dev",
+              "state": {
+                "file": "2026-2027/R1/R1.02/Docs/CM R102.pptx"
+              },
+              "icon": "lucide-file",
+              "title": "CM R102"
             }
           },
           {
@@ -1058,7 +1084,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -1175,6 +1201,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2026-2027/R1/R1.02/Docs/CM R102.pptx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1270,10 +1297,11 @@
       "vault-lens:Vault Lens Dev: 打开当前文件": false
     }
   },
-  "active": "2a7e528698861615",
+  "active": "7c8f42b8542eb84e",
   "lastOpenFiles": [
     "2026-2027/R1/R1.02/Cours/CM1 (Azzouni soumaya).md",
     "2026-2027/R1/R1.02/R1.02.md",
+    "2026-2027/R1/R1.02/Docs/CM R102.pptx",
     "Pasted image 20261103144608.png",
     "Pasted image 20261103144545.png",
     "Pasted image 20261103144532.png",
@@ -1309,13 +1337,11 @@
     "Pasted Image 20261021144747_368.png",
     "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
     "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
-    "2026-2027/R1/R1.10/Cours/19-10-2026.md",
     "2026-2027/R1/R1.01/R1.01b/Docs/1788938755927 1.jpg",
     "2026-2027/R1/R1.01/R1.01b/Docs/image1.png",
     "2026-2027/R1/R1.10/Docs",
     "2026-2027/R1/R1.10/Cours",
     "2026-2027/R1/R1.10",
-    "2026-2027/Conseil de classe",
     "2026-2027/R1/R1.01/R1.01b/Docs/image2.png",
     "2026-2027/R1/R1.01/R1.01b/Docs/image3.png",
     "Sans titre.canvas",
