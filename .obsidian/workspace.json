@@ -90,18 +90,6 @@
             }
           },
           {
-            "id": "b3f81b088174da75",
-            "type": "leaf",
-            "state": {
-              "type": "file-preview-dev",
-              "state": {
-                "file": "2026-2027/R1/R1.15/Docs/Fiche individuelle à completer.docx"
-              },
-              "icon": "lucide-file",
-              "title": "Fiche individuelle à completer"
-            }
-          },
-          {
             "id": "304157032cb73551",
             "type": "leaf",
             "state": {
@@ -201,12 +189,24 @@
             "id": "7c8f42b8542eb84e",
             "type": "leaf",
             "state": {
-              "type": "file-preview-dev",
+              "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.02/Docs/CM R102.pptx"
+                "file": "2026-2027/R1/R1.02/Cours/CM1 (Azzouni soumaya).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "CM R102"
+              "title": "CM1 (Azzouni soumaya)"
             }
           },
           {
@@ -215,7 +215,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compétences/Connecter les entreprises et les usagers.md",
+                "file": "2026-2027/R1/R1.02/Cours/CM1 (Azzouni soumaya).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -230,31 +230,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Connecter les entreprises et les usagers"
-            }
-          },
-          {
-            "id": "7006a61aff181805",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-2027/R1/R1.05/R1.05.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "R1.05"
+              "title": "CM1 (Azzouni soumaya)"
             }
           },
           {
@@ -263,7 +239,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
+                "file": "2026-2027/R1/R1.02/Cours/CM1 (Azzouni soumaya).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -278,7 +254,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TD1 (Christophe Héraud)"
+              "title": "CM1 (Azzouni soumaya)"
             }
           },
           {
@@ -611,12 +587,10 @@
             "id": "673f1e74439f7170",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Drawing 2026-10-06 14.20.16.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-10-06 14.20.16.excalidraw"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -1084,7 +1058,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -1201,7 +1175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.02/Docs/CM R102.pptx",
+                "file": "2026-2027/R1/R1.02/Cours/CM1 (Azzouni soumaya).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1293,15 +1267,16 @@
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "spaceforge:Spaceforge review": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "vault-lens:Vault Lens Dev: 打开当前文件": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7c8f42b8542eb84e",
+  "active": "e9955a9ad5303b25",
   "lastOpenFiles": [
-    "2026-2027/R1/R1.02/Cours/CM1 (Azzouni soumaya).md",
-    "2026-2027/R1/R1.02/R1.02.md",
+    "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
     "2026-2027/R1/R1.02/Docs/CM R102.pptx",
+    "2026-2027/R1/R1.02/Cours/CM1 (Azzouni soumaya).md",
+    "2026-2027/R1/R1.05/R1.05.md",
+    "2026-2027/R1/R1.02/R1.02.md",
     "Pasted image 20261103144608.png",
     "Pasted image 20261103144545.png",
     "Pasted image 20261103144532.png",
@@ -1331,12 +1306,10 @@
     "2026-2027/R1/R1.15/Cours/TD2.md",
     "2026-2027/R1/R1.04/Cours/TP1 (Chevrier Jean-Pierre).md",
     "2026-2027/R1/R1.04/Cours/TD1 (azzouni soumaya).md",
-    "2026-2027/R1/R1.04/Cours/TD1 (Christophe Héraud).md",
     "2026-2027/R1/R1.13/R1.13.md",
     "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
     "Pasted Image 20261021144747_368.png",
     "2026-2027/R1/R1.08/Cours/CM2 (Martini Pierre).md",
-    "2026-2027/R1/R1.06/Cours/CM1 (Christophe Heyraud).md",
     "2026-2027/R1/R1.01/R1.01b/Docs/1788938755927 1.jpg",
     "2026-2027/R1/R1.01/R1.01b/Docs/image1.png",
     "2026-2027/R1/R1.10/Docs",
