@@ -4,23 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "0379f3c26d77c27c",
+        "id": "e9746c45f5cd76ce",
         "type": "tabs",
         "children": [
           {
-            "id": "1e33f858d43c59ce",
+            "id": "2469d791e544816e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.07/Docs/slides_R107.pdf",
-                "page": 69,
-                "left": -8,
-                "top": 70,
-                "zoom": 1.977761755776189
+                "file": "2026-2027/R1/R1.07/Cours/TD1/TD2 (Laurent Nils).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "slides_R107"
+              "icon": "lucide-file",
+              "title": "TD2 (Laurent Nils)"
             }
           }
         ]
@@ -140,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.07/Docs/slides_R107.pdf",
+                "file": "2026-2027/R1/R1.07/Cours/TD1/TD2 (Laurent Nils).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,18 +243,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1e33f858d43c59ce",
+  "active": "2469d791e544816e",
   "lastOpenFiles": [
+    "2026-2027/R1/R1.07/Cours/TD1/TD1.2 (Laurent Nils).md",
     "2026-2027/R1/R1.07/Cours/TD1/TD1.1 (Laurent Nils).md",
+    "2026-2027/R1/R1.01/R1.01b/Cours/TD2 (azzouni soumaya).md",
+    "2026-2027/R1/R1.01/R1.01b/Cours/TD1 (azzouni soumaya).md",
+    "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
+    "2026-2027/R1/R1.07/Docs/slides_R107.pdf",
     "2026-2027/R1/R1.13/R1.13.md",
     "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
     "2026-2027/R1/R1.15/Cours/TD2.md",
     "2026-2027/R1/R1.15/Cours/TP1.md",
     "2026-2027/R1/R1.15/Cours/TD3 Fiche individuelle à compléter.md",
     "2026-2027/R1/R1.15/Cours/TD3.md",
-    "2026-2027/R1/R1.01/R1.01b/Cours/TD2 (azzouni soumaya).md",
-    "2026-2027/R1/R1.01/R1.01b/Cours/TD1 (azzouni soumaya).md",
-    "2026-2027/R1/R1.01/R1.01b/Cours/CM 1 (azzouni soumaya).md",
     "2026-2027/R1/R1.02/Cours/CM1 (Azzouni soumaya).md",
     "Tableau Ressources.md",
     "2026-2027/R1/R1.02/R1.02.md",
@@ -255,14 +265,12 @@
     "2026-2027/R1/R1.12/Cours/R1.12 (Nabih Nejjar).md",
     "2026-2027/R1/R1.10/R1.10.md",
     "2026-2027/R1/R1.04/Cours/TP1 (Chevrier Jean-Pierre).md",
-    "2026-2027/R1/R1.07/Cours/TD1/TD1.2 (Laurent Nils).md",
     "2026-2027/R1/R1.06/Cours/CM2 (Christophe Heyraud).md",
     "2026-2027/R1/R1.14/Cours/TD CH3 (Gautier Béatrice).md",
     "2026-2027/R1/R1.14/Cours/TD CH2 Draw (Gaultier Béatrice.md",
     "2026-2027/R1/R1.14/Cours/TD CH2 (Gaultier Béatrice).md",
     "2026-2027/R1/R1.14/Cours/CM CH1 (Gaultier Béatrice).md",
     "2026-2027/R1/R1.06/R1.06.md",
-    "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
     "2026-2027/R1/R1.02/Docs/CM R102.pptx",
     "Pasted image 20261103144608.png",
     "Pasted image 20261103144545.png",
@@ -280,7 +288,6 @@
     "2026-2027/R1/R1.01/R1.01b/Docs/image1.png",
     "2026-2027/R1/R1.10/Docs",
     "2026-2027/R1/R1.10/Cours",
-    "2026-2027/R1/R1.10",
     "2026-2027/R1/R1.01/R1.01b/Docs/image2.png",
     "2026-2027/R1/R1.01/R1.01b/Docs/image3.png",
     "Sans titre.canvas",
