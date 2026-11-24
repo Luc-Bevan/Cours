@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-2027/R1/R1.11/Cours/TD barney.md",
+                "file": "Contacts Profs & Admin.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TD barney"
+              "title": "Contacts Profs & Admin"
             }
           }
         ]
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-2027/R1/R1.11/Cours/TD barney.md",
+                "file": "Contacts Profs & Admin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,9 +245,9 @@
   },
   "active": "2469d791e544816e",
   "lastOpenFiles": [
+    "2026-2027/R1/R1.11/Cours/TD barney.md",
     "Pasted image 20261124084159.png",
     "2026-2027/R1/R1.11/Cours/TD1 (Diolez Julie).md",
-    "2026-2027/R1/R1.11/Cours/TD barney.md",
     "2026-2027/R1/R1.11/Docs/Pasted image 20260907104314.png",
     "2026-2027/R1/R1.13/Cours/Drawing 2026-09-23 16.35.09.excalidraw.md",
     "2026-2027/R1/R1.05/Cours/R1.05 TD1 (Heyraud Christophe).md",
@@ -290,7 +290,6 @@
     "2026-2027/R1/R1.01/R1.01b/Docs/image1.png",
     "2026-2027/R1/R1.10/Docs",
     "2026-2027/R1/R1.10/Cours",
-    "2026-2027/R1/R1.01/R1.01b/Docs/image2.png",
     "Sans titre.canvas",
     "Existence/Sans titre.canvas"
   ]
